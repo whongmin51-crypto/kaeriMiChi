@@ -1,0 +1,1356 @@
+{
+  "scope": "raw ensemble predictions on all admitted rows; domain-screened service reported separately",
+  "model_selection_performed": false,
+  "candidates": [
+    {
+      "candidate": "CGCNN_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7519327277782772,
+          "log_loss": 2.359827946261003,
+          "auroc": 0.722292618260385,
+          "brier": 0.23050309241051126,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.6736828512396693,
+          "precision_at_0_5": 0.6985008086017745,
+          "failure_recall_at_0_5": 0.7592621285679855,
+          "specificity_at_0_5": 0.49860335195530725,
+          "f1_at_0_5": 0.7276151553718093,
+          "balanced_accuracy_at_0_5": 0.6289327402616464
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5555220643190376,
+            "log_loss": 4.3172884620222955,
+            "auroc": 0.5834017515051988,
+            "brier": 0.3227935579585182,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.5661157024793387,
+            "precision_at_0_5": 0.5766423357664233,
+            "failure_recall_at_0_5": 0.626984126984127,
+            "specificity_at_0_5": 0.5,
+            "f1_at_0_5": 0.6007604562737643,
+            "balanced_accuracy_at_0_5": 0.5634920634920635,
+            "confusion_weight_at_0_5": {
+              "tn": 0.23966942148760328,
+              "fp": 0.23966942148760328,
+              "fn": 0.19421487603305776,
+              "tp": 0.32644628099173545
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9483433912375168,
+            "log_loss": 0.40236743049971074,
+            "auroc": 0.8611834850155712,
+            "brier": 0.13821262686250432,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.7812499999999999,
+            "precision_at_0_5": 0.8203592814371258,
+            "failure_recall_at_0_5": 0.8915401301518439,
+            "specificity_at_0_5": 0.49720670391061456,
+            "f1_at_0_5": 0.8544698544698545,
+            "balanced_accuracy_at_0_5": 0.6943734170312292,
+            "confusion_weight_at_0_5": {
+              "tn": 0.13906249999999995,
+              "fp": 0.14062499999999994,
+              "fn": 0.07812499999999997,
+              "tp": 0.6421874999999999
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.7094115075975935,
+          "log_loss": 2.359827946261003,
+          "auroc": 0.6868209218457628,
+          "brier": 0.23050309241051126,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.6736828512396694,
+          "precision_at_0_5": 0.718076602751266,
+          "failure_recall_at_0_5": 0.7805433866453002,
+          "specificity_at_0_5": 0.49897072083567257,
+          "f1_at_0_5": 0.7480080972467368,
+          "balanced_accuracy_at_0_5": 0.6397570537404864,
+          "confusion_weight_at_0_5": {
+            "tn": 0.18936596074380163,
+            "fp": 0.19014721074380164,
+            "fn": 0.13616993801652894,
+            "tp": 0.4843168904958678
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.7852821483303675,
+          "log_loss": 1.6700437997301527,
+          "auroc": 0.7382233853446568,
+          "brier": 0.19416227887908658,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.7210242587601077,
+          "precision_at_0_5": 0.7679558011049724,
+          "failure_recall_at_0_5": 0.8373493975903614,
+          "specificity_at_0_5": 0.4836065573770492,
+          "f1_at_0_5": 0.8011527377521613,
+          "balanced_accuracy_at_0_5": 0.6604779774837053,
+          "confusion_weight_at_0_5": {
+            "tn": 0.15902964959568727,
+            "fp": 0.16981132075471692,
+            "fn": 0.10916442048517519,
+            "tp": 0.5619946091644203
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.22169832050114302,
+          "rmse_eV": 0.31146459340109023,
+          "r2": 0.6009687012694045,
+          "bias_eV": -0.12050197482188427
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.40548219777631367,
+            "rmse_eV": 0.574078419367151,
+            "r2": 0.21343481561042899,
+            "bias_eV": -0.24243286254583316,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.03791444322597235,
+            "rmse_eV": 0.04885076743502952,
+            "r2": 0.9885025869283801,
+            "bias_eV": 0.0014289129020646192,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.22169832050114305,
+          "rmse_eV": 0.407401785134821,
+          "r2": 0.47958452665244455,
+          "bias_eV": -0.12050197482188425
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.15777878298672704,
+          "rmse_eV": 0.33037109304322837,
+          "r2": 0.6202865062563481,
+          "bias_eV": -0.0770272157042817
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7591777682444557,
+          "log_loss": 1.0321264715168637,
+          "auroc": 0.7384631941891158,
+          "brier": 0.2088862591555793,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.6847430268595041,
+          "precision_at_0_5": 0.7117749722711555,
+          "failure_recall_at_0_5": 0.7441293943463141,
+          "specificity_at_0_5": 0.517048738200732,
+          "f1_at_0_5": 0.7257922332936433,
+          "balanced_accuracy_at_0_5": 0.6305890662735231
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5655049738173842,
+            "log_loss": 1.67583777141732,
+            "auroc": 0.6060481663929929,
+            "brier": 0.28291128910413177,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.5991735537190083,
+            "precision_at_0_5": 0.623931623931624,
+            "failure_recall_at_0_5": 0.5793650793650794,
+            "specificity_at_0_5": 0.6206896551724138,
+            "f1_at_0_5": 0.6008230452674898,
+            "balanced_accuracy_at_0_5": 0.6000273672687466,
+            "confusion_weight_at_0_5": {
+              "tn": 0.2975206611570248,
+              "fp": 0.18181818181818177,
+              "fn": 0.21900826446280985,
+              "tp": 0.30165289256198347
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9528505626715272,
+            "log_loss": 0.3884151716164071,
+            "auroc": 0.8708782219852386,
+            "brier": 0.13486122920702684,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.7703124999999998,
+            "precision_at_0_5": 0.7996183206106869,
+            "failure_recall_at_0_5": 0.9088937093275488,
+            "specificity_at_0_5": 0.4134078212290503,
+            "f1_at_0_5": 0.8507614213197969,
+            "balanced_accuracy_at_0_5": 0.6611507652782995,
+            "confusion_weight_at_0_5": {
+              "tn": 0.11562499999999995,
+              "fp": 0.16406249999999994,
+              "fn": 0.06562499999999999,
+              "tp": 0.6546874999999999
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.7885002525067876,
+          "log_loss": 1.0321264715168634,
+          "auroc": 0.7378254902024702,
+          "brier": 0.20888625915557932,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.6847430268595041,
+          "precision_at_0_5": 0.7343917337670064,
+          "failure_recall_at_0_5": 0.7706371421733386,
+          "specificity_at_0_5": 0.5443100427023256,
+          "f1_at_0_5": 0.752077991317373,
+          "balanced_accuracy_at_0_5": 0.6574735924378321,
+          "confusion_weight_at_0_5": {
+            "tn": 0.2065728305785124,
+            "fp": 0.1729403409090909,
+            "fn": 0.14231663223140495,
+            "tp": 0.47817019628099167
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.8611926894242363,
+          "log_loss": 0.7856204807508402,
+          "auroc": 0.795238330370663,
+          "brier": 0.1742736001839918,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.7358490566037734,
+          "precision_at_0_5": 0.7859848484848485,
+          "failure_recall_at_0_5": 0.8333333333333333,
+          "specificity_at_0_5": 0.5368852459016394,
+          "f1_at_0_5": 0.8089668615984406,
+          "balanced_accuracy_at_0_5": 0.6851092896174864,
+          "confusion_weight_at_0_5": {
+            "tn": 0.1765498652291105,
+            "fp": 0.15229110512129376,
+            "fn": 0.1118598382749326,
+            "tp": 0.5592991913746629
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      },
+      "residual": {
+        "source_macro": {
+          "mae_eV": 0.09722975605973605,
+          "rmse_eV": 0.19408456802320184,
+          "r2": 0.8577548799360537,
+          "bias_eV": -0.03802573519061012
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.15428093161580794,
+            "rmse_eV": 0.33773512940458733,
+            "r2": 0.7277645053506815,
+            "bias_eV": -0.07579440622456432,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.040178580503664144,
+            "rmse_eV": 0.050434006641816374,
+            "r2": 0.987745254521426,
+            "bias_eV": -0.0002570641566559286,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.09722975605973604,
+          "rmse_eV": 0.24146284047434724,
+          "r2": 0.8171878922447895,
+          "bias_eV": -0.03802573519061012
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.07823107466504689,
+          "rmse_eV": 0.1974948936596376,
+          "r2": 0.8643050476948766,
+          "bias_eV": -0.024696751131421307
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      },
+      "direct": {
+        "source_macro": {
+          "mae_eV": 0.6865864669520262,
+          "rmse_eV": 2.7491111072829746,
+          "r2": -34.41114762203175,
+          "bias_eV": 0.38296919919940575
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 1.33243743148052,
+            "rmse_eV": 5.44690697441098,
+            "r2": -69.80960850274852,
+            "bias_eV": 0.7765219915309721,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.04073550242353229,
+            "rmse_eV": 0.05131524015496956,
+            "r2": 0.9873132586850167,
+            "bias_eV": -0.010583593132160599,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.6865864669520262,
+          "rmse_eV": 3.85171577623266,
+          "r2": -45.51711912219419,
+          "bias_eV": 0.38296919919940575
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.46234517288457033,
+          "rmse_eV": 3.1109821946698237,
+          "r2": -32.67030119192542,
+          "bias_eV": 0.24645944474673656
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.10809752607682355,
+          "rmse_eV": 0.30592031915882484,
+          "r2": 0.6099804591781532,
+          "bias_eV": -0.04133309496938013
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.18243027911110277,
+            "rmse_eV": 0.5683413947212842,
+            "r2": 0.22907726358851332,
+            "bias_eV": -0.08731920163271335,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.033764773042544334,
+            "rmse_eV": 0.04349924359636549,
+            "r2": 0.9908836547677933,
+            "bias_eV": 0.004653011693953087,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.10809752607682355,
+          "rmse_eV": 0.4030534239695716,
+          "r2": 0.49063444253505284,
+          "bias_eV": -0.041333094969380146
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.08242475424749544,
+          "rmse_eV": 0.3265787796700519,
+          "r2": 0.6289538974954618,
+          "bias_eV": -0.023912474372179138
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7479523898806182,
+          "log_loss": 2.1433691639137074,
+          "auroc": 0.7167756272007617,
+          "brier": 0.23546817880073417,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.6616864669421487,
+          "precision_at_0_5": 0.6866707522598438,
+          "failure_recall_at_0_5": 0.7401611403780601,
+          "specificity_at_0_5": 0.4604604122519746,
+          "f1_at_0_5": 0.7110053115688562,
+          "balanced_accuracy_at_0_5": 0.6003107763150173
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5522055935757139,
+            "log_loss": 3.8691289951575984,
+            "auroc": 0.5889094143404477,
+            "brier": 0.3247351425113066,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.5702479338842975,
+            "precision_at_0_5": 0.5901639344262295,
+            "failure_recall_at_0_5": 0.5714285714285715,
+            "specificity_at_0_5": 0.5689655172413793,
+            "f1_at_0_5": 0.5806451612903226,
+            "balanced_accuracy_at_0_5": 0.5701970443349754,
+            "confusion_weight_at_0_5": {
+              "tn": 0.2727272727272727,
+              "fp": 0.20661157024793386,
+              "fn": 0.22314049586776852,
+              "tp": 0.2975206611570248
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9436991861855225,
+            "log_loss": 0.41760933266981626,
+            "auroc": 0.8446418400610757,
+            "brier": 0.14620121509016173,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.7531249999999998,
+            "precision_at_0_5": 0.783177570093458,
+            "failure_recall_at_0_5": 0.9088937093275488,
+            "specificity_at_0_5": 0.35195530726256985,
+            "f1_at_0_5": 0.8413654618473896,
+            "balanced_accuracy_at_0_5": 0.6304245082950592,
+            "confusion_weight_at_0_5": {
+              "tn": 0.09843749999999996,
+              "fp": 0.18124999999999994,
+              "fn": 0.06562499999999999,
+              "tp": 0.6546874999999999
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.7067654287454659,
+          "log_loss": 2.143369163913707,
+          "auroc": 0.6817741994779921,
+          "brier": 0.23546817880073417,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.6616864669421487,
+          "precision_at_0_5": 0.7105661286437004,
+          "failure_recall_at_0_5": 0.7673073120987295,
+          "specificity_at_0_5": 0.4890011738886337,
+          "f1_at_0_5": 0.7378474654285658,
+          "balanced_accuracy_at_0_5": 0.6281542429936816,
+          "confusion_weight_at_0_5": {
+            "tn": 0.18558238636363633,
+            "fp": 0.19393078512396694,
+            "fn": 0.14438274793388428,
+            "tp": 0.4761040805785124
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.7841954233290674,
+          "log_loss": 1.5260841375683556,
+          "auroc": 0.7338987095924673,
+          "brier": 0.1976748657226156,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.7048517520215631,
+          "precision_at_0_5": 0.7559633027522936,
+          "failure_recall_at_0_5": 0.8273092369477912,
+          "specificity_at_0_5": 0.45491803278688514,
+          "f1_at_0_5": 0.7900287631831255,
+          "balanced_accuracy_at_0_5": 0.6411136348673382,
+          "confusion_weight_at_0_5": {
+            "tn": 0.14959568733153633,
+            "fp": 0.1792452830188679,
+            "fn": 0.1159029649595687,
+            "tp": 0.5552560646900269
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.21210607483211966,
+          "rmse_eV": 0.29674280567131506,
+          "r2": 0.6451463973989351,
+          "bias_eV": -0.1076122894673077
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.38332088740453246,
+            "rmse_eV": 0.539986317538563,
+            "r2": 0.3040824514167114,
+            "bias_eV": -0.21699548163049476,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.04089126225970686,
+            "rmse_eV": 0.053499293804067156,
+            "r2": 0.9862103433811589,
+            "bias_eV": 0.001770902695879337,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.21210607483211966,
+          "rmse_eV": 0.3836974052338585,
+          "r2": 0.5383827067829247,
+          "bias_eV": -0.10761228946730772
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.15198595462076747,
+          "rmse_eV": 0.3114585096669032,
+          "r2": 0.6625166490473959,
+          "bias_eV": -0.06715418062409301
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7574987853098809,
+          "log_loss": 1.0225569800787928,
+          "auroc": 0.7407847948693204,
+          "brier": 0.19689999952540396,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.689688791322314,
+          "precision_at_0_5": 0.7263096728052924,
+          "failure_recall_at_0_5": 0.6676479702510072,
+          "specificity_at_0_5": 0.6655750337121942,
+          "f1_at_0_5": 0.6915591345687396,
+          "balanced_accuracy_at_0_5": 0.6666115019816007
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5472747693046196,
+            "log_loss": 1.7057452432316047,
+            "auroc": 0.5722153804050344,
+            "brier": 0.28322159624597554,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.537190082644628,
+            "precision_at_0_5": 0.5744680851063829,
+            "failure_recall_at_0_5": 0.4285714285714285,
+            "specificity_at_0_5": 0.6551724137931034,
+            "f1_at_0_5": 0.4909090909090908,
+            "balanced_accuracy_at_0_5": 0.541871921182266,
+            "confusion_weight_at_0_5": {
+              "tn": 0.31404958677685946,
+              "fp": 0.1652892561983471,
+              "fn": 0.2975206611570248,
+              "tp": 0.22314049586776852
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9677228013151422,
+            "log_loss": 0.3393687169259811,
+            "auroc": 0.9093542093336063,
+            "brier": 0.11057840280483239,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.8421874999999999,
+            "precision_at_0_5": 0.8781512605042018,
+            "failure_recall_at_0_5": 0.9067245119305858,
+            "specificity_at_0_5": 0.675977653631285,
+            "f1_at_0_5": 0.8922091782283885,
+            "balanced_accuracy_at_0_5": 0.7913510827809354,
+            "confusion_weight_at_0_5": {
+              "tn": 0.18906249999999994,
+              "fp": 0.09062499999999996,
+              "fn": 0.06718749999999998,
+              "tp": 0.653125
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.8021187040722634,
+          "log_loss": 1.022556980078793,
+          "auroc": 0.7568044946695447,
+          "brier": 0.19689999952540396,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.689688791322314,
+          "precision_at_0_5": 0.7739632282494641,
+          "failure_recall_at_0_5": 0.7061112787588059,
+          "specificity_at_0_5": 0.6628387689480937,
+          "f1_at_0_5": 0.738481964554868,
+          "balanced_accuracy_at_0_5": 0.6844750238534498,
+          "confusion_weight_at_0_5": {
+            "tn": 0.25155604338842974,
+            "fp": 0.12795712809917353,
+            "fn": 0.18235408057851235,
+            "tp": 0.43813274793388424
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.8726038280323135,
+          "log_loss": 0.7674885263376366,
+          "auroc": 0.8129444005530322,
+          "brier": 0.16293340395782008,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.746630727762803,
+          "precision_at_0_5": 0.8229166666666667,
+          "failure_recall_at_0_5": 0.7931726907630523,
+          "specificity_at_0_5": 0.6516393442622951,
+          "f1_at_0_5": 0.8077709611451943,
+          "balanced_accuracy_at_0_5": 0.7224060175126736,
+          "confusion_weight_at_0_5": {
+            "tn": 0.21428571428571425,
+            "fp": 0.11455525606469,
+            "fn": 0.1388140161725067,
+            "tp": 0.5323450134770888
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      },
+      "residual": {
+        "source_macro": {
+          "mae_eV": 0.1298051899543339,
+          "rmse_eV": 0.21707574703680993,
+          "r2": 0.8296139501164702,
+          "bias_eV": -0.08771368149901627
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.20618799028461376,
+            "rmse_eV": 0.3647852055740697,
+            "r2": 0.6824100799757069,
+            "bias_eV": -0.18244589061273092,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.053422389624054066,
+            "rmse_eV": 0.0693662884995502,
+            "r2": 0.9768178202572335,
+            "bias_eV": 0.007018527614698365,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.12980518995433396,
+          "rmse_eV": 0.26256420946686465,
+          "r2": 0.783839966784568,
+          "bias_eV": -0.08771368149901629
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.10276235730290674,
+          "rmse_eV": 0.21592961374679828,
+          "r2": 0.8377904699241969,
+          "bias_eV": -0.051183405205056605
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      },
+      "direct": {
+        "source_macro": {
+          "mae_eV": 0.23843326056163355,
+          "rmse_eV": 0.32703961296683054,
+          "r2": 0.5758848724490836,
+          "bias_eV": -0.11632828380339585
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.4253173212448427,
+            "rmse_eV": 0.5889263871228627,
+            "r2": 0.17222119184099283,
+            "bias_eV": -0.23637671462120102,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.05154919987842439,
+            "rmse_eV": 0.06515283881079835,
+            "r2": 0.9795485530571744,
+            "bias_eV": 0.0037201470144093045,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.2384332605616336,
+          "rmse_eV": 0.41897445140168976,
+          "r2": 0.4495987297830095,
+          "bias_eV": -0.11632828380339588
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.1718607598202569,
+          "rmse_eV": 0.34026939812864654,
+          "r2": 0.5971923256920375,
+          "bias_eV": -0.07146230759132262
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1028953879426344,
+          "rmse_eV": 0.19688436398305048,
+          "r2": 0.8540342640417593,
+          "bias_eV": -0.0496817819362798
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.1662292380087605,
+            "rmse_eV": 0.34188091324184927,
+            "r2": 0.7210399657890448,
+            "bias_eV": -0.10259997203933346,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.039561537876508325,
+            "rmse_eV": 0.051887814724251684,
+            "r2": 0.9870285622944738,
+            "bias_eV": 0.00323640816677387,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1028953879426344,
+          "rmse_eV": 0.24451472773223612,
+          "r2": 0.8125375056822844,
+          "bias_eV": -0.0496817819362798
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.08079251164315529,
+          "rmse_eV": 0.1998220196945729,
+          "r2": 0.8610883599227521,
+          "bias_eV": -0.02930543051524025
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "RF_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7457638769947186,
+          "log_loss": 0.5696595221111923,
+          "auroc": 0.7090156598954926,
+          "brier": 0.19621839556980775,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.6736828512396693,
+          "precision_at_0_5": 0.6870450097847358,
+          "failure_recall_at_0_5": 0.8400819474572185,
+          "specificity_at_0_5": 0.40274031978424185,
+          "f1_at_0_5": 0.7535649344434874,
+          "balanced_accuracy_at_0_5": 0.6214111336207302
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5565003881062566,
+            "log_loss": 0.7026650522814667,
+            "auroc": 0.5720443349753684,
+            "brier": 0.25261238142053893,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.5661157024793387,
+            "precision_at_0_5": 0.56,
+            "failure_recall_at_0_5": 0.7777777777777777,
+            "specificity_at_0_5": 0.33620689655172403,
+            "f1_at_0_5": 0.6511627906976745,
+            "balanced_accuracy_at_0_5": 0.5569923371647508,
+            "confusion_weight_at_0_5": {
+              "tn": 0.16115702479338834,
+              "fp": 0.3181818181818181,
+              "fn": 0.11570247933884298,
+              "tp": 0.4049586776859504
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9350273658831805,
+            "log_loss": 0.436653991940918,
+            "auroc": 0.8459869848156168,
+            "brier": 0.13982440971907653,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.7812499999999999,
+            "precision_at_0_5": 0.8140900195694716,
+            "failure_recall_at_0_5": 0.9023861171366594,
+            "specificity_at_0_5": 0.4692737430167597,
+            "f1_at_0_5": 0.8559670781893004,
+            "balanced_accuracy_at_0_5": 0.6858299300767096,
+            "confusion_weight_at_0_5": {
+              "tn": 0.13124999999999998,
+              "fp": 0.14843749999999997,
+              "fn": 0.07031249999999997,
+              "tp": 0.6499999999999999
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.8450760334005762,
+          "log_loss": 0.5696595221111926,
+          "auroc": 0.7433705662966802,
+          "brier": 0.19621839556980775,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.6736828512396694,
+          "precision_at_0_5": 0.693331975456374,
+          "failure_recall_at_0_5": 0.8501056180476789,
+          "specificity_at_0_5": 0.3852396263971826,
+          "f1_at_0_5": 0.7637567077389077,
+          "balanced_accuracy_at_0_5": 0.6176726222224308,
+          "confusion_weight_at_0_5": {
+            "tn": 0.14620351239669416,
+            "fp": 0.23330965909090906,
+            "fn": 0.09300748966942149,
+            "tp": 0.5274793388429753
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.8978159512687548,
+          "log_loss": 0.5012910985832246,
+          "auroc": 0.7884571071169922,
+          "brier": 0.17164586456474115,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.7102425876010781,
+          "precision_at_0_5": 0.7435456110154905,
+          "failure_recall_at_0_5": 0.8674698795180723,
+          "specificity_at_0_5": 0.3893442622950819,
+          "f1_at_0_5": 0.8007414272474512,
+          "balanced_accuracy_at_0_5": 0.6284070709065771,
+          "confusion_weight_at_0_5": {
+            "tn": 0.12803234501347704,
+            "fp": 0.2008086253369272,
+            "fn": 0.0889487870619946,
+            "tp": 0.582210242587601
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.20932196562868163,
+          "rmse_eV": 0.27264667344658633,
+          "r2": 0.7421633887300656,
+          "bias_eV": -0.12207174856526466
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.3380092801883967,
+            "rmse_eV": 0.4401835391386672,
+            "r2": 0.5375552295261607,
+            "bias_eV": -0.2610460002684415,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.08063465106896657,
+            "rmse_eV": 0.10510980775450551,
+            "r2": 0.9467715479339703,
+            "bias_eV": 0.016902503137912167,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.2093219656286817,
+          "rmse_eV": 0.3200075153920855,
+          "r2": 0.6789115369837042,
+          "bias_eV": -0.12207174856526463
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.16433260915704892,
+          "rmse_eV": 0.2659250891106734,
+          "r2": 0.7539799076236668,
+          "bias_eV": -0.06873908976552706
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1494676667062655,
+          "rmse_eV": 0.18033955288046627,
+          "r2": 0.8959479212871713,
+          "bias_eV": -0.10310675399936951
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.2150528923766896,
+            "rmse_eV": 0.24933435217681837,
+            "r2": 0.8516264415816841,
+            "bias_eV": -0.2077829915833439,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.0838824410358414,
+            "rmse_eV": 0.11134475358411418,
+            "r2": 0.9402694009926583,
+            "bias_eV": 0.0015694835846048686,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.14946766670626555,
+          "rmse_eV": 0.19308712195035277,
+          "r2": 0.883100954787541,
+          "bias_eV": -0.10310675399936951
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.12592276427244842,
+          "rmse_eV": 0.16931079671317306,
+          "r2": 0.9002710475989562,
+          "bias_eV": -0.05880613742782882
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.7276814301448892,
+          "log_loss": 0.6436543861339399,
+          "auroc": 0.6866178374301914,
+          "brier": 0.22749018380155162,
+          "prevalence": 0.6204868285123968,
+          "accuracy_at_0_5": 0.626459194214876,
+          "precision_at_0_5": 0.6280774550484094,
+          "failure_recall_at_0_5": 0.9891540130151844,
+          "specificity_at_0_5": 0.04620978616836833,
+          "f1_at_0_5": 0.7624692320938382,
+          "balanced_accuracy_at_0_5": 0.5176818995917764
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5182736949067455,
+            "log_loss": 0.8092885775598277,
+            "auroc": 0.5348590585659543,
+            "brier": 0.29449030924313113,
+            "prevalence": 0.5206611570247934,
+            "accuracy_at_0_5": 0.524793388429752,
+            "precision_at_0_5": 0.5228215767634855,
+            "failure_recall_at_0_5": 1.0,
+            "specificity_at_0_5": 0.008620689655172415,
+            "f1_at_0_5": 0.6866485013623977,
+            "balanced_accuracy_at_0_5": 0.5043103448275862,
+            "confusion_weight_at_0_5": {
+              "tn": 0.004132231404958678,
+              "fp": 0.4752066115702479,
+              "fn": 0.0,
+              "tp": 0.5206611570247933
+            },
+            "n_records": 242,
+            "n_pairs": 242,
+            "n_failure_records": 126
+          },
+          "Janus": {
+            "average_precision": 0.9370891653830329,
+            "log_loss": 0.4780201947080521,
+            "auroc": 0.8383766162944287,
+            "brier": 0.16049005835997213,
+            "prevalence": 0.7203125000000001,
+            "accuracy_at_0_5": 0.7281249999999999,
+            "precision_at_0_5": 0.7333333333333333,
+            "failure_recall_at_0_5": 0.9783080260303688,
+            "specificity_at_0_5": 0.08379888268156424,
+            "f1_at_0_5": 0.8382899628252788,
+            "balanced_accuracy_at_0_5": 0.5310534543559665,
+            "confusion_weight_at_0_5": {
+              "tn": 0.0234375,
+              "fp": 0.25625000000000003,
+              "fn": 0.015624999999999997,
+              "tp": 0.7046874999999999
+            },
+            "n_records": 500,
+            "n_pairs": 40,
+            "n_failure_records": 372
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 2,
+          "log_loss": 2,
+          "auroc": 2,
+          "brier": 2,
+          "prevalence": 2,
+          "accuracy_at_0_5": 2,
+          "precision_at_0_5": 2,
+          "failure_recall_at_0_5": 2,
+          "specificity_at_0_5": 2,
+          "f1_at_0_5": 2,
+          "balanced_accuracy_at_0_5": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.8232806577182867,
+          "log_loss": 0.6436543861339401,
+          "auroc": 0.7141847174348473,
+          "brier": 0.22749018380155164,
+          "prevalence": 0.6204868285123969,
+          "accuracy_at_0_5": 0.6264591942148762,
+          "precision_at_0_5": 0.6261985679875937,
+          "failure_recall_at_0_5": 0.9874090800303847,
+          "specificity_at_0_5": 0.036322496129570093,
+          "f1_at_0_5": 0.7663748404916895,
+          "balanced_accuracy_at_0_5": 0.5118657880799774,
+          "confusion_weight_at_0_5": {
+            "tn": 0.013784865702479342,
+            "fp": 0.36572830578512394,
+            "fn": 0.0078125,
+            "tp": 0.6126743285123968
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.8867806201633366,
+          "log_loss": 0.5656664981415712,
+          "auroc": 0.7674386068865625,
+          "brier": 0.1959058397175207,
+          "prevalence": 0.6711590296495958,
+          "accuracy_at_0_5": 0.6792452830188678,
+          "precision_at_0_5": 0.6805555555555556,
+          "failure_recall_at_0_5": 0.9839357429718876,
+          "specificity_at_0_5": 0.05737704918032787,
+          "f1_at_0_5": 0.8045977011494253,
+          "balanced_accuracy_at_0_5": 0.5206563960761077,
+          "confusion_weight_at_0_5": {
+            "tn": 0.018867924528301883,
+            "fp": 0.30997304582210233,
+            "fn": 0.01078167115902965,
+            "tp": 0.6603773584905659
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.18411058937934113,
+          "rmse_eV": 0.2505561689798492,
+          "r2": 0.787229868720663,
+          "bias_eV": -0.06685582686015401
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.28909827680011424,
+            "rmse_eV": 0.3937251063305727,
+            "r2": 0.6300197898252957,
+            "bias_eV": -0.15352532448083903,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.07912290195856803,
+            "rmse_eV": 0.1073872316291257,
+            "r2": 0.9444399476160303,
+            "bias_eV": 0.019813670760531015,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.18411058937934116,
+          "rmse_eV": 0.28857536006387335,
+          "r2": 0.7388904008987952,
+          "bias_eV": -0.066855826860154
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.14742257819388274,
+          "rmse_eV": 0.24124571742224404,
+          "r2": 0.797525108282194,
+          "bias_eV": -0.03296827135369781
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1433536521176973,
+          "rmse_eV": 0.18176457504199905,
+          "r2": 0.8935550251398761,
+          "bias_eV": -0.09130402926275918
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.2133333920323978,
+            "rmse_eV": 0.25963261275683736,
+            "r2": 0.8391167746026917,
+            "bias_eV": -0.1797547519216426,
+            "n_records": 242,
+            "n_pairs": 242
+          },
+          "Janus": {
+            "mae_eV": 0.07337391220299679,
+            "rmse_eV": 0.10389653732716075,
+            "r2": 0.9479932756770605,
+            "bias_eV": -0.0028533066038757575,
+            "n_records": 500,
+            "n_pairs": 40
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 2,
+          "rmse_eV": 2,
+          "r2": 2,
+          "bias_eV": 2
+        },
+        "n_sources": 2,
+        "n_records": 742,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1433536521176973,
+          "rmse_eV": 0.19774173064317507,
+          "r2": 0.8773970254137706,
+          "bias_eV": -0.09130402926275918
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.11728751191232538,
+          "rmse_eV": 0.16932139474384855,
+          "r2": 0.9002585621154944,
+          "bias_eV": -0.05653941956790575
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    }
+  ]
+}

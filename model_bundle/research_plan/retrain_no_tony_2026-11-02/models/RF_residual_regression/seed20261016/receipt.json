@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-02T15:49:12.338597+00:00",
+  "candidate": "RF_residual_regression",
+  "seed": 20261016,
+  "actual_new_fit": true,
+  "warm_start_from_original_weights": false,
+  "same_hyperparameters": true,
+  "same_seed": true,
+  "same_fixed_iterations": true,
+  "fit_rows": 11561,
+  "fit_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "source_counts": {
+    "Janus": 11530,
+    "HetDB": 31
+  },
+  "checkpoint": "model.joblib",
+  "checkpoint_sha256": "5a3e896dc04c89e417e3855bc54c8fed97e200a2bdb7e8a4d146f4e95f9e5e7a",
+  "predictions_sha256": "1aff60a920a998b4f5fca8984abd6eb5fa93ebfc2c12b58948252f3d3d3d6408",
+  "fit_seconds": 9.277279400033876,
+  "runtime_seconds": 14.575938900001347,
+  "prediction_rows": 2057,
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "original_checkpoint_preserved": true,
+  "test_and_calibration_labels_used_for_fit": false
+}

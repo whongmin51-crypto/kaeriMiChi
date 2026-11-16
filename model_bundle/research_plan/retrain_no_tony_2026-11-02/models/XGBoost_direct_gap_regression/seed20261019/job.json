@@ -1,0 +1,25 @@
+{
+  "candidate": "XGBoost_direct_gap_regression",
+  "family": "XGBoost",
+  "task": "direct_gap_regression",
+  "seed": 20261019,
+  "backend": "trees",
+  "params": {
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "min_child_weight": 5,
+    "subsample": 0.7,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.1,
+    "n_estimators_max": 2000,
+    "early_stopping_rounds": 50,
+    "objective": "reg:squarederror"
+  },
+  "iterations": 154,
+  "original_checkpoint": "step09_2026-10-15/jobs/final/XGBoost/direct_gap_regression/trial02/seed20261019/model.json",
+  "original_sha256": "eeb0dcc885a54bb2001502fbe2f8ad44c11fb1836af0cbb1b62b9b159f2ab944",
+  "original_spec": "step09_2026-10-15/jobs/final/XGBoost/direct_gap_regression/trial02/seed20261019/job.json",
+  "original_spec_sha256": "849831918635d4209040e25b0507cee675e1daa87870cc4dc2a01a90cf733b9c"
+}

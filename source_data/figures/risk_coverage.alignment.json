@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "applicable": false,
+  "auditable": false,
+  "verdict": "NOT APPLICABLE",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 0,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "errors": [],
+  "findings": [],
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 252.28346456692913,
+      "height_pt": 235.2755905511811
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          50.45669291338583,
+          44.702362204724395,
+          242.19212598425196,
+          221.15905511811022
+        ],
+        "grid_id": "matplotlib-grid-1",
+        "row_start": 0,
+        "row_stop": 1,
+        "col_start": 0,
+        "col_stop": 1
+      }
+    ],
+    "row_groups": [],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": []
+  }
+}

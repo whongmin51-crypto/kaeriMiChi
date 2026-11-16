@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-02T15:51:10.266761+00:00",
+  "candidate": "XGBoost_residual_regression",
+  "seed": 20261018,
+  "actual_new_fit": true,
+  "warm_start_from_original_weights": false,
+  "same_hyperparameters": true,
+  "same_seed": true,
+  "same_fixed_iterations": true,
+  "fit_rows": 11561,
+  "fit_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "source_counts": {
+    "Janus": 11530,
+    "HetDB": 31
+  },
+  "checkpoint": "model.json",
+  "checkpoint_sha256": "cece27fa44cbafe7eaf9a8a85fd6d8e51c358677222d569a080fa0ab7b99d97a",
+  "predictions_sha256": "bd1f1b5cf82ffcd646322c62de8ff70d889f614de71e30de0d961922c1e8c117",
+  "fit_seconds": 10.796192100038752,
+  "runtime_seconds": 11.291275200201198,
+  "prediction_rows": 2057,
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "original_checkpoint_preserved": true,
+  "test_and_calibration_labels_used_for_fit": false
+}

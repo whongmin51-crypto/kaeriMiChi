@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "backend": "trees",
+  "models_replayed": 30,
+  "prediction_rows_per_model": 2057,
+  "scope": "all five calibration/holdout roles, fixed raw heads; no fitting, tuning or recalibration",
+  "ensembles": [
+    {
+      "candidate": "RF_classifier",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 3.3306690738754696e-16,
+      "status": "PASS"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 4.440892098500626e-16,
+      "status": "PASS"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 4.440892098500626e-16,
+      "status": "PASS"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "checkpoints": [
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261015,
+      "checkpoint_sha256": "fad80f6574532e313e231a04427ebc5ac810f0bfbcdfbd0b71c326abb771a2cd",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261016,
+      "checkpoint_sha256": "c865e9372bd95ebcad308bc0bddefb882c4d65d6552b62c352c80579af5fdbab",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261017,
+      "checkpoint_sha256": "c07074f0c5559637986cac2377ebc8b9d382899884f7146290996d37e7d4ec22",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261018,
+      "checkpoint_sha256": "8a9cdee2414f224fb7a4ff113be22b214e8f2b336ab369717f2e3f2f4456da19",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261019,
+      "checkpoint_sha256": "63d3659f1e96dad3f744d10b5ad59c0907a4222b6281bfede664f98beb5a644f",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "05c8e9e680fd0f7aeb247d1d4027eaff248a091c4d374235526532f1bd9f9b9f",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "6a6b52ff263fec930e06ee74e79b512c7ef1d397a092ac9c946b0144581f898a",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "ef76097180f4d2c6bcc0736a315f14e6e7f7a0cd3bf6acbe4ee35279d88dc9bc",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "d2421ff883a3510c7107b7951f96b6778b3325e6adc3b1b9fb08d6bb502476bf",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "43fdfe5bdc2a05f2982a4f481d0b23dbe60bc539c7933d7df370662dcb2c028a",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "897e2df3001680170d43f509d774a35f081710aed8079fd7267bb714935370aa",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "5a3e896dc04c89e417e3855bc54c8fed97e200a2bdb7e8a4d146f4e95f9e5e7a",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "a0f57575938b134960e33542dbc8987d240b24ea9242cc39739a5fd8f770e94b",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "97691e874d33bdc6c26276d3521049b2d118161fbec289680eaa731144fb9bb4",
+      "rows": 2057
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "aaca6210f04a081dc7171ff004e66b72a7924864965e3f79e4fa52b8a47630c8",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261015,
+      "checkpoint_sha256": "a20d4dc0b9969d4481b3ed1b6ad00a0c13980c2e7a072ee1ecb2aef218b1982a",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261016,
+      "checkpoint_sha256": "dce964484bc80dd54b3100e3491c6ad6cd4b11fcae9a3b57bed9d3efba2f9475",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261017,
+      "checkpoint_sha256": "1647ed7334b17c32f55d23c6ec2eaa5a2e0cc73419398c88ccdd3387d96d35f6",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261018,
+      "checkpoint_sha256": "2fbdac98fe5e67a6100f5c668026fa68b05270b777583f67d5772a61386a419c",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261019,
+      "checkpoint_sha256": "f6d8210bbcbd75c001d8661c16ef8bd628d6f5304e45ef4c9c96cf008090eb14",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "843fab05847017dc49dd54103fb4231485dc47f8c6daee7daa4adf8572642b72",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "d01ecc0c90087ef8a52d0967659ee7f928743ea17625053482e0a4b12f3be7d4",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "ccafdd7a4134fee1cd5d6cf7703fae9705a2748d1acff872e7ca9eaca52d9066",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "5bbebded2236fc291e43546893e4a369bc0fc883f10f6e1c8c05cd734b7118a4",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "ccdfff3ff1bffacdecf3b54f7eef803fd8f2456c5563630d0bc3035210975ef9",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "ad0b3cdad69bd6c0e9ae799b58d2157c6d7749604d7949b3fccf088cbfdc0a34",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "a4e145b7470717b8a6dce6857983cc67bbb52275cbc44a6b312f9ac4d53fd7d3",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "21252f058cefdb07b1299b44674001f64bddb6012ca5a8cc7787ed8ca344d568",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "cece27fa44cbafe7eaf9a8a85fd6d8e51c358677222d569a080fa0ab7b99d97a",
+      "rows": 2057
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "798088b9f7a469155ff8ce9bd5da9ac2ee7dc34c5f896a7de429baf00d3862f1",
+      "rows": 2057
+    }
+  ],
+  "elapsed_seconds": 37.935537299956195,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.1",
+    "xgboost": "3.0.4",
+    "joblib": "1.5.2"
+  },
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-07
+}

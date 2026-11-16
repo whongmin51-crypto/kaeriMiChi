@@ -1,0 +1,28 @@
+{
+  "cohorts": [
+    "Janus",
+    "HetDB",
+    "Source macro"
+  ],
+  "methods": [
+    "Residual",
+    "Routed",
+    "Direct",
+    "Anderson"
+  ],
+  "estimates": 12,
+  "interval_bounds": 24,
+  "figure_size_mm": [
+    183,
+    90
+  ],
+  "common_axis_eV": [
+    0,
+    0.44
+  ],
+  "display_labels": "MAE rounded to 3 decimals",
+  "source_sha256": "29cc64fc6b8377ef014104a54a2308d27a4096fb9c2d93d70eb232a91a4a2e57",
+  "interval_definition": "Original 95% composition-group bootstrap percentile intervals, 1000 draws, seed 20261025",
+  "all_values_and_intervals_preserved": true,
+  "references": "Nature 2025 TabPFN Fig. 4a; Nature Communications 2023 14:3647 Fig. 2a; style-only"
+}

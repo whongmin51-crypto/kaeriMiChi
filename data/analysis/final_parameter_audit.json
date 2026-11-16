@@ -1,0 +1,495 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 42,
+      "checkpoint_sha256": "57823c2e1bdac60b4510e69f9fd041533b53e05b041c85731794f04bb261d2c7"
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 42,
+      "checkpoint_sha256": "0ea4634668d3ff257b4023f713818ccc09ea1b14024edaeb4a154cbd4c487676"
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 42,
+      "checkpoint_sha256": "58b97a3945922a1654447a23817c008a60120cc963abdff2e32597529b45ce18"
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 42,
+      "checkpoint_sha256": "5186013470ff9eab4991c1d7546e5e438d4a3125e9b0ef9cb86bc2c3ddac2cfa"
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 42,
+      "checkpoint_sha256": "80c77053e47f221b401780ed3c75ac1a73de107bcc4b9f5b6889e2977b91e09a"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 17,
+      "checkpoint_sha256": "c1bb327e881b818c6dc93f8111dc50e5c6bcf96d3cdf8e1be545204dc5c30195"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 17,
+      "checkpoint_sha256": "e119ecd0d4ce7a60e8f9cba48678bcea24283232ff93ffaeca4528915e7f6777"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 17,
+      "checkpoint_sha256": "6047091bca1879748a4907b01e388c1a480df72c690bb30ba6a4bd7c2cc86190"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 17,
+      "checkpoint_sha256": "240a8a4ecb09cc92a1318300bbd4f976ea96106a74d3131202345185cfe1b594"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 17,
+      "checkpoint_sha256": "be50c6defcc310bb0a2f3eee20cf8793697d05ecffabfcbb19d89c4d1f7b3862"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "98661836422ae6cfb8376b4ee5de0e8265de112f81b7fc1f310bdea7889fd0d2"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "be4091ba43a857c5e6eb08c019442b0bf50d70f78c2f6e0d57d8f80a848a7d04"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "5c29fdf945f9b3100dc61438e73eef40993d3c4be1111912c81703f18d73dc86"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "2f0ed38cf72f5fd740a8650fe8bf94e929edfe2afb378f9613b2abafcb239270"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "a1191d3f5df076cb7267b6aaeaf4fdea335e852ffe56985a2ade37cc59ed68cb"
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "e9b3857dae3e1a317394c24438a4ffd08f5063bc300485d33113cb1e6e696f39"
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "8295acc87446f6966181d789216a38fe3871ab48a2e3a86943070f0c55c00c4d"
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "e8356416d0513e2fd888a4ff3e2b5db78110b1a715fd0da82adbc95c2c19da67"
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "2d9f73a322c89404652859f800eb5ff53a4506181577d1711adf1a98e6021ef7"
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 9,
+      "checkpoint_sha256": "0bf8956c83d1e9347a61d150eeaf0cf973572042de07a06b7cb7285b866da379"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 32,
+      "checkpoint_sha256": "c81b17fd95fdf84e05c8b9b87eb407d7e2d208da0a81a37299884695343b8d62"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 32,
+      "checkpoint_sha256": "ef7817e42292cc6073e8e7b624ad2e14b2d36369133fbd69e29f2f41675c272c"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 32,
+      "checkpoint_sha256": "4919eaff2a91a0cbe12ad78741a6b3bb57c51d36c0eb79661be7def6cb679199"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 32,
+      "checkpoint_sha256": "51ceeb4eef8439092bb9a96a9b461eaec75ba859e1291da95dde02782b7d1e4a"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 32,
+      "checkpoint_sha256": "e8a65a8e371a8f1a6ab08fddddc4af2c66bfc29fa41db2fc808a802dcdc8a4bc"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 23,
+      "checkpoint_sha256": "3aad218455af9489cdfe661c100f32388373f9710292bd5dbf90686d6a11cc2b"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 23,
+      "checkpoint_sha256": "195b881bc38c0984ef31982be4b504524613616400df3c1ff8543cd00bd1be49"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 23,
+      "checkpoint_sha256": "379bf2913a393ad1e7c840cadc428bddac4aa11c58394a614799aef58d5adc2e"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 23,
+      "checkpoint_sha256": "2507a3580c20858224a3704850936541074ba230ffed66f3a02e209e702f42aa"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 23,
+      "checkpoint_sha256": "c98659151640648ac9e4bd3de8678406ed6ab78fce2266804016d04bacbb5585"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 6,
+      "checkpoint_sha256": "7b543cbea9499b98adcc24ff4b7f99f26eefa9fe282a742ec710d9f9363d9623"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 6,
+      "checkpoint_sha256": "b3e69e27e8f56ee0465436d5718c1e856bd4bf8d8e0b803ba7927b2d1ef1dd2c"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 6,
+      "checkpoint_sha256": "2654678862584f9acfe9da4dc204421612219f26d9323f0929e3e1d71da924e7"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 6,
+      "checkpoint_sha256": "6116c85c35a3752278a665ebbee6e7f3402479adab62de3a1f48b1ab9b212293"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 6,
+      "checkpoint_sha256": "91feaa29f1c6f8e15fb304ec2962e571b30cb5c64cd2a775da85c272e6b37a14"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 33,
+      "checkpoint_sha256": "534318d1497836b3d48999f267aa557337b6aa6aa43ec0280e970de1ff51bced"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 33,
+      "checkpoint_sha256": "6d21bd6293c2951d508b1dea39da3a3bb5f5670dae3bf6b8b44521e5117416dd"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 33,
+      "checkpoint_sha256": "69e89f36fd1efb853f82ffa0d1002a0f23b6bb4858dee15f5e7cac04cf57d4b4"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 33,
+      "checkpoint_sha256": "c2c27067f88df24e51b6be682b9218215559f1918e32427d633a8a98e1573f0b"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 33,
+      "checkpoint_sha256": "33085fcd68734519e0aec5b3d6e80dc0a02b98f1b3003e064e78e0c25f9cbd2a"
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "fad80f6574532e313e231a04427ebc5ac810f0bfbcdfbd0b71c326abb771a2cd"
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "c865e9372bd95ebcad308bc0bddefb882c4d65d6552b62c352c80579af5fdbab"
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "c07074f0c5559637986cac2377ebc8b9d382899884f7146290996d37e7d4ec22"
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "8a9cdee2414f224fb7a4ff113be22b214e8f2b336ab369717f2e3f2f4456da19"
+    },
+    {
+      "candidate": "RF_classifier",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "63d3659f1e96dad3f744d10b5ad59c0907a4222b6281bfede664f98beb5a644f"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 1000,
+      "checkpoint_sha256": "05c8e9e680fd0f7aeb247d1d4027eaff248a091c4d374235526532f1bd9f9b9f"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 1000,
+      "checkpoint_sha256": "6a6b52ff263fec930e06ee74e79b512c7ef1d397a092ac9c946b0144581f898a"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 1000,
+      "checkpoint_sha256": "ef76097180f4d2c6bcc0736a315f14e6e7f7a0cd3bf6acbe4ee35279d88dc9bc"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 1000,
+      "checkpoint_sha256": "d2421ff883a3510c7107b7951f96b6778b3325e6adc3b1b9fb08d6bb502476bf"
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 1000,
+      "checkpoint_sha256": "43fdfe5bdc2a05f2982a4f481d0b23dbe60bc539c7933d7df370662dcb2c028a"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "897e2df3001680170d43f509d774a35f081710aed8079fd7267bb714935370aa"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "5a3e896dc04c89e417e3855bc54c8fed97e200a2bdb7e8a4d146f4e95f9e5e7a"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "a0f57575938b134960e33542dbc8987d240b24ea9242cc39739a5fd8f770e94b"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "97691e874d33bdc6c26276d3521049b2d118161fbec289680eaa731144fb9bb4"
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 500,
+      "checkpoint_sha256": "aaca6210f04a081dc7171ff004e66b72a7924864965e3f79e4fa52b8a47630c8"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 18,
+      "checkpoint_sha256": "a20d4dc0b9969d4481b3ed1b6ad00a0c13980c2e7a072ee1ecb2aef218b1982a"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 18,
+      "checkpoint_sha256": "dce964484bc80dd54b3100e3491c6ad6cd4b11fcae9a3b57bed9d3efba2f9475"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 18,
+      "checkpoint_sha256": "1647ed7334b17c32f55d23c6ec2eaa5a2e0cc73419398c88ccdd3387d96d35f6"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 18,
+      "checkpoint_sha256": "2fbdac98fe5e67a6100f5c668026fa68b05270b777583f67d5772a61386a419c"
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 18,
+      "checkpoint_sha256": "f6d8210bbcbd75c001d8661c16ef8bd628d6f5304e45ef4c9c96cf008090eb14"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 154,
+      "checkpoint_sha256": "843fab05847017dc49dd54103fb4231485dc47f8c6daee7daa4adf8572642b72"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 154,
+      "checkpoint_sha256": "d01ecc0c90087ef8a52d0967659ee7f928743ea17625053482e0a4b12f3be7d4"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 154,
+      "checkpoint_sha256": "ccafdd7a4134fee1cd5d6cf7703fae9705a2748d1acff872e7ca9eaca52d9066"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 154,
+      "checkpoint_sha256": "5bbebded2236fc291e43546893e4a369bc0fc883f10f6e1c8c05cd734b7118a4"
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 154,
+      "checkpoint_sha256": "ccdfff3ff1bffacdecf3b54f7eef803fd8f2456c5563630d0bc3035210975ef9"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261015,
+      "params_exact_equal": true,
+      "iterations": 171,
+      "checkpoint_sha256": "ad0b3cdad69bd6c0e9ae799b58d2157c6d7749604d7949b3fccf088cbfdc0a34"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261016,
+      "params_exact_equal": true,
+      "iterations": 171,
+      "checkpoint_sha256": "a4e145b7470717b8a6dce6857983cc67bbb52275cbc44a6b312f9ac4d53fd7d3"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261017,
+      "params_exact_equal": true,
+      "iterations": 171,
+      "checkpoint_sha256": "21252f058cefdb07b1299b44674001f64bddb6012ca5a8cc7787ed8ca344d568"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261018,
+      "params_exact_equal": true,
+      "iterations": 171,
+      "checkpoint_sha256": "cece27fa44cbafe7eaf9a8a85fd6d8e51c358677222d569a080fa0ab7b99d97a"
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "seed": 20261019,
+      "params_exact_equal": true,
+      "iterations": 171,
+      "checkpoint_sha256": "798088b9f7a469155ff8ce9bd5da9ac2ee7dc34c5f896a7de429baf00d3862f1"
+    }
+  ]
+}

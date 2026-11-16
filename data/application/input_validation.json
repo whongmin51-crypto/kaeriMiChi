@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "case": "missing_band_edge",
+      "prediction": {
+        "record_id": "B01",
+        "prediction_status": "invalid_input",
+        "protocol": {
+          "exchange_correlation": "PBE",
+          "soc": false,
+          "gap_channel": "nonnegative_operational_PBE_gap",
+          "reference_track": "native_free",
+          "contact_reference": "contact_side_vacuum",
+          "feature_profile": "available_initial_stacking",
+          "geometry_stage": "initial_candidate"
+        },
+        "anderson_gap_eV": null,
+        "anderson_signed_gap_eV": null,
+        "p_anderson_failure": null,
+        "raw_p_anderson_failure": null,
+        "probability_threshold": 0.4909667842622971,
+        "anderson_decision": "unavailable",
+        "route": "abstain",
+        "service": "full_domain_residual",
+        "predicted_residual_eV": null,
+        "predicted_PBE_gap_eV": null,
+        "prediction_interval_eV": null,
+        "additional_properties": {},
+        "warnings": [],
+        "errors": [
+          "critical gap/contact-edge/contact-side/Anderson input is missing or nonfinite"
+        ],
+        "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+        "prediction_contract_sha256": "d5f00890f7a704ab3996368f22c084c7ee8904db16bc3e3b80621dae371c7d9b",
+        "input_hash": null
+      }
+    },
+    {
+      "case": "SOC_mismatch",
+      "prediction": {
+        "record_id": "B01",
+        "prediction_status": "invalid_input",
+        "protocol": null,
+        "anderson_gap_eV": null,
+        "anderson_signed_gap_eV": null,
+        "p_anderson_failure": null,
+        "raw_p_anderson_failure": null,
+        "probability_threshold": 0.4909667842622971,
+        "anderson_decision": "unavailable",
+        "route": "abstain",
+        "service": "full_domain_residual",
+        "predicted_residual_eV": null,
+        "predicted_PBE_gap_eV": null,
+        "prediction_interval_eV": null,
+        "additional_properties": {},
+        "warnings": [],
+        "errors": [
+          "protocol does not match frozen PBE/noSOC/initial-candidate contract"
+        ],
+        "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+        "prediction_contract_sha256": "d5f00890f7a704ab3996368f22c084c7ee8904db16bc3e3b80621dae371c7d9b",
+        "input_hash": null
+      }
+    },
+    {
+      "case": "true_twist",
+      "prediction": {
+        "record_id": "B01",
+        "prediction_status": "out_of_domain",
+        "protocol": {
+          "exchange_correlation": "PBE",
+          "soc": false,
+          "gap_channel": "nonnegative_operational_PBE_gap",
+          "reference_track": "native_free",
+          "contact_reference": "contact_side_vacuum",
+          "feature_profile": "available_initial_stacking",
+          "geometry_stage": "initial_candidate"
+        },
+        "anderson_gap_eV": null,
+        "anderson_signed_gap_eV": null,
+        "p_anderson_failure": null,
+        "raw_p_anderson_failure": null,
+        "probability_threshold": 0.4909667842622971,
+        "anderson_decision": "unavailable",
+        "route": "abstain",
+        "service": "full_domain_residual",
+        "predicted_residual_eV": null,
+        "predicted_PBE_gap_eV": null,
+        "prediction_interval_eV": null,
+        "additional_properties": {},
+        "warnings": [
+          "Input includes elements or conditions without training support; numerical prediction withheld."
+        ],
+        "errors": [],
+        "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+        "prediction_contract_sha256": "d5f00890f7a704ab3996368f22c084c7ee8904db16bc3e3b80621dae371c7d9b",
+        "input_hash": "813b5594225036fc4c246bea814cbbdb0dc0657f357da27510ed27a91bd89a7e",
+        "unseen_element_Z": [],
+        "unsupported_feature_names": [
+          "twist_sin",
+          "twist_cos"
+        ]
+      }
+    }
+  ]
+}

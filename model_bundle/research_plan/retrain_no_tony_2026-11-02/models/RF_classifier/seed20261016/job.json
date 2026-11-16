@@ -1,0 +1,22 @@
+{
+  "candidate": "RF_classifier",
+  "family": "RF",
+  "task": "classifier",
+  "seed": 20261016,
+  "backend": "trees",
+  "params": {
+    "n_estimators": 500,
+    "max_depth": 20,
+    "min_samples_leaf": 8,
+    "min_samples_split": 5,
+    "max_features": 0.5,
+    "bootstrap": true,
+    "criterion": "gini",
+    "class_weight": null
+  },
+  "iterations": 500,
+  "original_checkpoint": "step09_2026-10-15/jobs/final/RF/classifier/trial17/seed20261016/model.joblib",
+  "original_sha256": "51008f3396cf03086dda81873d36030e2235a27ba524b318ee5cdf530feced40",
+  "original_spec": "step09_2026-10-15/jobs/final/RF/classifier/trial17/seed20261016/job.json",
+  "original_spec_sha256": "6cfbd1a595f2bab0acf2bf52be2393716e00cb799ca76532f515bbc5048e3a0b"
+}

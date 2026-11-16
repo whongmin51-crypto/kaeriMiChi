@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "requests_replayed": 6,
+  "invalid_or_unsupported_cases": [
+    {
+      "case": "missing_band_edge",
+      "status": "invalid_input",
+      "errors": [
+        "critical gap/contact-edge/contact-side/Anderson input is missing or nonfinite"
+      ]
+    },
+    {
+      "case": "SOC_mismatch",
+      "status": "invalid_input",
+      "errors": [
+        "protocol does not match frozen PBE/noSOC/initial-candidate contract"
+      ]
+    },
+    {
+      "case": "true_twist",
+      "status": "out_of_domain",
+      "errors": []
+    },
+    {
+      "case": "matched_strain",
+      "status": "invalid_input",
+      "errors": [
+        "This two-source fitted release supports native_free references only."
+      ]
+    }
+  ],
+  "scope": "six existing retrospective requests; raw feature values and NPZ graphs supplied",
+  "raw_structure_feature_extraction_verified": false,
+  "note": "Portable graph path spellings alter input/contract hashes; scientific values compare to the archived requests."
+}

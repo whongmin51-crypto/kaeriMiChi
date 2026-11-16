@@ -1,0 +1,374 @@
+[
+  {
+    "case": "B01",
+    "prediction": {
+      "record_id": "B01",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 1.1199045687939178,
+      "anderson_signed_gap_eV": 1.1199045687939178,
+      "p_anderson_failure": 0.6059785664475039,
+      "raw_p_anderson_failure": 0.7165346535680021,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "not_accepted_as_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.06273063421249389,
+      "predicted_PBE_gap_eV": 1.057173934581424,
+      "prediction_interval_eV": [
+        0.8973950102717243,
+        1.2169528588911236
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "706f034293c01fd7b0ddc73d95a3528eed643d5545a7a36d9461f95a9233c541",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": 1.057173934581424,
+      "raw_direct_gap_eV": 0.6472085535526275,
+      "residual_branch_gap_eV": 1.057173934581424,
+      "direct_branch_gap_eV": 0.6472085535526275,
+      "nonnegative_projection_applied": {
+        "residual": false,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "direct_regression",
+        "predicted_PBE_gap_eV": 0.6472085535526275
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  },
+  {
+    "case": "B02",
+    "prediction": {
+      "record_id": "B02",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 1.5545533190355298,
+      "anderson_signed_gap_eV": 1.5545533190355298,
+      "p_anderson_failure": 0.5794464743985089,
+      "raw_p_anderson_failure": 0.6853115405375249,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "not_accepted_as_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.06785036399960517,
+      "predicted_PBE_gap_eV": 1.4867029550359248,
+      "prediction_interval_eV": [
+        1.3269240307262251,
+        1.6464818793456244
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "25c634ecc02a4d991ccf73c1acbbf00337f0ff3d18d61ce54bfde3b9b9af162b",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": 1.4867029550359248,
+      "raw_direct_gap_eV": 0.5452350676059723,
+      "residual_branch_gap_eV": 1.4867029550359248,
+      "direct_branch_gap_eV": 0.5452350676059723,
+      "nonnegative_projection_applied": {
+        "residual": false,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "direct_regression",
+        "predicted_PBE_gap_eV": 0.5452350676059723
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  },
+  {
+    "case": "B03",
+    "prediction": {
+      "record_id": "B03",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 0.8389247893916956,
+      "anderson_signed_gap_eV": 0.8389247893916956,
+      "p_anderson_failure": 0.3479288819422675,
+      "raw_p_anderson_failure": 0.3757010186059311,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "predicted_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.14797338992357253,
+      "predicted_PBE_gap_eV": 0.690951399468123,
+      "prediction_interval_eV": [
+        0.5311724751584234,
+        0.8507303237778227
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "7cb80c6e89dc7a55876de7bd6bde86b4a371947a41b2f038ba2955a60928f499",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": 0.690951399468123,
+      "raw_direct_gap_eV": 1.086966061592102,
+      "residual_branch_gap_eV": 0.690951399468123,
+      "direct_branch_gap_eV": 1.086966061592102,
+      "nonnegative_projection_applied": {
+        "residual": false,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "anderson_plus_residual",
+        "predicted_PBE_gap_eV": 0.690951399468123
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  },
+  {
+    "case": "B04",
+    "prediction": {
+      "record_id": "B04",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 0.6378112133467342,
+      "anderson_signed_gap_eV": 0.6378112133467342,
+      "p_anderson_failure": 0.31315933626605114,
+      "raw_p_anderson_failure": 0.32717192504141623,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "predicted_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.06958210840821266,
+      "predicted_PBE_gap_eV": 0.5682291049385215,
+      "prediction_interval_eV": [
+        0.4084501806288219,
+        0.7280080292482212
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "cdb86584ac31619f929524f89dbf7d34cddf5e3333f9e31bff607a5a2951db1d",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": 0.5682291049385215,
+      "raw_direct_gap_eV": 0.13589024320244789,
+      "residual_branch_gap_eV": 0.5682291049385215,
+      "direct_branch_gap_eV": 0.13589024320244789,
+      "nonnegative_projection_applied": {
+        "residual": false,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "anderson_plus_residual",
+        "predicted_PBE_gap_eV": 0.5682291049385215
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  },
+  {
+    "case": "B05",
+    "prediction": {
+      "record_id": "B05",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 1.4080953989739653,
+      "anderson_signed_gap_eV": 1.4080953989739653,
+      "p_anderson_failure": 0.3927355848414609,
+      "raw_p_anderson_failure": 0.43853975839758075,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "predicted_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.07536770403385162,
+      "predicted_PBE_gap_eV": 1.3327276949401137,
+      "prediction_interval_eV": [
+        1.172948770630414,
+        1.4925066192498133
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "e712802a77656b4ebc00ea848136e1e0c3e9c9aa1903425402fd887aac952baa",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": 1.3327276949401137,
+      "raw_direct_gap_eV": 1.018116569519043,
+      "residual_branch_gap_eV": 1.3327276949401137,
+      "direct_branch_gap_eV": 1.018116569519043,
+      "nonnegative_projection_applied": {
+        "residual": false,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "anderson_plus_residual",
+        "predicted_PBE_gap_eV": 1.3327276949401137
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  },
+  {
+    "case": "B06",
+    "prediction": {
+      "record_id": "B06",
+      "prediction_status": "in_domain",
+      "protocol": {
+        "exchange_correlation": "PBE",
+        "soc": false,
+        "gap_channel": "nonnegative_operational_PBE_gap",
+        "reference_track": "native_free",
+        "contact_reference": "contact_side_vacuum",
+        "feature_profile": "available_initial_stacking",
+        "geometry_stage": "initial_candidate"
+      },
+      "anderson_gap_eV": 0.0,
+      "anderson_signed_gap_eV": -0.09313469565640276,
+      "p_anderson_failure": 0.5446473244062056,
+      "raw_p_anderson_failure": 0.6425712937011786,
+      "probability_threshold": 0.4909667842622971,
+      "anderson_decision": "not_accepted_as_applicable",
+      "route": "full_domain_residual",
+      "service": "full_domain_residual",
+      "predicted_residual_eV": -0.5683779209852219,
+      "predicted_PBE_gap_eV": 0.0,
+      "prediction_interval_eV": [
+        0.0,
+        0.15977892430969964
+      ],
+      "additional_properties": {},
+      "warnings": [
+        "Input passes frozen support checks; this status is not a predictive reliability guarantee.",
+        "Optional null inputs use frozen fit_core imputation and missing indicators."
+      ],
+      "errors": [],
+      "model_version": "C1-no-Tony-fixed-config-2026-11-02",
+      "prediction_contract_sha256": "9cd10f4e95f21d4ca0477cc888797b727ff8249e4b4c012b43203150d9cf27b7",
+      "input_hash": "8b045b6f58a9b35e9523917385c1af5eb25fcf994897c3ab3fe14067231f1c8d",
+      "interval_nominal_coverage": 0.9,
+      "interval_unit": "new composition group finite configuration set",
+      "interval_q_eV": 0.15977892430969964,
+      "interval_unbounded": false,
+      "raw_residual_branch_gap_eV": -0.5683779209852219,
+      "raw_direct_gap_eV": 3.2183950185775756,
+      "residual_branch_gap_eV": 0.0,
+      "direct_branch_gap_eV": 3.2183950185775756,
+      "nonnegative_projection_applied": {
+        "residual": true,
+        "direct": false
+      },
+      "routed_comparator": {
+        "route": "direct_regression",
+        "predicted_PBE_gap_eV": 3.2183950185775756
+      },
+      "optional_missing_feature_names": [
+        "twist_sin",
+        "twist_cos"
+      ],
+      "unseen_element_Z": [],
+      "unsupported_feature_names": []
+    },
+    "numeric_comparison": "PASS"
+  }
+]

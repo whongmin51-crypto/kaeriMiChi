@@ -1,0 +1,25 @@
+{
+  "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+  "executable": "/home/KaeriMiChi/anderson-ml-env/bin/python",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "versions": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.4"
+  },
+  "device": "cpu",
+  "torch_threads": 4,
+  "interop_threads": 1,
+  "BLAS_threads": 1,
+  "deterministic_algorithms": true,
+  "RSS_monitor": "Linux /proc and worker resource.getrusage kernel peak; no dependency changes",
+  "probe_process": {
+    "pid": 320,
+    "start_ticks": 28399,
+    "command": [
+      "/home/KaeriMiChi/anderson-ml-env/bin/python",
+      "/mnt/d/my paper2/research_plan/step10_2026-10-15/freeze_step10.py"
+    ],
+    "RSS_bytes": 218218496
+  },
+  "verified_utc": "2026-10-15T12:04:27.439873+00:00"
+}

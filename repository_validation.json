@@ -1,0 +1,83 @@
+{
+  "status": "LOCAL_STAGING_VERIFIED",
+  "published": false,
+  "repository_url": null,
+  "doi": null,
+  "license_selected": false,
+  "result_recomputation": {
+    "status": "PASS",
+    "scope": "result recomputation from archived fixed predictions, not training or checkpoint inference",
+    "source_files_verified": 168,
+    "checks": [
+      {
+        "role": "sealed_final_test",
+        "rows": 742,
+        "matched_scalar_values": 6887,
+        "status": "PASS"
+      },
+      {
+        "role": "external_validation_diagnostic",
+        "rows": 60,
+        "matched_scalar_values": 2042,
+        "status": "PASS"
+      }
+    ],
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 20261025,
+    "absolute_tolerance": 1e-12,
+    "relative_tolerance": 1e-11
+  },
+  "checkpoint_replay": {
+    "trees_models": 30,
+    "graph_models": 40,
+    "rows_per_model": 2057,
+    "all_ensembles_pass": true,
+    "maximum_absolute_difference": 4.440892098500626e-16
+  },
+  "request_replay": {
+    "status": "PASS",
+    "requests_replayed": 6,
+    "invalid_or_unsupported_cases": [
+      {
+        "case": "missing_band_edge",
+        "status": "invalid_input",
+        "errors": [
+          "critical gap/contact-edge/contact-side/Anderson input is missing or nonfinite"
+        ]
+      },
+      {
+        "case": "SOC_mismatch",
+        "status": "invalid_input",
+        "errors": [
+          "protocol does not match frozen PBE/noSOC/initial-candidate contract"
+        ]
+      },
+      {
+        "case": "true_twist",
+        "status": "out_of_domain",
+        "errors": []
+      },
+      {
+        "case": "matched_strain",
+        "status": "invalid_input",
+        "errors": [
+          "This two-source fitted release supports native_free references only."
+        ]
+      }
+    ],
+    "scope": "six existing retrospective requests; raw feature values and NPZ graphs supplied",
+    "raw_structure_feature_extraction_verified": false,
+    "note": "Portable graph path spellings alter input/contract hashes; scientific values compare to the archived requests."
+  },
+  "files": 601,
+  "total_bytes": 880070410,
+  "scientific_originals_modified": false,
+  "new_training_or_calibration": false,
+  "scope_limits": [
+    "No public hosting or DOI",
+    "Third-party license review pending",
+    "No cross-machine verification",
+    "No portable raw-CIF feature extraction/retraining/fresh DFT acceptance claim",
+    "Original plotting layout uses unbundled QA helpers"
+  ]
+}

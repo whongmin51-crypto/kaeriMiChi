@@ -1,0 +1,22 @@
+{
+  "data_rows": 20,
+  "plotted_components": 60,
+  "panels": [
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "unit": "meV",
+  "common_limits_meV": [
+    -330,
+    240
+  ],
+  "measured_envelopes": 2,
+  "unmeasured_envelopes": 18,
+  "source_csv_sha256": "f32cdbf2a44f1e0b054e243c90c6f62aa54047c5ce59940927cc56a79bfa8350",
+  "decomposition_identity_pass": true,
+  "source_values_preserved": true,
+  "residual_labels": "one decimal place, signed; exact values retained in source CSV",
+  "reference_adaptation": "Style-only; original DFT data and numerical envelopes"
+}

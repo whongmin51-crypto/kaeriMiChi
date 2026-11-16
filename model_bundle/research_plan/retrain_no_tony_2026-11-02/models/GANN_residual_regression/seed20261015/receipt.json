@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-02T15:48:09.294047+00:00",
+  "candidate": "GANN_residual_regression",
+  "seed": 20261015,
+  "actual_new_fit": true,
+  "warm_start_from_original_weights": false,
+  "same_hyperparameters": true,
+  "same_seed": true,
+  "same_fixed_iterations": true,
+  "fit_rows": 11561,
+  "fit_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "source_counts": {
+    "Janus": 11530,
+    "HetDB": 31
+  },
+  "checkpoint": "best.pt",
+  "checkpoint_sha256": "57823c2e1bdac60b4510e69f9fd041533b53e05b041c85731794f04bb261d2c7",
+  "predictions_sha256": "56741ae5c1b9a09328e740449ac7550db9c7ed7ca7e6e8a7ea5f3b876b9186ec",
+  "fit_seconds": 966.9779460709999,
+  "runtime_seconds": 967.16745017,
+  "prediction_rows": 2057,
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "original_checkpoint_preserved": true,
+  "test_and_calibration_labels_used_for_fit": false
+}

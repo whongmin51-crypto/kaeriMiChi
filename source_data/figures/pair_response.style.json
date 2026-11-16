@@ -1,0 +1,13 @@
+{
+  "n": 40,
+  "class_changes": 25,
+  "class_unchanged": 15,
+  "range_MAE_eV": 0.06141791600596582,
+  "shade": "Identity line plus/minus empirical mean absolute range error across the 40 pairs",
+  "axis_limits": [
+    0,
+    1.2000000000000002
+  ],
+  "source_sha256": "aa559f5b1358379a2d52085f4e4b2d27bd21d48d07dca48cddcd78615e6a2a5a",
+  "all_coordinates_and_categories_preserved": true
+}

@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+
+# Paper LaTeX sources and compilation artifacts must not be uploaded.
+*.tex
+*.bib
+*.sty
+*.cls
+*.bst
+*.dtx
+*.ins
+*.ltx
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex*
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+manuscript/
+latex/
+# Local credentials and runtime outputs
+.env
+.env.*
+*.pem
+*.key

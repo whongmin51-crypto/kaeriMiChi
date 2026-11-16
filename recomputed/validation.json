@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "result recomputation from archived fixed predictions, not training or checkpoint inference",
+  "source_files_verified": 168,
+  "checks": [
+    {
+      "role": "sealed_final_test",
+      "rows": 742,
+      "matched_scalar_values": 6887,
+      "status": "PASS"
+    },
+    {
+      "role": "external_validation_diagnostic",
+      "rows": 60,
+      "matched_scalar_values": 2042,
+      "status": "PASS"
+    }
+  ],
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20261025,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-11
+}

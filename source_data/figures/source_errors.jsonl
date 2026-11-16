@@ -1,0 +1,12 @@
+{"source": "Janus", "pipeline": "Residual", "MAE_eV": 0.039561537876508325, "lower_95": 0.03348812790309818, "upper_95": 0.046130254832842874}
+{"source": "Janus", "pipeline": "Routed", "MAE_eV": 0.040556879141454706, "lower_95": 0.035912044681276824, "upper_95": 0.046011179920731816}
+{"source": "Janus", "pipeline": "Direct", "MAE_eV": 0.04073550242353229, "lower_95": 0.03618116359367554, "upper_95": 0.04584263930987604}
+{"source": "Janus", "pipeline": "Anderson", "MAE_eV": 0.29732704788506675, "lower_95": 0.22152789768389694, "upper_95": 0.3865947391684646}
+{"source": "HetDB", "pipeline": "Residual", "MAE_eV": 0.12092943800616734, "lower_95": 0.10834759288898997, "upper_95": 0.13443968664710876}
+{"source": "HetDB", "pipeline": "Routed", "MAE_eV": 0.180910115063264, "lower_95": 0.15156709230926113, "upper_95": 0.21230213202913428}
+{"source": "HetDB", "pipeline": "Direct", "MAE_eV": 0.34053623331051625, "lower_95": 0.29842258458539694, "upper_95": 0.38098159553794064}
+{"source": "HetDB", "pipeline": "Anderson", "MAE_eV": 0.12478748655605217, "lower_95": 0.11132631827333345, "upper_95": 0.1390979892329333}
+{"source": "Source macro", "pipeline": "Residual", "MAE_eV": 0.08024548794133783, "lower_95": 0.07344149438369299, "upper_95": 0.08689046384129995}
+{"source": "Source macro", "pipeline": "Routed", "MAE_eV": 0.11073349710235934, "lower_95": 0.09641965921358234, "upper_95": 0.1265527912506487}
+{"source": "Source macro", "pipeline": "Direct", "MAE_eV": 0.19063586786702427, "lower_95": 0.17074890435199158, "upper_95": 0.21216115932150523}
+{"source": "Source macro", "pipeline": "Anderson", "MAE_eV": 0.21105726722055945, "lower_95": 0.17247028450635676, "upper_95": 0.25573479454708736}

@@ -1,0 +1,114 @@
+{
+  "purpose": "internal comparison on identical supported Janus/HetDB identities; excluded from active paper to avoid duplicate old training results",
+  "rows": 721,
+  "new": {
+    "source_macro": {
+      "mae_eV": 0.08024548794133783,
+      "rmse_eV": 0.10177890341327314,
+      "r2": 0.9627241490248355,
+      "bias_eV": -0.026345852511987268
+    },
+    "by_source": {
+      "HetDB": {
+        "mae_eV": 0.12092943800616734,
+        "rmse_eV": 0.1516699921022946,
+        "r2": 0.9384197357551972,
+        "bias_eV": -0.055928113190748405,
+        "n_records": 221,
+        "n_pairs": 221
+      },
+      "Janus": {
+        "mae_eV": 0.039561537876508325,
+        "rmse_eV": 0.051887814724251684,
+        "r2": 0.9870285622944738,
+        "bias_eV": 0.00323640816677387,
+        "n_records": 500,
+        "n_pairs": 40
+      }
+    },
+    "source_macro_metric_support": {
+      "mae_eV": 2,
+      "rmse_eV": 2,
+      "r2": 2,
+      "bias_eV": 2
+    },
+    "n_sources": 2,
+    "n_records": 721,
+    "pooled_source_pair_weighted": {
+      "mae_eV": 0.08024548794133782,
+      "rmse_eV": 0.11334930926381592,
+      "r2": 0.9563647926678333,
+      "bias_eV": -0.026345852511987258
+    },
+    "pooled_row_equal": {
+      "mae_eV": 0.06441882640841079,
+      "rmse_eV": 0.09440268843633899,
+      "r2": 0.9666581351867275,
+      "bias_eV": -0.01286483942294724
+    },
+    "prediction_kind": "direct_gap",
+    "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+    "selection_metric": "source_macro.mae_eV",
+    "selection_direction": "minimize"
+  },
+  "old": {
+    "source_macro": {
+      "mae_eV": 0.07678152385634034,
+      "rmse_eV": 0.1006995558663758,
+      "r2": 0.9637140779963942,
+      "bias_eV": -0.016879326529694167
+    },
+    "by_source": {
+      "HetDB": {
+        "mae_eV": 0.11341426460038927,
+        "rmse_eV": 0.14869808215029054,
+        "r2": 0.9408093711169081,
+        "bias_eV": -0.03590861751421859,
+        "n_records": 221,
+        "n_pairs": 221
+      },
+      "Janus": {
+        "mae_eV": 0.0401487831122914,
+        "rmse_eV": 0.05270102958246106,
+        "r2": 0.9866187848758804,
+        "bias_eV": 0.0021499644548302515,
+        "n_records": 500,
+        "n_pairs": 40
+      }
+    },
+    "source_macro_metric_support": {
+      "mae_eV": 2,
+      "rmse_eV": 2,
+      "r2": 2,
+      "bias_eV": 2
+    },
+    "n_sources": 2,
+    "n_records": 721,
+    "pooled_source_pair_weighted": {
+      "mae_eV": 0.07678152385634031,
+      "rmse_eV": 0.11155383936518273,
+      "r2": 0.9577362204783137,
+      "bias_eV": -0.016879326529694164
+    },
+    "pooled_row_equal": {
+      "mae_eV": 0.06285528810532752,
+      "rmse_eV": 0.09342061051603442,
+      "r2": 0.9673482424092816,
+      "bias_eV": -0.007199525813592789
+    },
+    "prediction_kind": "direct_gap",
+    "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+    "selection_metric": "source_macro.mae_eV",
+    "selection_direction": "minimize"
+  },
+  "new_minus_old_MAE_eV": 0.0034639640849974973,
+  "CI": {
+    "percentile_95": [
+      -0.0007889139376144273,
+      0.007670116623572166
+    ],
+    "defined_replicates": 1000,
+    "total_replicates": 1000
+  },
+  "reselection": false
+}

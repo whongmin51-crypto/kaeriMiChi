@@ -1,0 +1,429 @@
+{
+  "status": "PASS",
+  "cohort_rule": "previously fixed input-support rule, applied identically to all eight independent task ensembles",
+  "admitted_n": 742,
+  "supported_n": 721,
+  "excluded_n": 21,
+  "source_counts": {
+    "Janus": 500,
+    "HetDB": 221
+  },
+  "composition_groups": 226,
+  "physical_pairs": 261,
+  "seed_ensemble_n": 5,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20261025,
+  "summary": [
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model": "GANN",
+      "n": 721,
+      "MAE_eV": 0.08024548794133782,
+      "lower_95": 0.07344149438369299,
+      "upper_95": 0.08689046384129995,
+      "Janus_MAE_eV": 0.03956153787650833,
+      "HetDB_MAE_eV": 0.12092943800616728
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model": "GANN",
+      "n": 721,
+      "MAE_eV": 0.1836529059104074,
+      "lower_95": 0.1649806466971991,
+      "upper_95": 0.20196940195215718,
+      "Janus_MAE_eV": 0.04089126225970686,
+      "HetDB_MAE_eV": 0.32641454956110794
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model": "CGCNN",
+      "n": 721,
+      "MAE_eV": 0.07428570417047561,
+      "lower_95": 0.0677924234725381,
+      "upper_95": 0.08117140578887377,
+      "Janus_MAE_eV": 0.03376477304254434,
+      "HetDB_MAE_eV": 0.11480663529840687
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model": "CGCNN",
+      "n": 721,
+      "MAE_eV": 0.19172306685403656,
+      "lower_95": 0.17086336143107622,
+      "upper_95": 0.21225480504469874,
+      "Janus_MAE_eV": 0.03791444322597236,
+      "HetDB_MAE_eV": 0.3455316904821007
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model": "XGBoost",
+      "n": 721,
+      "MAE_eV": 0.14366514105766554,
+      "lower_95": 0.1300688337411625,
+      "upper_95": 0.1583530930214284,
+      "Janus_MAE_eV": 0.07337391220299683,
+      "HetDB_MAE_eV": 0.2139563699123342
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model": "XGBoost",
+      "n": 721,
+      "MAE_eV": 0.17374144980229997,
+      "lower_95": 0.15512301419220256,
+      "upper_95": 0.1943754306753672,
+      "Janus_MAE_eV": 0.07912290195856804,
+      "HetDB_MAE_eV": 0.2683599976460319
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model": "RF",
+      "n": 721,
+      "MAE_eV": 0.1504603823751791,
+      "lower_95": 0.13849440928232504,
+      "upper_95": 0.16339700097112167,
+      "Janus_MAE_eV": 0.08388244103584143,
+      "HetDB_MAE_eV": 0.2170383237145168
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model": "RF",
+      "n": 721,
+      "MAE_eV": 0.2000064775950896,
+      "lower_95": 0.1817074032262969,
+      "upper_95": 0.22106016227605102,
+      "Janus_MAE_eV": 0.08063465106896658,
+      "HetDB_MAE_eV": 0.31937830412121254
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model": "GANN",
+      "n": 742,
+      "MAE_eV": 0.1028953879426344,
+      "lower_95": 0.08569361449987309,
+      "upper_95": 0.12315605984315638,
+      "Janus_MAE_eV": 0.03956153787650833,
+      "HetDB_MAE_eV": 0.16622923800876047
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model": "GANN",
+      "n": 742,
+      "MAE_eV": 0.21210607483211966,
+      "lower_95": 0.18999083077917275,
+      "upper_95": 0.23886797010812136,
+      "Janus_MAE_eV": 0.04089126225970686,
+      "HetDB_MAE_eV": 0.3833208874045325
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model": "CGCNN",
+      "n": 742,
+      "MAE_eV": 0.10809752607682355,
+      "lower_95": 0.08139279087460372,
+      "upper_95": 0.14446681092634547,
+      "Janus_MAE_eV": 0.03376477304254434,
+      "HetDB_MAE_eV": 0.18243027911110277
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model": "CGCNN",
+      "n": 742,
+      "MAE_eV": 0.22169832050114305,
+      "lower_95": 0.19805045343487476,
+      "upper_95": 0.25036507657108137,
+      "Janus_MAE_eV": 0.03791444322597236,
+      "HetDB_MAE_eV": 0.4054821977763136
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model": "XGBoost",
+      "n": 742,
+      "MAE_eV": 0.1433536521176973,
+      "lower_95": 0.13098889655624707,
+      "upper_95": 0.15799777185073896,
+      "Janus_MAE_eV": 0.07337391220299683,
+      "HetDB_MAE_eV": 0.2133333920323978
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model": "XGBoost",
+      "n": 742,
+      "MAE_eV": 0.18411058937934116,
+      "lower_95": 0.16640113227403583,
+      "upper_95": 0.20302272321499662,
+      "Janus_MAE_eV": 0.07912290195856804,
+      "HetDB_MAE_eV": 0.28909827680011424
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model": "RF",
+      "n": 742,
+      "MAE_eV": 0.14946766670626555,
+      "lower_95": 0.13781792453231184,
+      "upper_95": 0.1615230366480899,
+      "Janus_MAE_eV": 0.08388244103584143,
+      "HetDB_MAE_eV": 0.21505289237668956
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model": "RF",
+      "n": 742,
+      "MAE_eV": 0.2093219656286817,
+      "lower_95": 0.1911206510470867,
+      "upper_95": 0.2298943727596487,
+      "Janus_MAE_eV": 0.08063465106896658,
+      "HetDB_MAE_eV": 0.3380092801883967
+    }
+  ],
+  "paired_differences": [
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "CGCNN",
+      "MAE_A_minus_B_eV": 0.005959783770862213,
+      "lower_95": -0.0006626766008008134,
+      "upper_95": 0.012377410867737465
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": -0.06341965311632772,
+      "lower_95": -0.07659661563753298,
+      "upper_95": -0.05011229746403042
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.07021489443384131,
+      "lower_95": -0.08274083195320411,
+      "upper_95": -0.05830922085035137
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "CGCNN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": -0.06937943688718992,
+      "lower_95": -0.0834099930385277,
+      "upper_95": -0.05519675549538889
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "CGCNN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.07617467820470354,
+      "lower_95": -0.08807184597008426,
+      "upper_95": -0.06488882505481341
+    },
+    {
+      "cohort": "supported_721",
+      "task": "residual_regression",
+      "model_A": "XGBoost",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.006795241317513608,
+      "lower_95": -0.01714908647094999,
+      "upper_95": 0.002768664773813965
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "CGCNN",
+      "MAE_A_minus_B_eV": -0.008070160943629197,
+      "lower_95": -0.0169109361987833,
+      "upper_95": -0.00028306577180531274
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": 0.009911456108107407,
+      "lower_95": -0.007366807536081613,
+      "upper_95": 0.02833289866673623
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.016353571684682204,
+      "lower_95": -0.03349750910956043,
+      "upper_95": 0.002067704025271023
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "CGCNN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": 0.017981617051736603,
+      "lower_95": 0.0002590988402644872,
+      "upper_95": 0.035184196556225115
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "CGCNN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.008283410741053012,
+      "lower_95": -0.025817785470299327,
+      "upper_95": 0.009977424227690894
+    },
+    {
+      "cohort": "supported_721",
+      "task": "direct_gap_regression",
+      "model_A": "XGBoost",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.02626502779278961,
+      "lower_95": -0.03625314281867325,
+      "upper_95": -0.014751300082511786
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "CGCNN",
+      "MAE_A_minus_B_eV": -0.005202138134189144,
+      "lower_95": -0.03180163810076819,
+      "upper_95": 0.01115936238727405
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": -0.04045826417506291,
+      "lower_95": -0.06077498808752082,
+      "upper_95": -0.019606768009713497
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "GANN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.04657227876363111,
+      "lower_95": -0.06711417737382339,
+      "upper_95": -0.025680849558837864
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "CGCNN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": -0.03525612604087376,
+      "lower_95": -0.06482914921961343,
+      "upper_95": 0.00017976726468303867
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "CGCNN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.041370140629441964,
+      "lower_95": -0.07052521008324218,
+      "upper_95": -0.006096014439254839
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "residual_regression",
+      "model_A": "XGBoost",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.006114014588568196,
+      "lower_95": -0.015046006598978957,
+      "upper_95": 0.00328300998334759
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "CGCNN",
+      "MAE_A_minus_B_eV": -0.009592245669023346,
+      "lower_95": -0.017892283490807487,
+      "upper_95": -0.0019328245615570332
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": 0.027995485452778517,
+      "lower_95": 0.008028455962038612,
+      "upper_95": 0.04853456112929687
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "GANN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": 0.0027841092034380276,
+      "lower_95": -0.01860324566683489,
+      "upper_95": 0.024968470533231132
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "CGCNN",
+      "model_B": "XGBoost",
+      "MAE_A_minus_B_eV": 0.03758773112180186,
+      "lower_95": 0.017408777479090115,
+      "upper_95": 0.058408601916199954
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "CGCNN",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": 0.012376354872461366,
+      "lower_95": -0.008963964806789258,
+      "upper_95": 0.03436076195611994
+    },
+    {
+      "cohort": "admitted_742",
+      "task": "direct_gap_regression",
+      "model_A": "XGBoost",
+      "model_B": "RF",
+      "MAE_A_minus_B_eV": -0.02521137624934049,
+      "lower_95": -0.035888448905398426,
+      "upper_95": -0.014293938692137381
+    }
+  ],
+  "input_hashes": {
+    "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/evaluated_predictions.jsonl": "0660d4857eb22785c9636126dcc3fdefb06878a0f07aba43c05e4e494f87c88a",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_residual_regression_ensemble.jsonl": "1d60afe77c4cfbea5a5645471d70b269d98730c053ce4d8d6b589aab83af0964",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_direct_gap_regression_ensemble.jsonl": "a4cbf85bcd987d50bca46f749c4eeff3e4747f301f933c77329a37eec5c98c69",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_residual_regression_ensemble.jsonl": "98505a033c84ae7681fb5cbe5643d45a948ba60daf552e06b758982fbbcc174e",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_direct_gap_regression_ensemble.jsonl": "728ef2cd33a2c2288e14c926f5c4d840d4d0796c8a6e5830d98aa20b4f93e522",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/XGBoost_residual_regression_ensemble.jsonl": "5dcb81c77c3f4eb1e8207249f731a057e6f923efc2bd0f1c18ebd3031df71a07",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/XGBoost_direct_gap_regression_ensemble.jsonl": "db9e8ee59fcb09be2455bcd062f4abc5e275dec562cbdd7ddee855ed16c31704",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/RF_residual_regression_ensemble.jsonl": "f19b87f7edb5c2e59aabcb81744dbdcbb950efdf078e9610e44afbb15cf61051",
+    "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/RF_direct_gap_regression_ensemble.jsonl": "29f3f21fa7b694978c0addfd2a4021d86cae7ff76fd5b43bc6c5fd998393036f"
+  },
+  "checks": {
+    "independent_weighting_reproduced": true,
+    "GANN_service_reproduced": true,
+    "same_IDs_all_models": true,
+    "finite_predictions_all_models": true
+  }
+}

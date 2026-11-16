@@ -1,0 +1,632 @@
+[
+  {
+    "candidate": "GANN_residual_regression",
+    "seed": 20261015,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261015/best.pt",
+    "bytes": 3947525,
+    "sha256": "57823c2e1bdac60b4510e69f9fd041533b53e05b041c85731794f04bb261d2c7",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_residual_regression",
+    "seed": 20261016,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261016/best.pt",
+    "bytes": 3947589,
+    "sha256": "0ea4634668d3ff257b4023f713818ccc09ea1b14024edaeb4a154cbd4c487676",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_residual_regression",
+    "seed": 20261017,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261017/best.pt",
+    "bytes": 3947589,
+    "sha256": "58b97a3945922a1654447a23817c008a60120cc963abdff2e32597529b45ce18",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_residual_regression",
+    "seed": 20261018,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261018/best.pt",
+    "bytes": 3947525,
+    "sha256": "5186013470ff9eab4991c1d7546e5e438d4a3125e9b0ef9cb86bc2c3ddac2cfa",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_residual_regression",
+    "seed": 20261019,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261019/best.pt",
+    "bytes": 3947525,
+    "sha256": "80c77053e47f221b401780ed3c75ac1a73de107bcc4b9f5b6889e2977b91e09a",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_multi_task",
+    "seed": 20261015,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_multi_task/seed20261015/best.pt",
+    "bytes": 5496741,
+    "sha256": "c1bb327e881b818c6dc93f8111dc50e5c6bcf96d3cdf8e1be545204dc5c30195",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_multi_task",
+    "seed": 20261016,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_multi_task/seed20261016/best.pt",
+    "bytes": 5496741,
+    "sha256": "e119ecd0d4ce7a60e8f9cba48678bcea24283232ff93ffaeca4528915e7f6777",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_multi_task",
+    "seed": 20261017,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_multi_task/seed20261017/best.pt",
+    "bytes": 5496741,
+    "sha256": "6047091bca1879748a4907b01e388c1a480df72c690bb30ba6a4bd7c2cc86190",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_multi_task",
+    "seed": 20261018,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_multi_task/seed20261018/best.pt",
+    "bytes": 5496677,
+    "sha256": "240a8a4ecb09cc92a1318300bbd4f976ea96106a74d3131202345185cfe1b594",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_multi_task",
+    "seed": 20261019,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_multi_task/seed20261019/best.pt",
+    "bytes": 5496741,
+    "sha256": "be50c6defcc310bb0a2f3eee20cf8793697d05ecffabfcbb19d89c4d1f7b3862",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_multi_task",
+    "seed": 20261015,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_multi_task/seed20261015/best.pt",
+    "bytes": 6001561,
+    "sha256": "98661836422ae6cfb8376b4ee5de0e8265de112f81b7fc1f310bdea7889fd0d2",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_multi_task",
+    "seed": 20261016,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_multi_task/seed20261016/best.pt",
+    "bytes": 6001625,
+    "sha256": "be4091ba43a857c5e6eb08c019442b0bf50d70f78c2f6e0d57d8f80a848a7d04",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_multi_task",
+    "seed": 20261017,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_multi_task/seed20261017/best.pt",
+    "bytes": 6001625,
+    "sha256": "5c29fdf945f9b3100dc61438e73eef40993d3c4be1111912c81703f18d73dc86",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_multi_task",
+    "seed": 20261018,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_multi_task/seed20261018/best.pt",
+    "bytes": 6001561,
+    "sha256": "2f0ed38cf72f5fd740a8650fe8bf94e929edfe2afb378f9613b2abafcb239270",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_multi_task",
+    "seed": 20261019,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_multi_task/seed20261019/best.pt",
+    "bytes": 6001561,
+    "sha256": "a1191d3f5df076cb7267b6aaeaf4fdea335e852ffe56985a2ade37cc59ed68cb",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_classifier",
+    "seed": 20261015,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_classifier/seed20261015/best.pt",
+    "bytes": 5995513,
+    "sha256": "e9b3857dae3e1a317394c24438a4ffd08f5063bc300485d33113cb1e6e696f39",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_classifier",
+    "seed": 20261016,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_classifier/seed20261016/best.pt",
+    "bytes": 5995513,
+    "sha256": "8295acc87446f6966181d789216a38fe3871ab48a2e3a86943070f0c55c00c4d",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_classifier",
+    "seed": 20261017,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_classifier/seed20261017/best.pt",
+    "bytes": 5995513,
+    "sha256": "e8356416d0513e2fd888a4ff3e2b5db78110b1a715fd0da82adbc95c2c19da67",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_classifier",
+    "seed": 20261018,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_classifier/seed20261018/best.pt",
+    "bytes": 5995449,
+    "sha256": "2d9f73a322c89404652859f800eb5ff53a4506181577d1711adf1a98e6021ef7",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_classifier",
+    "seed": 20261019,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_classifier/seed20261019/best.pt",
+    "bytes": 5995449,
+    "sha256": "0bf8956c83d1e9347a61d150eeaf0cf973572042de07a06b7cb7285b866da379",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_direct_gap_regression",
+    "seed": 20261015,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_direct_gap_regression/seed20261015/best.pt",
+    "bytes": 3881213,
+    "sha256": "c81b17fd95fdf84e05c8b9b87eb407d7e2d208da0a81a37299884695343b8d62",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_direct_gap_regression",
+    "seed": 20261016,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_direct_gap_regression/seed20261016/best.pt",
+    "bytes": 3881213,
+    "sha256": "ef7817e42292cc6073e8e7b624ad2e14b2d36369133fbd69e29f2f41675c272c",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_direct_gap_regression",
+    "seed": 20261017,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_direct_gap_regression/seed20261017/best.pt",
+    "bytes": 3881213,
+    "sha256": "4919eaff2a91a0cbe12ad78741a6b3bb57c51d36c0eb79661be7def6cb679199",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_direct_gap_regression",
+    "seed": 20261018,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_direct_gap_regression/seed20261018/best.pt",
+    "bytes": 3881149,
+    "sha256": "51ceeb4eef8439092bb9a96a9b461eaec75ba859e1291da95dde02782b7d1e4a",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_direct_gap_regression",
+    "seed": 20261019,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_direct_gap_regression/seed20261019/best.pt",
+    "bytes": 3881213,
+    "sha256": "e8a65a8e371a8f1a6ab08fddddc4af2c66bfc29fa41db2fc808a802dcdc8a4bc",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_residual_regression",
+    "seed": 20261015,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_residual_regression/seed20261015/best.pt",
+    "bytes": 3619193,
+    "sha256": "3aad218455af9489cdfe661c100f32388373f9710292bd5dbf90686d6a11cc2b",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_residual_regression",
+    "seed": 20261016,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_residual_regression/seed20261016/best.pt",
+    "bytes": 3619193,
+    "sha256": "195b881bc38c0984ef31982be4b504524613616400df3c1ff8543cd00bd1be49",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_residual_regression",
+    "seed": 20261017,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_residual_regression/seed20261017/best.pt",
+    "bytes": 3619193,
+    "sha256": "379bf2913a393ad1e7c840cadc428bddac4aa11c58394a614799aef58d5adc2e",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_residual_regression",
+    "seed": 20261018,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_residual_regression/seed20261018/best.pt",
+    "bytes": 3619129,
+    "sha256": "2507a3580c20858224a3704850936541074ba230ffed66f3a02e209e702f42aa",
+    "backend": "graph"
+  },
+  {
+    "candidate": "CGCNN_residual_regression",
+    "seed": 20261019,
+    "family": "CGCNN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/CGCNN_residual_regression/seed20261019/best.pt",
+    "bytes": 3619129,
+    "sha256": "c98659151640648ac9e4bd3de8678406ed6ab78fce2266804016d04bacbb5585",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_classifier",
+    "seed": 20261015,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_classifier/seed20261015/best.pt",
+    "bytes": 5491397,
+    "sha256": "7b543cbea9499b98adcc24ff4b7f99f26eefa9fe282a742ec710d9f9363d9623",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_classifier",
+    "seed": 20261016,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_classifier/seed20261016/best.pt",
+    "bytes": 5491461,
+    "sha256": "b3e69e27e8f56ee0465436d5718c1e856bd4bf8d8e0b803ba7927b2d1ef1dd2c",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_classifier",
+    "seed": 20261017,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_classifier/seed20261017/best.pt",
+    "bytes": 5491461,
+    "sha256": "2654678862584f9acfe9da4dc204421612219f26d9323f0929e3e1d71da924e7",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_classifier",
+    "seed": 20261018,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_classifier/seed20261018/best.pt",
+    "bytes": 5491397,
+    "sha256": "6116c85c35a3752278a665ebbee6e7f3402479adab62de3a1f48b1ab9b212293",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_classifier",
+    "seed": 20261019,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_classifier/seed20261019/best.pt",
+    "bytes": 5491397,
+    "sha256": "91feaa29f1c6f8e15fb304ec2962e571b30cb5c64cd2a775da85c272e6b37a14",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_direct_gap_regression",
+    "seed": 20261015,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_direct_gap_regression/seed20261015/best.pt",
+    "bytes": 3650527,
+    "sha256": "534318d1497836b3d48999f267aa557337b6aa6aa43ec0280e970de1ff51bced",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_direct_gap_regression",
+    "seed": 20261016,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_direct_gap_regression/seed20261016/best.pt",
+    "bytes": 3650527,
+    "sha256": "6d21bd6293c2951d508b1dea39da3a3bb5f5670dae3bf6b8b44521e5117416dd",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_direct_gap_regression",
+    "seed": 20261017,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_direct_gap_regression/seed20261017/best.pt",
+    "bytes": 3650527,
+    "sha256": "69e89f36fd1efb853f82ffa0d1002a0f23b6bb4858dee15f5e7cac04cf57d4b4",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_direct_gap_regression",
+    "seed": 20261018,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_direct_gap_regression/seed20261018/best.pt",
+    "bytes": 3650463,
+    "sha256": "c2c27067f88df24e51b6be682b9218215559f1918e32427d633a8a98e1573f0b",
+    "backend": "graph"
+  },
+  {
+    "candidate": "GANN_direct_gap_regression",
+    "seed": 20261019,
+    "family": "GANN",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_direct_gap_regression/seed20261019/best.pt",
+    "bytes": 3650527,
+    "sha256": "33085fcd68734519e0aec5b3d6e80dc0a02b98f1b3003e064e78e0c25f9cbd2a",
+    "backend": "graph"
+  },
+  {
+    "candidate": "RF_classifier",
+    "seed": 20261015,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_classifier/seed20261015/model.joblib",
+    "bytes": 6858903,
+    "sha256": "fad80f6574532e313e231a04427ebc5ac810f0bfbcdfbd0b71c326abb771a2cd",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_classifier",
+    "seed": 20261016,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_classifier/seed20261016/model.joblib",
+    "bytes": 6871975,
+    "sha256": "c865e9372bd95ebcad308bc0bddefb882c4d65d6552b62c352c80579af5fdbab",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_classifier",
+    "seed": 20261017,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_classifier/seed20261017/model.joblib",
+    "bytes": 6860727,
+    "sha256": "c07074f0c5559637986cac2377ebc8b9d382899884f7146290996d37e7d4ec22",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_classifier",
+    "seed": 20261018,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_classifier/seed20261018/model.joblib",
+    "bytes": 6870436,
+    "sha256": "8a9cdee2414f224fb7a4ff113be22b214e8f2b336ab369717f2e3f2f4456da19",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_classifier",
+    "seed": 20261019,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_classifier/seed20261019/model.joblib",
+    "bytes": 6870405,
+    "sha256": "63d3659f1e96dad3f744d10b5ad59c0907a4222b6281bfede664f98beb5a644f",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_direct_gap_regression",
+    "seed": 20261015,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_direct_gap_regression/seed20261015/model.joblib",
+    "bytes": 55173269,
+    "sha256": "05c8e9e680fd0f7aeb247d1d4027eaff248a091c4d374235526532f1bd9f9b9f",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_direct_gap_regression",
+    "seed": 20261016,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_direct_gap_regression/seed20261016/model.joblib",
+    "bytes": 55155769,
+    "sha256": "6a6b52ff263fec930e06ee74e79b512c7ef1d397a092ac9c946b0144581f898a",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_direct_gap_regression",
+    "seed": 20261017,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_direct_gap_regression/seed20261017/model.joblib",
+    "bytes": 55120559,
+    "sha256": "ef76097180f4d2c6bcc0736a315f14e6e7f7a0cd3bf6acbe4ee35279d88dc9bc",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_direct_gap_regression",
+    "seed": 20261018,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_direct_gap_regression/seed20261018/model.joblib",
+    "bytes": 55045742,
+    "sha256": "d2421ff883a3510c7107b7951f96b6778b3325e6adc3b1b9fb08d6bb502476bf",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_direct_gap_regression",
+    "seed": 20261019,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_direct_gap_regression/seed20261019/model.joblib",
+    "bytes": 55228484,
+    "sha256": "43fdfe5bdc2a05f2982a4f481d0b23dbe60bc539c7933d7df370662dcb2c028a",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_residual_regression",
+    "seed": 20261015,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_residual_regression/seed20261015/model.joblib",
+    "bytes": 61019770,
+    "sha256": "897e2df3001680170d43f509d774a35f081710aed8079fd7267bb714935370aa",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_residual_regression",
+    "seed": 20261016,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_residual_regression/seed20261016/model.joblib",
+    "bytes": 61205600,
+    "sha256": "5a3e896dc04c89e417e3855bc54c8fed97e200a2bdb7e8a4d146f4e95f9e5e7a",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_residual_regression",
+    "seed": 20261017,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_residual_regression/seed20261017/model.joblib",
+    "bytes": 61406200,
+    "sha256": "a0f57575938b134960e33542dbc8987d240b24ea9242cc39739a5fd8f770e94b",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_residual_regression",
+    "seed": 20261018,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_residual_regression/seed20261018/model.joblib",
+    "bytes": 61236052,
+    "sha256": "97691e874d33bdc6c26276d3521049b2d118161fbec289680eaa731144fb9bb4",
+    "backend": "trees"
+  },
+  {
+    "candidate": "RF_residual_regression",
+    "seed": 20261019,
+    "family": "RF",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/RF_residual_regression/seed20261019/model.joblib",
+    "bytes": 61127491,
+    "sha256": "aaca6210f04a081dc7171ff004e66b72a7924864965e3f79e4fa52b8a47630c8",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_classifier",
+    "seed": 20261015,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_classifier/seed20261015/model.json",
+    "bytes": 194063,
+    "sha256": "a20d4dc0b9969d4481b3ed1b6ad00a0c13980c2e7a072ee1ecb2aef218b1982a",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_classifier",
+    "seed": 20261016,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_classifier/seed20261016/model.json",
+    "bytes": 202128,
+    "sha256": "dce964484bc80dd54b3100e3491c6ad6cd4b11fcae9a3b57bed9d3efba2f9475",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_classifier",
+    "seed": 20261017,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_classifier/seed20261017/model.json",
+    "bytes": 195336,
+    "sha256": "1647ed7334b17c32f55d23c6ec2eaa5a2e0cc73419398c88ccdd3387d96d35f6",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_classifier",
+    "seed": 20261018,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_classifier/seed20261018/model.json",
+    "bytes": 200975,
+    "sha256": "2fbdac98fe5e67a6100f5c668026fa68b05270b777583f67d5772a61386a419c",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_classifier",
+    "seed": 20261019,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_classifier/seed20261019/model.json",
+    "bytes": 203050,
+    "sha256": "f6d8210bbcbd75c001d8661c16ef8bd628d6f5304e45ef4c9c96cf008090eb14",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_direct_gap_regression",
+    "seed": 20261015,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_direct_gap_regression/seed20261015/model.json",
+    "bytes": 284939,
+    "sha256": "843fab05847017dc49dd54103fb4231485dc47f8c6daee7daa4adf8572642b72",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_direct_gap_regression",
+    "seed": 20261016,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_direct_gap_regression/seed20261016/model.json",
+    "bytes": 285576,
+    "sha256": "d01ecc0c90087ef8a52d0967659ee7f928743ea17625053482e0a4b12f3be7d4",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_direct_gap_regression",
+    "seed": 20261017,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_direct_gap_regression/seed20261017/model.json",
+    "bytes": 283612,
+    "sha256": "ccafdd7a4134fee1cd5d6cf7703fae9705a2748d1acff872e7ca9eaca52d9066",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_direct_gap_regression",
+    "seed": 20261018,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_direct_gap_regression/seed20261018/model.json",
+    "bytes": 286261,
+    "sha256": "5bbebded2236fc291e43546893e4a369bc0fc883f10f6e1c8c05cd734b7118a4",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_direct_gap_regression",
+    "seed": 20261019,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_direct_gap_regression/seed20261019/model.json",
+    "bytes": 288412,
+    "sha256": "ccdfff3ff1bffacdecf3b54f7eef803fd8f2456c5563630d0bc3035210975ef9",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_residual_regression",
+    "seed": 20261015,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_residual_regression/seed20261015/model.json",
+    "bytes": 3193808,
+    "sha256": "ad0b3cdad69bd6c0e9ae799b58d2157c6d7749604d7949b3fccf088cbfdc0a34",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_residual_regression",
+    "seed": 20261016,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_residual_regression/seed20261016/model.json",
+    "bytes": 3173753,
+    "sha256": "a4e145b7470717b8a6dce6857983cc67bbb52275cbc44a6b312f9ac4d53fd7d3",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_residual_regression",
+    "seed": 20261017,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_residual_regression/seed20261017/model.json",
+    "bytes": 3233657,
+    "sha256": "21252f058cefdb07b1299b44674001f64bddb6012ca5a8cc7787ed8ca344d568",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_residual_regression",
+    "seed": 20261018,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_residual_regression/seed20261018/model.json",
+    "bytes": 3197511,
+    "sha256": "cece27fa44cbafe7eaf9a8a85fd6d8e51c358677222d569a080fa0ab7b99d97a",
+    "backend": "trees"
+  },
+  {
+    "candidate": "XGBoost_residual_regression",
+    "seed": 20261019,
+    "family": "XGBoost",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/XGBoost_residual_regression/seed20261019/model.json",
+    "bytes": 3213615,
+    "sha256": "798088b9f7a469155ff8ce9bd5da9ac2ee7dc34c5f896a7de429baf00d3862f1",
+    "backend": "trees"
+  }
+]

@@ -1,0 +1,1632 @@
+{
+  "date": "2026-11-15",
+  "analysis": "Exploratory fixed-model association of improvement with constituent property strata",
+  "no_training_tuning_or_calibration": true,
+  "definition": "improvement = abs(Anderson - DFT) - abs(ML - DFT); positive means ML lowers absolute error",
+  "point_weights": "Equal physical material pairs within each source, equal source weights within each stratum; pair configurations conditional on stratum share pair weight",
+  "threshold_policy": "All seven named properties use their existing 11561-row fit_core median, without test-outcome threshold search",
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20261025,
+    "scheme": "Synchronized multinomial draws over all held-out composition groups; recompute source/pair weights in each stratum",
+    "intervals": "pointwise percentile 95%; descriptive, unadjusted for seven correlated properties"
+  },
+  "scope": "Current Janus/HetDB frozen 721 supported holdouts; not an input ablation or prospective domain guarantee",
+  "source_hashes": {
+    "research_plan\\retrain_no_tony_2026-11-02\\evaluation\\sealed_final_test\\evaluated_predictions.jsonl": "0660d4857eb22785c9636126dcc3fdefb06878a0f07aba43c05e4e494f87c88a",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\raw_features.npz": "b4d808d65f2609ed8de77b792e259e7c1726bc72bb70264db470745d5a208944",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\partitions.jsonl": "43bf0261db782790d8fe5bc2ff15d17c9063e835ec0c6f1e77a9dc4e2caeccd8"
+  },
+  "overall": {
+    "source_macro": {
+      "rows": 721,
+      "physical_pairs": 261,
+      "composition_groups": 226,
+      "sources": [
+        "HetDB",
+        "Janus"
+      ],
+      "source_rows": {
+        "Janus": 500,
+        "HetDB": 221
+      },
+      "anderson_MAE_eV": 0.21105726722055948,
+      "ML_MAE_eV": 0.08024548794133776,
+      "improvement_eV": 0.1308117792792216,
+      "relative_MAE_reduction_percent": 61.979282211837045,
+      "fraction_improved": 0.7172122454751131,
+      "improvement_CI95_eV": [
+        0.09194062237785014,
+        0.17615797772176897
+      ],
+      "anderson_MAE_CI95_eV": [
+        0.1724702845063568,
+        0.25573479454708725
+      ],
+      "ML_MAE_CI95_eV": [
+        0.07344149438369298,
+        0.08689046384130006
+      ],
+      "defined_bootstrap_replicates": 1000
+    },
+    "Janus": {
+      "rows": 500,
+      "physical_pairs": 40,
+      "composition_groups": 27,
+      "sources": [
+        "Janus"
+      ],
+      "source_rows": {
+        "Janus": 500
+      },
+      "anderson_MAE_eV": 0.29732704788506675,
+      "ML_MAE_eV": 0.039561537876508325,
+      "improvement_eV": 0.2577655100085584,
+      "relative_MAE_reduction_percent": 86.69426876635822,
+      "fraction_improved": 0.9140625,
+      "improvement_CI95_eV": [
+        0.1814365554736939,
+        0.3453809347929603
+      ],
+      "anderson_MAE_CI95_eV": [
+        0.22253942462735432,
+        0.3866823148073729
+      ],
+      "ML_MAE_CI95_eV": [
+        0.03378412752048911,
+        0.04667878983878061
+      ],
+      "defined_bootstrap_replicates": 1000
+    },
+    "HetDB": {
+      "rows": 221,
+      "physical_pairs": 221,
+      "composition_groups": 199,
+      "sources": [
+        "HetDB"
+      ],
+      "source_rows": {
+        "HetDB": 221
+      },
+      "anderson_MAE_eV": 0.12478748655605221,
+      "ML_MAE_eV": 0.12092943800616719,
+      "improvement_eV": 0.003858048549884824,
+      "relative_MAE_reduction_percent": 3.091695054016382,
+      "fraction_improved": 0.5203619909502263,
+      "improvement_CI95_eV": [
+        -0.011595082197252336,
+        0.019788847703887225
+      ],
+      "anderson_MAE_CI95_eV": [
+        0.11069780688941153,
+        0.1387638002720281
+      ],
+      "ML_MAE_CI95_eV": [
+        0.10844692708107471,
+        0.13245524795647876
+      ],
+      "defined_bootstrap_replicates": 1000
+    }
+  },
+  "results": [
+    {
+      "feature": "abs_delta__gap_eV",
+      "threshold_from_fit_core_median": 0.4409701350016535,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 383,
+            "physical_pairs": 114,
+            "composition_groups": 102,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 292,
+              "HetDB": 91
+            },
+            "anderson_MAE_eV": 0.20583921296175745,
+            "ML_MAE_eV": 0.0930851367777722,
+            "improvement_eV": 0.11275407618398528,
+            "relative_MAE_reduction_percent": 54.77774354147657,
+            "fraction_improved": 0.6804377687529861,
+            "improvement_CI95_eV": [
+              0.07506612790275465,
+              0.15965493288022534
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.16579346933073355,
+              0.25325131962030706
+            ],
+            "ML_MAE_CI95_eV": [
+              0.08237587293374307,
+              0.10395411590746556
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 338,
+            "physical_pairs": 147,
+            "composition_groups": 133,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 208,
+              "HetDB": 130
+            },
+            "anderson_MAE_eV": 0.22326750245703447,
+            "ML_MAE_eV": 0.0703417271181059,
+            "improvement_eV": 0.15292577533892857,
+            "relative_MAE_reduction_percent": 68.49441752874786,
+            "fraction_improved": 0.7441742081447964,
+            "improvement_CI95_eV": [
+              0.08964394052283577,
+              0.22196905278723844
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.15858109307862808,
+              0.29059933055349796
+            ],
+            "ML_MAE_CI95_eV": [
+              0.060533375570073114,
+              0.08138681900880136
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 292,
+            "physical_pairs": 23,
+            "composition_groups": 20,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 292
+            },
+            "anderson_MAE_eV": 0.27111458782374553,
+            "ML_MAE_eV": 0.04236732397405304,
+            "improvement_eV": 0.22874726384969254,
+            "relative_MAE_reduction_percent": 84.37290877110735,
+            "fraction_improved": 0.9103260869565217,
+            "improvement_CI95_eV": [
+              0.1506172080628313,
+              0.3191337150596737
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.19361695590792802,
+              0.3648661780547763
+            ],
+            "ML_MAE_CI95_eV": [
+              0.035414418306628774,
+              0.05096224796650709
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 208,
+            "physical_pairs": 17,
+            "composition_groups": 15,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 208
+            },
+            "anderson_MAE_eV": 0.3327909644386189,
+            "ML_MAE_eV": 0.03576547433277137,
+            "improvement_eV": 0.29702549010584756,
+            "relative_MAE_reduction_percent": 89.25287097469618,
+            "fraction_improved": 0.9191176470588235,
+            "improvement_CI95_eV": [
+              0.17337457706255038,
+              0.4234656625977214
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.2057971739108831,
+              0.4640558419497041
+            ],
+            "ML_MAE_CI95_eV": [
+              0.023626085415567908,
+              0.05016219446542884
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 91,
+            "physical_pairs": 91,
+            "composition_groups": 82,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 91
+            },
+            "anderson_MAE_eV": 0.14056383809976936,
+            "ML_MAE_eV": 0.14380294958149137,
+            "improvement_eV": -0.0032391114817219863,
+            "relative_MAE_reduction_percent": -2.3043704024522516,
+            "fraction_improved": 0.45054945054945056,
+            "improvement_CI95_eV": [
+              -0.028030372949993304,
+              0.021720930380203358
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.12074191905519388,
+              0.16145374128261153
+            ],
+            "ML_MAE_CI95_eV": [
+              0.12348930408441446,
+              0.16384677977397294
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 130,
+            "physical_pairs": 130,
+            "composition_groups": 118,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 130
+            },
+            "anderson_MAE_eV": 0.11374404047545005,
+            "ML_MAE_eV": 0.10491797990344044,
+            "improvement_eV": 0.008826060572009591,
+            "relative_MAE_reduction_percent": 7.75958066472464,
+            "fraction_improved": 0.5692307692307692,
+            "improvement_CI95_eV": [
+              -0.011687202545113386,
+              0.02886690569048909
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.09580442971084853,
+              0.13133503736488933
+            ],
+            "ML_MAE_CI95_eV": [
+              0.08958251107766439,
+              0.12075796484631185
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": 0.040171699154943286,
+          "CI95_eV": [
+            -0.02845262717519814,
+            0.11462626358079735
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": 0.06827822625615501,
+          "CI95_eV": [
+            -0.06646053958211287,
+            0.20321421211072557
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": 0.012065172053731577,
+          "CI95_eV": [
+            -0.017174867232106004,
+            0.04405024001197041
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "abs_delta__midgap_contact_eV",
+      "threshold_from_fit_core_median": 0.3964744833957088,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 296,
+            "physical_pairs": 83,
+            "composition_groups": 69,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 248,
+              "HetDB": 48
+            },
+            "anderson_MAE_eV": 0.20030794632273274,
+            "ML_MAE_eV": 0.0792099049610491,
+            "improvement_eV": 0.12109804136168355,
+            "relative_MAE_reduction_percent": 60.45593476684767,
+            "fraction_improved": 0.6848214285714286,
+            "improvement_CI95_eV": [
+              0.07398326034203563,
+              0.17294157420697923
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.15704508284600358,
+              0.25129164396105785
+            ],
+            "ML_MAE_CI95_eV": [
+              0.06376783991311487,
+              0.09691682898702818
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 425,
+            "physical_pairs": 206,
+            "composition_groups": 180,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 252,
+              "HetDB": 173
+            },
+            "anderson_MAE_eV": 0.2169545741205678,
+            "ML_MAE_eV": 0.08072587424335739,
+            "improvement_eV": 0.13622869987721029,
+            "relative_MAE_reduction_percent": 62.79134718842302,
+            "fraction_improved": 0.706019734921469,
+            "improvement_CI95_eV": [
+              0.08912457954957811,
+              0.18907960356776815
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1692466816654311,
+              0.27072156959731264
+            ],
+            "ML_MAE_CI95_eV": [
+              0.07310206430280318,
+              0.08864456270934597
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 248,
+            "physical_pairs": 35,
+            "composition_groups": 25,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 248
+            },
+            "anderson_MAE_eV": 0.3092868737926592,
+            "ML_MAE_eV": 0.0465408812577808,
+            "improvement_eV": 0.2627459925348782,
+            "relative_MAE_reduction_percent": 84.95219642299426,
+            "fraction_improved": 0.9321428571428572,
+            "improvement_CI95_eV": [
+              0.1815185301390176,
+              0.3654211214028111
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.22758181563576257,
+              0.4122593633692783
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03691331580819154,
+              0.058434769102693816
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 252,
+            "physical_pairs": 33,
+            "composition_groups": 24,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 252
+            },
+            "anderson_MAE_eV": 0.2998383874090383,
+            "ML_MAE_eV": 0.03801118650130597,
+            "improvement_eV": 0.26182720090773226,
+            "relative_MAE_reduction_percent": 87.32277516906089,
+            "fraction_improved": 0.8686868686868687,
+            "improvement_CI95_eV": [
+              0.1734374361288301,
+              0.3668699771879651
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.21042264863731924,
+              0.40871104335942354
+            ],
+            "ML_MAE_CI95_eV": [
+              0.031489949270792066,
+              0.04638106144807076
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 48,
+            "physical_pairs": 48,
+            "composition_groups": 44,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 48
+            },
+            "anderson_MAE_eV": 0.0913290188528063,
+            "ML_MAE_eV": 0.11187892866431741,
+            "improvement_eV": -0.020549909811511086,
+            "relative_MAE_reduction_percent": -22.50096417287816,
+            "fraction_improved": 0.4375,
+            "improvement_CI95_eV": [
+              -0.06176591540599658,
+              0.017532852873786992
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.06831688961017329,
+              0.11355333323098958
+            ],
+            "ML_MAE_CI95_eV": [
+              0.08201347296216542,
+              0.14630071650085763
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 173,
+            "physical_pairs": 173,
+            "composition_groups": 156,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 173
+            },
+            "anderson_MAE_eV": 0.13407076083209732,
+            "ML_MAE_eV": 0.12344056198540883,
+            "improvement_eV": 0.010630198846688308,
+            "relative_MAE_reduction_percent": 7.928797286382951,
+            "fraction_improved": 0.5433526011560693,
+            "improvement_CI95_eV": [
+              -0.006221893373770757,
+              0.027255322755121866
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.11703844427371893,
+              0.14961777716269986
+            ],
+            "ML_MAE_CI95_eV": [
+              0.10974182502389997,
+              0.13777138142488804
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": 0.015130658515526738,
+          "CI95_eV": [
+            -0.026604271898335505,
+            0.05866263801150108
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": -0.0009187916271459207,
+          "CI95_eV": [
+            -0.079123465939371,
+            0.08040281255607014
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": 0.031180108658199396,
+          "CI95_eV": [
+            -0.009167706767409366,
+            0.07422173013492106
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "abs_delta__vbm_contact_eV",
+      "threshold_from_fit_core_median": 0.5164685557846287,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 353,
+            "physical_pairs": 99,
+            "composition_groups": 84,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 288,
+              "HetDB": 65
+            },
+            "anderson_MAE_eV": 0.19266439368824265,
+            "ML_MAE_eV": 0.0839684635309088,
+            "improvement_eV": 0.10869593015733384,
+            "relative_MAE_reduction_percent": 56.417238326464584,
+            "fraction_improved": 0.6712669683257919,
+            "improvement_CI95_eV": [
+              0.06839055915725448,
+              0.15932028759717803
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.15335306493361173,
+              0.24197949706646468
+            ],
+            "ML_MAE_CI95_eV": [
+              0.06968470167199242,
+              0.09922394037832562
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 368,
+            "physical_pairs": 186,
+            "composition_groups": 163,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 212,
+              "HetDB": 156
+            },
+            "anderson_MAE_eV": 0.22960120221690367,
+            "ML_MAE_eV": 0.07952218036802454,
+            "improvement_eV": 0.15007902184887897,
+            "relative_MAE_reduction_percent": 65.36508537403027,
+            "fraction_improved": 0.7302350427350428,
+            "improvement_CI95_eV": [
+              0.1010838327266383,
+              0.2066600642846088
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.17989383543797352,
+              0.2854368684999284
+            ],
+            "ML_MAE_CI95_eV": [
+              0.07181066325833042,
+              0.08691383239860964
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 288,
+            "physical_pairs": 34,
+            "composition_groups": 26,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 288
+            },
+            "anderson_MAE_eV": 0.2799025847226462,
+            "ML_MAE_eV": 0.04683152247283169,
+            "improvement_eV": 0.23307106224981444,
+            "relative_MAE_reduction_percent": 83.26863522205885,
+            "fraction_improved": 0.911764705882353,
+            "improvement_CI95_eV": [
+              0.15950425647498545,
+              0.33214822432480273
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.20588762984816902,
+              0.37816178388369687
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03746493212696523,
+              0.058264945296455206
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 212,
+            "physical_pairs": 30,
+            "composition_groups": 21,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 212
+            },
+            "anderson_MAE_eV": 0.326347716251833,
+            "ML_MAE_eV": 0.03818824213938959,
+            "improvement_eV": 0.2881594741124433,
+            "relative_MAE_reduction_percent": 88.29829649859693,
+            "fraction_improved": 0.9027777777777778,
+            "improvement_CI95_eV": [
+              0.19309948250981818,
+              0.39894277580637755
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.23219686677301024,
+              0.43870406930866046
+            ],
+            "ML_MAE_CI95_eV": [
+              0.030899179843188802,
+              0.046501267590306074
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 65,
+            "physical_pairs": 65,
+            "composition_groups": 58,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 65
+            },
+            "anderson_MAE_eV": 0.1054262026538391,
+            "ML_MAE_eV": 0.1211054045889859,
+            "improvement_eV": -0.015679201935146773,
+            "relative_MAE_reduction_percent": -14.872205903714976,
+            "fraction_improved": 0.4307692307692308,
+            "improvement_CI95_eV": [
+              -0.051218112048805935,
+              0.01622868067454552
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.08400916878986123,
+              0.1266980237090094
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09435516307706346,
+              0.1495892925369078
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 156,
+            "physical_pairs": 156,
+            "composition_groups": 142,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 156
+            },
+            "anderson_MAE_eV": 0.1328546881819743,
+            "ML_MAE_eV": 0.1208561185966595,
+            "improvement_eV": 0.011998569585314653,
+            "relative_MAE_reduction_percent": 9.031348271940484,
+            "fraction_improved": 0.5576923076923077,
+            "improvement_CI95_eV": [
+              -0.004692188265021781,
+              0.028838515485173348
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.11542327195436475,
+              0.14945621450993002
+            ],
+            "ML_MAE_CI95_eV": [
+              0.10619455843810266,
+              0.13488071752213582
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": 0.04138309169154514,
+          "CI95_eV": [
+            -0.0009682311342957793,
+            0.09125311514660274
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": 0.05508841186262886,
+          "CI95_eV": [
+            -0.023099463455161652,
+            0.14824844867286363
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": 0.027677771520461428,
+          "CI95_eV": [
+            -0.008177158862342607,
+            0.06846890627814817
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "abs_delta__cbm_contact_eV",
+      "threshold_from_fit_core_median": 0.4164963502417409,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 315,
+            "physical_pairs": 112,
+            "composition_groups": 96,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236,
+              "HetDB": 79
+            },
+            "anderson_MAE_eV": 0.23594575966869566,
+            "ML_MAE_eV": 0.07971697161631464,
+            "improvement_eV": 0.15622878805238102,
+            "relative_MAE_reduction_percent": 66.2138570626361,
+            "fraction_improved": 0.7077259941183991,
+            "improvement_CI95_eV": [
+              0.10038226432191834,
+              0.21708908264408075
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1794090430891231,
+              0.29440150824256256
+            ],
+            "ML_MAE_CI95_eV": [
+              0.06833814180327787,
+              0.09075204045287352
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 406,
+            "physical_pairs": 180,
+            "composition_groups": 157,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264,
+              "HetDB": 142
+            },
+            "anderson_MAE_eV": 0.20931972813796365,
+            "ML_MAE_eV": 0.08211833927283539,
+            "improvement_eV": 0.1272013888651282,
+            "relative_MAE_reduction_percent": 60.76894423505516,
+            "fraction_improved": 0.7167037311588831,
+            "improvement_CI95_eV": [
+              0.087169732846762,
+              0.17507016026183214
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.16960950035881603,
+              0.2589743658909216
+            ],
+            "ML_MAE_CI95_eV": [
+              0.0742570045020187,
+              0.09007243581397872
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 236,
+            "physical_pairs": 33,
+            "composition_groups": 25,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236
+            },
+            "anderson_MAE_eV": 0.3658959557891653,
+            "ML_MAE_eV": 0.049671136656680964,
+            "improvement_eV": 0.3162248191324843,
+            "relative_MAE_reduction_percent": 86.42479211076542,
+            "fraction_improved": 0.8964646464646464,
+            "improvement_CI95_eV": [
+              0.2042054941720635,
+              0.4333517649214162
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.25594656693890394,
+              0.48237797400658144
+            ],
+            "ML_MAE_CI95_eV": [
+              0.04208260339944356,
+              0.058845623412241525
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 264,
+            "physical_pairs": 38,
+            "composition_groups": 26,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264
+            },
+            "anderson_MAE_eV": 0.28339730832819726,
+            "ML_MAE_eV": 0.037094818828325354,
+            "improvement_eV": 0.24630248949987185,
+            "relative_MAE_reduction_percent": 86.91066649603934,
+            "fraction_improved": 0.9122807017543859,
+            "improvement_CI95_eV": [
+              0.16972195516884905,
+              0.3416869444930446
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.20594201266370368,
+              0.38042471365173447
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03128886648946726,
+              0.04392409679015421
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 79,
+            "physical_pairs": 79,
+            "composition_groups": 71,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 79
+            },
+            "anderson_MAE_eV": 0.10599556354822605,
+            "ML_MAE_eV": 0.10976280657594832,
+            "improvement_eV": -0.003767243027722257,
+            "relative_MAE_reduction_percent": -3.554151609381491,
+            "fraction_improved": 0.5189873417721519,
+            "improvement_CI95_eV": [
+              -0.032706185957968675,
+              0.02135975065155646
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.08762971191917951,
+              0.12515043663706898
+            ],
+            "ML_MAE_CI95_eV": [
+              0.0902889635082225,
+              0.13234095253511746
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 142,
+            "physical_pairs": 142,
+            "composition_groups": 131,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 142
+            },
+            "anderson_MAE_eV": 0.13524214794773004,
+            "ML_MAE_eV": 0.12714185971734543,
+            "improvement_eV": 0.008100288230384538,
+            "relative_MAE_reduction_percent": 5.989470260051793,
+            "fraction_improved": 0.5211267605633803,
+            "improvement_CI95_eV": [
+              -0.011538160735612611,
+              0.027233405668114663
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.11651676668363047,
+              0.15295620807985183
+            ],
+            "ML_MAE_CI95_eV": [
+              0.11245372563799196,
+              0.14137683943582202
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": -0.029027399187252834,
+          "CI95_eV": [
+            -0.07324480406795635,
+            0.015102526913978374
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": -0.06992232963261244,
+          "CI95_eV": [
+            -0.15506557222553222,
+            0.012148740595432765
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": 0.011867531258106795,
+          "CI95_eV": [
+            -0.01907763622965069,
+            0.04583929614425874
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "abs_delta__vacuum_step_stack_eV",
+      "threshold_from_fit_core_median": 0.5204309946127177,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 400,
+            "physical_pairs": 190,
+            "composition_groups": 162,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236,
+              "HetDB": 164
+            },
+            "anderson_MAE_eV": 0.19837648551861253,
+            "ML_MAE_eV": 0.06699517193363455,
+            "improvement_eV": 0.13138131358497793,
+            "relative_MAE_reduction_percent": 66.22826956607777,
+            "fraction_improved": 0.74812382739212,
+            "improvement_CI95_eV": [
+              0.08716416238659916,
+              0.18291830915522608
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1536668735190053,
+              0.2476656574067687
+            ],
+            "ML_MAE_CI95_eV": [
+              0.05976822257629393,
+              0.07455606178229762
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 321,
+            "physical_pairs": 84,
+            "composition_groups": 78,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264,
+              "HetDB": 57
+            },
+            "anderson_MAE_eV": 0.2179479332774228,
+            "ML_MAE_eV": 0.10418071405800568,
+            "improvement_eV": 0.11376721921941711,
+            "relative_MAE_reduction_percent": 52.199264984359566,
+            "fraction_improved": 0.6379142300194932,
+            "improvement_CI95_eV": [
+              0.06584132889076158,
+              0.16932685812111412
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1706038272818137,
+              0.2748591868240099
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09208865044464215,
+              0.11673090704321405
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 236,
+            "physical_pairs": 26,
+            "composition_groups": 20,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236
+            },
+            "anderson_MAE_eV": 0.2732516636831719,
+            "ML_MAE_eV": 0.027019215371910592,
+            "improvement_eV": 0.24623244831126126,
+            "relative_MAE_reduction_percent": 90.1119667460694,
+            "fraction_improved": 0.9230769230769231,
+            "improvement_CI95_eV": [
+              0.15954643449838576,
+              0.3432799142435893
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.18780572580972435,
+              0.37444434211735855
+            ],
+            "ML_MAE_CI95_eV": [
+              0.0223205342491957,
+              0.03179751779391568
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 264,
+            "physical_pairs": 27,
+            "composition_groups": 21,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264
+            },
+            "anderson_MAE_eV": 0.3074077942246209,
+            "ML_MAE_eV": 0.04727123993839424,
+            "improvement_eV": 0.2601365542862266,
+            "relative_MAE_reduction_percent": 84.62262804441013,
+            "fraction_improved": 0.9074074074074074,
+            "improvement_CI95_eV": [
+              0.16971696385356708,
+              0.3699102164152435
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.2188621522186984,
+              0.42021853457207614
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03917849239008518,
+              0.057411564111603794
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 164,
+            "physical_pairs": 164,
+            "composition_groups": 142,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 164
+            },
+            "anderson_MAE_eV": 0.12350130735405318,
+            "ML_MAE_eV": 0.10697112849535852,
+            "improvement_eV": 0.016530178858694584,
+            "relative_MAE_reduction_percent": 13.384618521734282,
+            "fraction_improved": 0.573170731707317,
+            "improvement_CI95_eV": [
+              -0.0010554987521353384,
+              0.0344139830179829
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.10722595757646489,
+              0.1392639724469826
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09301339804908618,
+              0.1216709868531546
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 57,
+            "physical_pairs": 57,
+            "composition_groups": 57,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 57
+            },
+            "anderson_MAE_eV": 0.1284880723302247,
+            "ML_MAE_eV": 0.1610901881776171,
+            "improvement_eV": -0.0326021158473924,
+            "relative_MAE_reduction_percent": -25.373651620830874,
+            "fraction_improved": 0.3684210526315789,
+            "improvement_CI95_eV": [
+              -0.0622117028461519,
+              -0.0038332445597745097
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1016838917607907,
+              0.15772687616901362
+            ],
+            "ML_MAE_CI95_eV": [
+              0.13734032553637424,
+              0.18599261354120797
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": -0.017614094365560815,
+          "CI95_eV": [
+            -0.06471177475210797,
+            0.032560534881043574
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": 0.013904105974965358,
+          "CI95_eV": [
+            -0.07317696995357394,
+            0.1129495705375768
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": -0.04913229470608699,
+          "CI95_eV": [
+            -0.0828629432566178,
+            -0.015281442357163565
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "abs_delta__dipole_density_stack_e_per_A",
+      "threshold_from_fit_core_median": 0.002875999921187381,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 400,
+            "physical_pairs": 190,
+            "composition_groups": 162,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236,
+              "HetDB": 164
+            },
+            "anderson_MAE_eV": 0.19837648551861253,
+            "ML_MAE_eV": 0.06699517193363455,
+            "improvement_eV": 0.13138131358497793,
+            "relative_MAE_reduction_percent": 66.22826956607777,
+            "fraction_improved": 0.74812382739212,
+            "improvement_CI95_eV": [
+              0.08716416238659916,
+              0.18291830915522608
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1536668735190053,
+              0.2476656574067687
+            ],
+            "ML_MAE_CI95_eV": [
+              0.05976822257629393,
+              0.07455606178229762
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 321,
+            "physical_pairs": 84,
+            "composition_groups": 78,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264,
+              "HetDB": 57
+            },
+            "anderson_MAE_eV": 0.2179479332774228,
+            "ML_MAE_eV": 0.10418071405800568,
+            "improvement_eV": 0.11376721921941711,
+            "relative_MAE_reduction_percent": 52.199264984359566,
+            "fraction_improved": 0.6379142300194932,
+            "improvement_CI95_eV": [
+              0.06584132889076158,
+              0.16932685812111412
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1706038272818137,
+              0.2748591868240099
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09208865044464215,
+              0.11673090704321405
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 236,
+            "physical_pairs": 26,
+            "composition_groups": 20,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 236
+            },
+            "anderson_MAE_eV": 0.2732516636831719,
+            "ML_MAE_eV": 0.027019215371910592,
+            "improvement_eV": 0.24623244831126126,
+            "relative_MAE_reduction_percent": 90.1119667460694,
+            "fraction_improved": 0.9230769230769231,
+            "improvement_CI95_eV": [
+              0.15954643449838576,
+              0.3432799142435893
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.18780572580972435,
+              0.37444434211735855
+            ],
+            "ML_MAE_CI95_eV": [
+              0.0223205342491957,
+              0.03179751779391568
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 264,
+            "physical_pairs": 27,
+            "composition_groups": 21,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 264
+            },
+            "anderson_MAE_eV": 0.3074077942246209,
+            "ML_MAE_eV": 0.04727123993839424,
+            "improvement_eV": 0.2601365542862266,
+            "relative_MAE_reduction_percent": 84.62262804441013,
+            "fraction_improved": 0.9074074074074074,
+            "improvement_CI95_eV": [
+              0.16971696385356708,
+              0.3699102164152435
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.2188621522186984,
+              0.42021853457207614
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03917849239008518,
+              0.057411564111603794
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 164,
+            "physical_pairs": 164,
+            "composition_groups": 142,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 164
+            },
+            "anderson_MAE_eV": 0.12350130735405318,
+            "ML_MAE_eV": 0.10697112849535852,
+            "improvement_eV": 0.016530178858694584,
+            "relative_MAE_reduction_percent": 13.384618521734282,
+            "fraction_improved": 0.573170731707317,
+            "improvement_CI95_eV": [
+              -0.0010554987521353384,
+              0.0344139830179829
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.10722595757646489,
+              0.1392639724469826
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09301339804908618,
+              0.1216709868531546
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 57,
+            "physical_pairs": 57,
+            "composition_groups": 57,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 57
+            },
+            "anderson_MAE_eV": 0.1284880723302247,
+            "ML_MAE_eV": 0.1610901881776171,
+            "improvement_eV": -0.0326021158473924,
+            "relative_MAE_reduction_percent": -25.373651620830874,
+            "fraction_improved": 0.3684210526315789,
+            "improvement_CI95_eV": [
+              -0.0622117028461519,
+              -0.0038332445597745097
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1016838917607907,
+              0.15772687616901362
+            ],
+            "ML_MAE_CI95_eV": [
+              0.13734032553637424,
+              0.18599261354120797
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": -0.017614094365560815,
+          "CI95_eV": [
+            -0.06471177475210797,
+            0.032560534881043574
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": 0.013904105974965358,
+          "CI95_eV": [
+            -0.07317696995357394,
+            0.1129495705375768
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": -0.04913229470608699,
+          "CI95_eV": [
+            -0.0828629432566178,
+            -0.015281442357163565
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    },
+    {
+      "feature": "mean__gap_eV",
+      "threshold_from_fit_core_median": 1.5295816228494135,
+      "fit_finite_n": 11561,
+      "strata": {
+        "source_macro": {
+          "lower_or_equal": {
+            "rows": 280,
+            "physical_pairs": 102,
+            "composition_groups": 95,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 192,
+              "HetDB": 88
+            },
+            "anderson_MAE_eV": 0.20505330038814829,
+            "ML_MAE_eV": 0.08360563402312005,
+            "improvement_eV": 0.12144766636502817,
+            "relative_MAE_reduction_percent": 59.22736485349817,
+            "fraction_improved": 0.6714691558441558,
+            "improvement_CI95_eV": [
+              0.07151759259445947,
+              0.179898811261252
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1565588051247008,
+              0.26350636987029125
+            ],
+            "ML_MAE_CI95_eV": [
+              0.07215448537551461,
+              0.09503546312653076
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 441,
+            "physical_pairs": 159,
+            "composition_groups": 138,
+            "sources": [
+              "HetDB",
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 308,
+              "HetDB": 133
+            },
+            "anderson_MAE_eV": 0.21356511181112284,
+            "ML_MAE_eV": 0.07772111893148793,
+            "improvement_eV": 0.13584399287963492,
+            "relative_MAE_reduction_percent": 63.607764268058666,
+            "fraction_improved": 0.7458971949103528,
+            "improvement_CI95_eV": [
+              0.08565579952779231,
+              0.19332545724784309
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.1627833794397568,
+              0.27112331192431893
+            ],
+            "ML_MAE_CI95_eV": [
+              0.06868418515315133,
+              0.08624886597877703
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "Janus": {
+          "lower_or_equal": {
+            "rows": 192,
+            "physical_pairs": 14,
+            "composition_groups": 13,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 192
+            },
+            "anderson_MAE_eV": 0.2735479421649329,
+            "ML_MAE_eV": 0.03467302237912305,
+            "improvement_eV": 0.23887491978580977,
+            "relative_MAE_reduction_percent": 87.32469997591231,
+            "fraction_improved": 0.8883928571428571,
+            "improvement_CI95_eV": [
+              0.1414796162696911,
+              0.3527395876493634
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.17804223422405208,
+              0.3819953801293081
+            ],
+            "ML_MAE_CI95_eV": [
+              0.022168552223326025,
+              0.048551461209094364
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 308,
+            "physical_pairs": 26,
+            "composition_groups": 20,
+            "sources": [
+              "Janus"
+            ],
+            "source_rows": {
+              "Janus": 308
+            },
+            "anderson_MAE_eV": 0.31013118173436965,
+            "ML_MAE_eV": 0.042193815452023484,
+            "improvement_eV": 0.26793736628234616,
+            "relative_MAE_reduction_percent": 86.39484903902282,
+            "fraction_improved": 0.9278846153846154,
+            "improvement_CI95_eV": [
+              0.16815211837596805,
+              0.3774607254441114
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.20799355356359947,
+              0.42137319395189704
+            ],
+            "ML_MAE_CI95_eV": [
+              0.03485626063431236,
+              0.05075504201082603
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        },
+        "HetDB": {
+          "lower_or_equal": {
+            "rows": 88,
+            "physical_pairs": 88,
+            "composition_groups": 82,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 88
+            },
+            "anderson_MAE_eV": 0.13655865861136365,
+            "ML_MAE_eV": 0.13253824566711706,
+            "improvement_eV": 0.004020412944246572,
+            "relative_MAE_reduction_percent": 2.9440922934724956,
+            "fraction_improved": 0.45454545454545453,
+            "improvement_CI95_eV": [
+              -0.020515936325050627,
+              0.031082268021774172
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.11381438594498529,
+              0.16285103496173395
+            ],
+            "ML_MAE_CI95_eV": [
+              0.11332835246035118,
+              0.1516500404587172
+            ],
+            "defined_bootstrap_replicates": 1000
+          },
+          "higher": {
+            "rows": 133,
+            "physical_pairs": 133,
+            "composition_groups": 118,
+            "sources": [
+              "HetDB"
+            ],
+            "source_rows": {
+              "HetDB": 133
+            },
+            "anderson_MAE_eV": 0.11699904188787602,
+            "ML_MAE_eV": 0.11324842241095238,
+            "improvement_eV": 0.00375061947692367,
+            "relative_MAE_reduction_percent": 3.2056839239059842,
+            "fraction_improved": 0.5639097744360902,
+            "improvement_CI95_eV": [
+              -0.015554679487284152,
+              0.02189269692634421
+            ],
+            "anderson_MAE_CI95_eV": [
+              0.10090851491365707,
+              0.13233281461404245
+            ],
+            "ML_MAE_CI95_eV": [
+              0.09735875349337779,
+              0.12775513639430627
+            ],
+            "defined_bootstrap_replicates": 1000
+          }
+        }
+      },
+      "higher_minus_lower_improvement": {
+        "source_macro": {
+          "difference_eV": 0.014396326514606747,
+          "CI95_eV": [
+            -0.05800250684830606,
+            0.08251095353592514
+          ],
+          "defined_replicates": 1000
+        },
+        "Janus": {
+          "difference_eV": 0.029062446496536387,
+          "CI95_eV": [
+            -0.10933510002805936,
+            0.161663168882946
+          ],
+          "defined_replicates": 1000
+        },
+        "HetDB": {
+          "difference_eV": -0.00026979346732290167,
+          "CI95_eV": [
+            -0.0326937552703943,
+            0.028503174115665497
+          ],
+          "defined_replicates": 1000
+        }
+      }
+    }
+  ]
+}

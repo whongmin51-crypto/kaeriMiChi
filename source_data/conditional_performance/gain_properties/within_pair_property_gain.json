@@ -1,0 +1,80 @@
+{
+  "scheme": "Same seven fit-only median splits; within each Janus pair with both strata, compare high-minus-low mean per-record improvement, then give pairs equal weight; synchronized global composition-group bootstrap",
+  "replicates": 1000,
+  "seed": 20261025,
+  "descriptive_unadjusted": true,
+  "results": [
+    {
+      "feature": "abs_delta__gap_eV",
+      "threshold": 0.4409701350016535,
+      "pairs": 0,
+      "reason": "property does not cross median within observed material pairs"
+    },
+    {
+      "feature": "abs_delta__midgap_contact_eV",
+      "threshold": 0.3964744833957088,
+      "pairs": 28,
+      "groups": 22,
+      "records": 376,
+      "within_pair_higher_minus_lower_improvement_eV": -0.04251998652806404,
+      "CI95_eV": [
+        -0.11637393337961717,
+        0.03372573730063633
+      ]
+    },
+    {
+      "feature": "abs_delta__vbm_contact_eV",
+      "threshold": 0.5164685557846287,
+      "pairs": 24,
+      "groups": 20,
+      "records": 312,
+      "within_pair_higher_minus_lower_improvement_eV": -0.007927016631873007,
+      "CI95_eV": [
+        -0.09548808566610363,
+        0.0868038144193584
+      ]
+    },
+    {
+      "feature": "abs_delta__cbm_contact_eV",
+      "threshold": 0.4164963502417409,
+      "pairs": 31,
+      "groups": 24,
+      "records": 400,
+      "within_pair_higher_minus_lower_improvement_eV": -0.041536546402701754,
+      "CI95_eV": [
+        -0.12589463278561833,
+        0.037300476839963966
+      ]
+    },
+    {
+      "feature": "abs_delta__vacuum_step_stack_eV",
+      "threshold": 0.5204309946127177,
+      "pairs": 13,
+      "groups": 11,
+      "records": 208,
+      "within_pair_higher_minus_lower_improvement_eV": 0.002933757545025108,
+      "CI95_eV": [
+        -0.0668179281184729,
+        0.058081972583156
+      ]
+    },
+    {
+      "feature": "abs_delta__dipole_density_stack_e_per_A",
+      "threshold": 0.002875999921187381,
+      "pairs": 13,
+      "groups": 11,
+      "records": 208,
+      "within_pair_higher_minus_lower_improvement_eV": 0.002933757545025108,
+      "CI95_eV": [
+        -0.0668179281184729,
+        0.058081972583156
+      ]
+    },
+    {
+      "feature": "mean__gap_eV",
+      "threshold": 1.5295816228494135,
+      "pairs": 0,
+      "reason": "property does not cross median within observed material pairs"
+    }
+  ]
+}

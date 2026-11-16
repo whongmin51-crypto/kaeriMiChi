@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-03T08:56:54.216628+00:00",
+  "candidate": "CGCNN_direct_gap_regression",
+  "seed": 20261015,
+  "actual_new_fit": true,
+  "warm_start_from_original_weights": false,
+  "same_hyperparameters": true,
+  "same_seed": true,
+  "same_fixed_iterations": true,
+  "fit_rows": 11561,
+  "fit_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "source_counts": {
+    "Janus": 11530,
+    "HetDB": 31
+  },
+  "checkpoint": "best.pt",
+  "checkpoint_sha256": "c81b17fd95fdf84e05c8b9b87eb407d7e2d208da0a81a37299884695343b8d62",
+  "predictions_sha256": "1bb8428ce43250d9226f95c390211a4f228b3bc399afaf90c0a85f1435c62630",
+  "fit_seconds": 260.1547350999999,
+  "runtime_seconds": 260.3189880889995,
+  "prediction_rows": 2057,
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "original_checkpoint_preserved": true,
+  "test_and_calibration_labels_used_for_fit": false
+}

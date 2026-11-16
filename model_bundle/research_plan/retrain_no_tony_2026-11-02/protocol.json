@@ -1,0 +1,113 @@
+{
+  "status": "REGISTERED_BEFORE_TRAINING",
+  "created_utc": "2026-11-02T15:31:23.774615+00:00",
+  "user_instruction": "Drop Tony; keep current hyperparameters, retrain from scratch, recalibrate and evaluate, then remove old results and duplicated descriptions from current paper.",
+  "sources": [
+    "Janus",
+    "HetDB"
+  ],
+  "excluded_source": "Tony",
+  "roles": {
+    "fit_core": {
+      "n": 11561,
+      "ids_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+      "composition_groups": 600
+    },
+    "cal_probability": {
+      "n": 477,
+      "ids_sha256": "bfbfd461a1b6e9813936d481b02a2e4c9a07e779eb5de09d79b31a909e682df8",
+      "composition_groups": 27
+    },
+    "cal_decision": {
+      "n": 437,
+      "ids_sha256": "86e83e2089038bca8e1f9035beb8dfa90e862011596c492f04beaa6930911ef1",
+      "composition_groups": 20
+    },
+    "cal_interval": {
+      "n": 341,
+      "ids_sha256": "9dafbb17e8fc0d694d63542c3d33da5978d23da4c81566a034baab1dcd89decd",
+      "composition_groups": 20
+    },
+    "sealed_final_test": {
+      "n": 742,
+      "ids_sha256": "f56362c461a3fa666fd9dfc33e72ab1f0f03283ccae60b294c8ae101091b057c",
+      "composition_groups": 247
+    },
+    "external_validation_diagnostic": {
+      "n": 60,
+      "ids_sha256": "14a198bf0c3ff2b7fc2b2189e5dc606b6cdcb6d6690e8da47993b6339a01f849",
+      "composition_groups": 54
+    }
+  },
+  "source_counts": {
+    "fit_core": {
+      "Janus": 11530,
+      "HetDB": 31
+    },
+    "cal_probability": {
+      "Janus": 476,
+      "HetDB": 1
+    },
+    "cal_decision": {
+      "Janus": 436,
+      "HetDB": 1
+    },
+    "cal_interval": {
+      "Janus": 340,
+      "HetDB": 1
+    },
+    "sealed_final_test": {
+      "Janus": 500,
+      "HetDB": 242
+    },
+    "external_validation_diagnostic": {
+      "HetDB": 60
+    }
+  },
+  "model_count": 70,
+  "graph_models": 40,
+  "tree_models": 30,
+  "random_seeds": [
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019
+  ],
+  "hyperparameter_policy": "Exact original final params, fixed selected epochs/iterations, seeds and multitask loss weights; no new search, early-stop selection or head selection.",
+  "data_policy": "Remove Tony from every role; remaining per-ID roles unchanged; no resampling or role transfer. Refit preprocessing and fit-dependent loss scales on remaining fit_core only.",
+  "calibration_policy": "Same global monotone Platt, 1e-4 penalty, source/pair weighting, 5% empirical decision target/minimum 10 composition groups, group-max 90% interval procedure; re-estimate on disjoint filtered calibration identities.",
+  "selected_heads": {
+    "classifier": {
+      "candidate": "GANN_multi_task",
+      "head_field": "p_fail"
+    },
+    "residual_regression": {
+      "candidate": "GANN_residual_regression",
+      "head_field": "raw_head"
+    },
+    "direct_gap_regression": {
+      "candidate": "CGCNN_multi_task",
+      "head_field": "predicted_direct_raw_eV"
+    }
+  },
+  "service": "full_domain_residual",
+  "evaluation_policy": "All new predictions and calibration frozen before opening heldout targets. Same existing Janus/HetDB heldouts are repeated evaluation, not a newly unseen prospective test. No Tony evaluation or new model selection.",
+  "manuscript_policy": "Only after new training/calibration/evaluation acceptance: replace active paper old ML results and duplicate descriptions. Preserve original scientific records and raw data.",
+  "input_feature_count": 770,
+  "model_feature_count": 1540,
+  "input_profile": "available_initial_stacking",
+  "fit_core_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "jobs_sha256": "8128630935be7871f773ffa59be22ec3855f966c7113c0fa191c65f9d50fef9a",
+  "upstream_hashes_sha256": "f5a36c87b3a442d4b65517202bca7c53275adc44ff1bf99ff67ad366dd885296",
+  "inputs_sha256": {
+    "inputs/core_metadata.json": "9d502274cd592b8a23bc4eb63b1a7c6cb0f794529d315577cfccbe6af26501da",
+    "inputs/fit_core_preprocessor.json": "1c1b2c88b22574b9c1a77759e1646d1eb7596a6f1c449c14dca36090d16d95be",
+    "inputs/graph_manifest.json": "631ecebc569aec95f1d465c635506f4488135c3a6ee817c2a11d1d1c4db1718f",
+    "inputs/graph_pairs.json": "b06f2545726e92f9e19532abf15cf721b8895cfa0276111024bb8581ea8a26ad",
+    "inputs/partitions.jsonl": "43bf0261db782790d8fe5bc2ff15d17c9063e835ec0c6f1e77a9dc4e2caeccd8",
+    "inputs/raw_features.npz": "b4d808d65f2609ed8de77b792e259e7c1726bc72bb70264db470745d5a208944",
+    "inputs/role_ids.json": "95f093ac0eb38c495749df43fde40f8f543ca2403cf8e0b2be6e6f666f83c8ea"
+  },
+  "historical_configuration_origin": "The retained hyperparameters were originally selected in the three-source study; this is not a claim of development independent of Tony."
+}

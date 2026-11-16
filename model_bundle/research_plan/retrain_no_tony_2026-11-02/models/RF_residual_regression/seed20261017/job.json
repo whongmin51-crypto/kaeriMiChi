@@ -1,0 +1,21 @@
+{
+  "candidate": "RF_residual_regression",
+  "family": "RF",
+  "task": "residual_regression",
+  "seed": 20261017,
+  "backend": "trees",
+  "params": {
+    "n_estimators": 500,
+    "max_depth": 20,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "criterion": "squared_error"
+  },
+  "iterations": 500,
+  "original_checkpoint": "step09_2026-10-15/jobs/final/RF/residual_regression/trial04/seed20261017/model.joblib",
+  "original_sha256": "643b211a945f62abc11a17ec7ed9f06d9b9b2e6b75aff3aa9f2f5c8019ef94c9",
+  "original_spec": "step09_2026-10-15/jobs/final/RF/residual_regression/trial04/seed20261017/job.json",
+  "original_spec_sha256": "71284ed3fc8713b6d242762ad600280354f6fedc50c92b98067a0bd909429917"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_BEFORE_CALIBRATION",
+  "created_utc": "2026-11-02T15:31:23.774615+00:00",
+  "heads": {
+    "classifier": {
+      "candidate": "GANN_multi_task",
+      "head_field": "p_fail"
+    },
+    "residual_regression": {
+      "candidate": "GANN_residual_regression",
+      "head_field": "raw_head"
+    },
+    "direct_gap_regression": {
+      "candidate": "CGCNN_multi_task",
+      "head_field": "predicted_direct_raw_eV"
+    }
+  },
+  "service": "full_domain_residual",
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "selection": "Inherited before this run; no re-selection"
+}

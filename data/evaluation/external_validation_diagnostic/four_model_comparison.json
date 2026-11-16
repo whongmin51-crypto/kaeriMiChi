@@ -1,0 +1,1128 @@
+{
+  "scope": "raw ensemble predictions on all admitted rows; domain-screened service reported separately",
+  "model_selection_performed": false,
+  "candidates": [
+    {
+      "candidate": "CGCNN_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.5233782133438257,
+          "log_loss": 3.2659438054518968,
+          "auroc": 0.5077864293659621,
+          "brier": 0.3775415362961778,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.6129032258064516,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.5507246376811594,
+          "balanced_accuracy_at_0_5": 0.4788654060066741
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5233782133438257,
+            "log_loss": 3.2659438054518968,
+            "auroc": 0.5077864293659621,
+            "brier": 0.3775415362961778,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.4833333333333333,
+            "precision_at_0_5": 0.5,
+            "failure_recall_at_0_5": 0.6129032258064516,
+            "specificity_at_0_5": 0.3448275862068966,
+            "f1_at_0_5": 0.5507246376811594,
+            "balanced_accuracy_at_0_5": 0.4788654060066741,
+            "confusion_weight_at_0_5": {
+              "tn": 0.16666666666666666,
+              "fp": 0.31666666666666665,
+              "fn": 0.19999999999999998,
+              "tp": 0.31666666666666665
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.5233782133438257,
+          "log_loss": 3.2659438054518968,
+          "auroc": 0.5077864293659621,
+          "brier": 0.3775415362961778,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.6129032258064516,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.5507246376811594,
+          "balanced_accuracy_at_0_5": 0.4788654060066741,
+          "confusion_weight_at_0_5": {
+            "tn": 0.16666666666666666,
+            "fp": 0.31666666666666665,
+            "fn": 0.19999999999999998,
+            "tp": 0.31666666666666665
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.5233782133438257,
+          "log_loss": 3.2659438054518968,
+          "auroc": 0.5077864293659621,
+          "brier": 0.3775415362961778,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.6129032258064516,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.5507246376811594,
+          "balanced_accuracy_at_0_5": 0.4788654060066741,
+          "confusion_weight_at_0_5": {
+            "tn": 0.16666666666666666,
+            "fp": 0.31666666666666665,
+            "fn": 0.19999999999999998,
+            "tp": 0.31666666666666665
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.27528023953239117,
+          "rmse_eV": 0.3673690868411653,
+          "r2": 0.5095499116459175,
+          "bias_eV": -0.06821170115669568
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.27528023953239117,
+            "rmse_eV": 0.3673690868411653,
+            "r2": 0.5095499116459175,
+            "bias_eV": -0.06821170115669568,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.27528023953239117,
+          "rmse_eV": 0.3673690868411653,
+          "r2": 0.5095499116459175,
+          "bias_eV": -0.06821170115669568
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.27528023953239117,
+          "rmse_eV": 0.3673690868411653,
+          "r2": 0.5095499116459175,
+          "bias_eV": -0.06821170115669568
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.5409466016997464,
+          "log_loss": 1.4305178233603248,
+          "auroc": 0.5127919911012234,
+          "brier": 0.3229654325511873,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.3870967741935484,
+          "specificity_at_0_5": 0.5862068965517242,
+          "f1_at_0_5": 0.43636363636363634,
+          "balanced_accuracy_at_0_5": 0.4866518353726363
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5409466016997464,
+            "log_loss": 1.4305178233603248,
+            "auroc": 0.5127919911012234,
+            "brier": 0.3229654325511873,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.4833333333333333,
+            "precision_at_0_5": 0.5,
+            "failure_recall_at_0_5": 0.3870967741935484,
+            "specificity_at_0_5": 0.5862068965517242,
+            "f1_at_0_5": 0.43636363636363634,
+            "balanced_accuracy_at_0_5": 0.4866518353726363,
+            "confusion_weight_at_0_5": {
+              "tn": 0.2833333333333333,
+              "fp": 0.19999999999999998,
+              "fn": 0.31666666666666665,
+              "tp": 0.19999999999999998
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.5409466016997464,
+          "log_loss": 1.4305178233603248,
+          "auroc": 0.5127919911012234,
+          "brier": 0.3229654325511873,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.3870967741935484,
+          "specificity_at_0_5": 0.5862068965517242,
+          "f1_at_0_5": 0.43636363636363634,
+          "balanced_accuracy_at_0_5": 0.4866518353726363,
+          "confusion_weight_at_0_5": {
+            "tn": 0.2833333333333333,
+            "fp": 0.19999999999999998,
+            "fn": 0.31666666666666665,
+            "tp": 0.19999999999999998
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.5409466016997464,
+          "log_loss": 1.4305178233603248,
+          "auroc": 0.5127919911012234,
+          "brier": 0.3229654325511873,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.3870967741935484,
+          "specificity_at_0_5": 0.5862068965517242,
+          "f1_at_0_5": 0.43636363636363634,
+          "balanced_accuracy_at_0_5": 0.4866518353726363,
+          "confusion_weight_at_0_5": {
+            "tn": 0.2833333333333333,
+            "fp": 0.19999999999999998,
+            "fn": 0.31666666666666665,
+            "tp": 0.19999999999999998
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      },
+      "residual": {
+        "source_macro": {
+          "mae_eV": 0.1208632345240031,
+          "rmse_eV": 0.19163762816454097,
+          "r2": 0.8665399836223435,
+          "bias_eV": -0.05775594335778815
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.1208632345240031,
+            "rmse_eV": 0.19163762816454097,
+            "r2": 0.8665399836223435,
+            "bias_eV": -0.05775594335778815,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1208632345240031,
+          "rmse_eV": 0.19163762816454097,
+          "r2": 0.8665399836223435,
+          "bias_eV": -0.05775594335778815
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.1208632345240031,
+          "rmse_eV": 0.19163762816454097,
+          "r2": 0.8665399836223435,
+          "bias_eV": -0.05775594335778815
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      },
+      "direct": {
+        "source_macro": {
+          "mae_eV": 0.7920850303639968,
+          "rmse_eV": 4.002266242076583,
+          "r2": -57.21052968156116,
+          "bias_eV": 0.43468440836469335
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.7920850303639968,
+            "rmse_eV": 4.002266242076583,
+            "r2": -57.21052968156116,
+            "bias_eV": 0.43468440836469335,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.7920850303639968,
+          "rmse_eV": 4.002266242076583,
+          "r2": -57.21052968156116,
+          "bias_eV": 0.43468440836469335
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.7920850303639968,
+          "rmse_eV": 4.002266242076583,
+          "r2": -57.21052968156116,
+          "bias_eV": 0.43468440836469335
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1420936847841115,
+          "rmse_eV": 0.21002615894492496,
+          "r2": 0.8396989454696066,
+          "bias_eV": -0.11217255204288153
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.1420936847841115,
+            "rmse_eV": 0.21002615894492496,
+            "r2": 0.8396989454696066,
+            "bias_eV": -0.11217255204288153,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1420936847841115,
+          "rmse_eV": 0.21002615894492496,
+          "r2": 0.8396989454696066,
+          "bias_eV": -0.11217255204288153
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.1420936847841115,
+          "rmse_eV": 0.21002615894492496,
+          "r2": 0.8396989454696066,
+          "bias_eV": -0.11217255204288153
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.545557052158867,
+          "log_loss": 3.371334512740108,
+          "auroc": 0.5250278086763069,
+          "brier": 0.3564545670337834,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.5161290322580646,
+          "specificity_at_0_5": 0.4482758620689655,
+          "f1_at_0_5": 0.5079365079365079,
+          "balanced_accuracy_at_0_5": 0.48220244716351507
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.545557052158867,
+            "log_loss": 3.371334512740108,
+            "auroc": 0.5250278086763069,
+            "brier": 0.3564545670337834,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.4833333333333333,
+            "precision_at_0_5": 0.5,
+            "failure_recall_at_0_5": 0.5161290322580646,
+            "specificity_at_0_5": 0.4482758620689655,
+            "f1_at_0_5": 0.5079365079365079,
+            "balanced_accuracy_at_0_5": 0.48220244716351507,
+            "confusion_weight_at_0_5": {
+              "tn": 0.21666666666666665,
+              "fp": 0.26666666666666666,
+              "fn": 0.24999999999999997,
+              "tp": 0.26666666666666666
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.545557052158867,
+          "log_loss": 3.371334512740108,
+          "auroc": 0.5250278086763069,
+          "brier": 0.3564545670337834,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.5161290322580646,
+          "specificity_at_0_5": 0.4482758620689655,
+          "f1_at_0_5": 0.5079365079365079,
+          "balanced_accuracy_at_0_5": 0.48220244716351507,
+          "confusion_weight_at_0_5": {
+            "tn": 0.21666666666666665,
+            "fp": 0.26666666666666666,
+            "fn": 0.24999999999999997,
+            "tp": 0.26666666666666666
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.545557052158867,
+          "log_loss": 3.371334512740108,
+          "auroc": 0.5250278086763069,
+          "brier": 0.3564545670337834,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.4833333333333333,
+          "precision_at_0_5": 0.5,
+          "failure_recall_at_0_5": 0.5161290322580646,
+          "specificity_at_0_5": 0.4482758620689655,
+          "f1_at_0_5": 0.5079365079365079,
+          "balanced_accuracy_at_0_5": 0.48220244716351507,
+          "confusion_weight_at_0_5": {
+            "tn": 0.21666666666666665,
+            "fp": 0.26666666666666666,
+            "fn": 0.24999999999999997,
+            "tp": 0.26666666666666666
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.28412403724988305,
+          "rmse_eV": 0.36911039103767285,
+          "r2": 0.5048894933780681,
+          "bias_eV": -0.05470843731562298
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.28412403724988305,
+            "rmse_eV": 0.36911039103767285,
+            "r2": 0.5048894933780681,
+            "bias_eV": -0.05470843731562298,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.28412403724988305,
+          "rmse_eV": 0.36911039103767285,
+          "r2": 0.5048894933780681,
+          "bias_eV": -0.05470843731562298
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.28412403724988305,
+          "rmse_eV": 0.36911039103767285,
+          "r2": 0.5048894933780681,
+          "bias_eV": -0.05470843731562298
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.5608750594868008,
+          "log_loss": 1.3274955391375076,
+          "auroc": 0.5684093437152389,
+          "brier": 0.2896934057257699,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5333333333333333,
+          "precision_at_0_5": 0.5789473684210527,
+          "failure_recall_at_0_5": 0.3548387096774194,
+          "specificity_at_0_5": 0.7241379310344828,
+          "f1_at_0_5": 0.44,
+          "balanced_accuracy_at_0_5": 0.5394883203559511
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5608750594868008,
+            "log_loss": 1.3274955391375076,
+            "auroc": 0.5684093437152389,
+            "brier": 0.2896934057257699,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.5333333333333333,
+            "precision_at_0_5": 0.5789473684210527,
+            "failure_recall_at_0_5": 0.3548387096774194,
+            "specificity_at_0_5": 0.7241379310344828,
+            "f1_at_0_5": 0.44,
+            "balanced_accuracy_at_0_5": 0.5394883203559511,
+            "confusion_weight_at_0_5": {
+              "tn": 0.35,
+              "fp": 0.13333333333333333,
+              "fn": 0.3333333333333333,
+              "tp": 0.18333333333333332
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.5608750594868008,
+          "log_loss": 1.3274955391375076,
+          "auroc": 0.5684093437152389,
+          "brier": 0.2896934057257699,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5333333333333333,
+          "precision_at_0_5": 0.5789473684210527,
+          "failure_recall_at_0_5": 0.3548387096774194,
+          "specificity_at_0_5": 0.7241379310344828,
+          "f1_at_0_5": 0.44,
+          "balanced_accuracy_at_0_5": 0.5394883203559511,
+          "confusion_weight_at_0_5": {
+            "tn": 0.35,
+            "fp": 0.13333333333333333,
+            "fn": 0.3333333333333333,
+            "tp": 0.18333333333333332
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.5608750594868008,
+          "log_loss": 1.3274955391375076,
+          "auroc": 0.5684093437152389,
+          "brier": 0.2896934057257699,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5333333333333333,
+          "precision_at_0_5": 0.5789473684210527,
+          "failure_recall_at_0_5": 0.3548387096774194,
+          "specificity_at_0_5": 0.7241379310344828,
+          "f1_at_0_5": 0.44,
+          "balanced_accuracy_at_0_5": 0.5394883203559511,
+          "confusion_weight_at_0_5": {
+            "tn": 0.35,
+            "fp": 0.13333333333333333,
+            "fn": 0.3333333333333333,
+            "tp": 0.18333333333333332
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      },
+      "residual": {
+        "source_macro": {
+          "mae_eV": 0.17511108195793065,
+          "rmse_eV": 0.24114111416346026,
+          "r2": 0.7886841242481352,
+          "bias_eV": -0.1651458037462363
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.17511108195793065,
+            "rmse_eV": 0.24114111416346026,
+            "r2": 0.7886841242481352,
+            "bias_eV": -0.1651458037462363,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.17511108195793065,
+          "rmse_eV": 0.24114111416346026,
+          "r2": 0.7886841242481352,
+          "bias_eV": -0.1651458037462363
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.17511108195793065,
+          "rmse_eV": 0.24114111416346026,
+          "r2": 0.7886841242481352,
+          "bias_eV": -0.1651458037462363
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      },
+      "direct": {
+        "source_macro": {
+          "mae_eV": 0.2913563401619593,
+          "rmse_eV": 0.37383437436100986,
+          "r2": 0.4921352563866287,
+          "bias_eV": -0.06166501104036967
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.2913563401619593,
+            "rmse_eV": 0.37383437436100986,
+            "r2": 0.4921352563866287,
+            "bias_eV": -0.06166501104036967,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.2913563401619593,
+          "rmse_eV": 0.37383437436100986,
+          "r2": 0.4921352563866287,
+          "bias_eV": -0.06166501104036967
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.2913563401619593,
+          "rmse_eV": 0.37383437436100986,
+          "r2": 0.4921352563866287,
+          "bias_eV": -0.06166501104036967
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.11811116804995651,
+          "rmse_eV": 0.19108581328836002,
+          "r2": 0.8673074653898667,
+          "bias_eV": -0.08408107985812353
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.11811116804995651,
+            "rmse_eV": 0.19108581328836002,
+            "r2": 0.8673074653898667,
+            "bias_eV": -0.08408107985812353,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.11811116804995651,
+          "rmse_eV": 0.19108581328836002,
+          "r2": 0.8673074653898667,
+          "bias_eV": -0.08408107985812353
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.11811116804995651,
+          "rmse_eV": 0.19108581328836002,
+          "r2": 0.8673074653898667,
+          "bias_eV": -0.08408107985812353
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "RF_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.5410492744103631,
+          "log_loss": 0.7333149763099509,
+          "auroc": 0.529477196885428,
+          "brier": 0.2644879685945144,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5499999999999999,
+          "precision_at_0_5": 0.5476190476190476,
+          "failure_recall_at_0_5": 0.7419354838709677,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.6301369863013698,
+          "balanced_accuracy_at_0_5": 0.5433815350389322
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5410492744103631,
+            "log_loss": 0.7333149763099509,
+            "auroc": 0.529477196885428,
+            "brier": 0.2644879685945144,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.5499999999999999,
+            "precision_at_0_5": 0.5476190476190476,
+            "failure_recall_at_0_5": 0.7419354838709677,
+            "specificity_at_0_5": 0.3448275862068966,
+            "f1_at_0_5": 0.6301369863013698,
+            "balanced_accuracy_at_0_5": 0.5433815350389322,
+            "confusion_weight_at_0_5": {
+              "tn": 0.16666666666666666,
+              "fp": 0.31666666666666665,
+              "fn": 0.13333333333333333,
+              "tp": 0.3833333333333333
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.5410492744103631,
+          "log_loss": 0.7333149763099509,
+          "auroc": 0.529477196885428,
+          "brier": 0.2644879685945144,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5499999999999999,
+          "precision_at_0_5": 0.5476190476190476,
+          "failure_recall_at_0_5": 0.7419354838709677,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.6301369863013698,
+          "balanced_accuracy_at_0_5": 0.5433815350389322,
+          "confusion_weight_at_0_5": {
+            "tn": 0.16666666666666666,
+            "fp": 0.31666666666666665,
+            "fn": 0.13333333333333333,
+            "tp": 0.3833333333333333
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.5410492744103631,
+          "log_loss": 0.7333149763099509,
+          "auroc": 0.529477196885428,
+          "brier": 0.2644879685945144,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5499999999999999,
+          "precision_at_0_5": 0.5476190476190476,
+          "failure_recall_at_0_5": 0.7419354838709677,
+          "specificity_at_0_5": 0.3448275862068966,
+          "f1_at_0_5": 0.6301369863013698,
+          "balanced_accuracy_at_0_5": 0.5433815350389322,
+          "confusion_weight_at_0_5": {
+            "tn": 0.16666666666666666,
+            "fp": 0.31666666666666665,
+            "fn": 0.13333333333333333,
+            "tp": 0.3833333333333333
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "RF_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.24188207802969955,
+          "rmse_eV": 0.3033001369895408,
+          "r2": 0.6657012039338994,
+          "bias_eV": -0.15580738859405727
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.24188207802969955,
+            "rmse_eV": 0.3033001369895408,
+            "r2": 0.6657012039338994,
+            "bias_eV": -0.15580738859405727,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.24188207802969955,
+          "rmse_eV": 0.3033001369895408,
+          "r2": 0.6657012039338994,
+          "bias_eV": -0.15580738859405727
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.24188207802969955,
+          "rmse_eV": 0.3033001369895408,
+          "r2": 0.6657012039338994,
+          "bias_eV": -0.15580738859405727
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "RF_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.19043417011430377,
+          "rmse_eV": 0.2184434113622458,
+          "r2": 0.8265926506001451,
+          "bias_eV": -0.18911630429296866
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.19043417011430377,
+            "rmse_eV": 0.2184434113622458,
+            "r2": 0.8265926506001451,
+            "bias_eV": -0.18911630429296866,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.19043417011430377,
+          "rmse_eV": 0.2184434113622458,
+          "r2": 0.8265926506001451,
+          "bias_eV": -0.18911630429296866
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.19043417011430377,
+          "rmse_eV": 0.2184434113622458,
+          "r2": 0.8265926506001451,
+          "bias_eV": -0.18911630429296866
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "XGBoost_classifier",
+      "classification": {
+        "source_macro": {
+          "average_precision": 0.5328961455057236,
+          "log_loss": 0.8052353919452987,
+          "auroc": 0.5194660734149052,
+          "brier": 0.29381357044300255,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5166666666666667,
+          "precision_at_0_5": 0.5166666666666667,
+          "failure_recall_at_0_5": 1.0,
+          "specificity_at_0_5": 0.0,
+          "f1_at_0_5": 0.6813186813186813,
+          "balanced_accuracy_at_0_5": 0.5
+        },
+        "by_source": {
+          "HetDB": {
+            "average_precision": 0.5328961455057236,
+            "log_loss": 0.8052353919452987,
+            "auroc": 0.5194660734149052,
+            "brier": 0.29381357044300255,
+            "prevalence": 0.5166666666666668,
+            "accuracy_at_0_5": 0.5166666666666667,
+            "precision_at_0_5": 0.5166666666666667,
+            "failure_recall_at_0_5": 1.0,
+            "specificity_at_0_5": 0.0,
+            "f1_at_0_5": 0.6813186813186813,
+            "balanced_accuracy_at_0_5": 0.5,
+            "confusion_weight_at_0_5": {
+              "tn": 0.0,
+              "fp": 0.48333333333333334,
+              "fn": 0.0,
+              "tp": 0.5166666666666667
+            },
+            "n_records": 60,
+            "n_pairs": 60,
+            "n_failure_records": 31
+          }
+        },
+        "source_macro_metric_support": {
+          "average_precision": 1,
+          "log_loss": 1,
+          "auroc": 1,
+          "brier": 1,
+          "prevalence": 1,
+          "accuracy_at_0_5": 1,
+          "precision_at_0_5": 1,
+          "failure_recall_at_0_5": 1,
+          "specificity_at_0_5": 1,
+          "f1_at_0_5": 1,
+          "balanced_accuracy_at_0_5": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "average_precision": 0.5328961455057236,
+          "log_loss": 0.8052353919452987,
+          "auroc": 0.5194660734149052,
+          "brier": 0.29381357044300255,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5166666666666667,
+          "precision_at_0_5": 0.5166666666666667,
+          "failure_recall_at_0_5": 1.0,
+          "specificity_at_0_5": 0.0,
+          "f1_at_0_5": 0.6813186813186813,
+          "balanced_accuracy_at_0_5": 0.5,
+          "confusion_weight_at_0_5": {
+            "tn": 0.0,
+            "fp": 0.48333333333333334,
+            "fn": 0.0,
+            "tp": 0.5166666666666667
+          }
+        },
+        "pooled_row_equal": {
+          "average_precision": 0.5328961455057236,
+          "log_loss": 0.8052353919452987,
+          "auroc": 0.5194660734149052,
+          "brier": 0.29381357044300255,
+          "prevalence": 0.5166666666666668,
+          "accuracy_at_0_5": 0.5166666666666667,
+          "precision_at_0_5": 0.5166666666666667,
+          "failure_recall_at_0_5": 1.0,
+          "specificity_at_0_5": 0.0,
+          "f1_at_0_5": 0.6813186813186813,
+          "balanced_accuracy_at_0_5": 0.5,
+          "confusion_weight_at_0_5": {
+            "tn": 0.0,
+            "fp": 0.48333333333333334,
+            "fn": 0.0,
+            "tp": 0.5166666666666667
+          }
+        },
+        "selection_metric": "source_macro.average_precision",
+        "selection_direction": "maximize",
+        "hard_threshold_is_descriptive_only": true,
+        "probability_calibration_performed": false
+      }
+    },
+    {
+      "candidate": "XGBoost_direct_gap_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1917861091295878,
+          "rmse_eV": 0.23282872220796644,
+          "r2": 0.8030015954047762,
+          "bias_eV": -0.015685305289427447
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.1917861091295878,
+            "rmse_eV": 0.23282872220796644,
+            "r2": 0.8030015954047762,
+            "bias_eV": -0.015685305289427447,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1917861091295878,
+          "rmse_eV": 0.23282872220796644,
+          "r2": 0.8030015954047762,
+          "bias_eV": -0.015685305289427447
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.1917861091295878,
+          "rmse_eV": 0.23282872220796644,
+          "r2": 0.8030015954047762,
+          "bias_eV": -0.015685305289427447
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    },
+    {
+      "candidate": "XGBoost_residual_regression",
+      "regression": {
+        "source_macro": {
+          "mae_eV": 0.1742738743784731,
+          "rmse_eV": 0.20377798529058563,
+          "r2": 0.8490948268798576,
+          "bias_eV": -0.14612013296921708
+        },
+        "by_source": {
+          "HetDB": {
+            "mae_eV": 0.1742738743784731,
+            "rmse_eV": 0.20377798529058563,
+            "r2": 0.8490948268798576,
+            "bias_eV": -0.14612013296921708,
+            "n_records": 60,
+            "n_pairs": 60
+          }
+        },
+        "source_macro_metric_support": {
+          "mae_eV": 1,
+          "rmse_eV": 1,
+          "r2": 1,
+          "bias_eV": 1
+        },
+        "n_sources": 1,
+        "n_records": 60,
+        "pooled_source_pair_weighted": {
+          "mae_eV": 0.1742738743784731,
+          "rmse_eV": 0.20377798529058563,
+          "r2": 0.8490948268798576,
+          "bias_eV": -0.14612013296921708
+        },
+        "pooled_row_equal": {
+          "mae_eV": 0.1742738743784731,
+          "rmse_eV": 0.20377798529058563,
+          "r2": 0.8490948268798576,
+          "bias_eV": -0.14612013296921708
+        },
+        "prediction_kind": "direct_gap",
+        "projection": "max(0,direct_prediction) or max(0,g_A+residual_prediction)",
+        "selection_metric": "source_macro.mae_eV",
+        "selection_direction": "minimize"
+      }
+    }
+  ]
+}

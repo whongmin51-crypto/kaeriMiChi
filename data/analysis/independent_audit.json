@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-04T15:17:14.854411+00:00",
+  "actual_fit_receipts": 70,
+  "independent_pair_then_source_MAE_eV": 0.08024548794133782,
+  "by_source_MAE_eV": {
+    "Janus": 0.03956153787650833,
+    "HetDB": 0.12092943800616729
+  },
+  "exact_preprocessor_refit_match": true,
+  "original_files_unchanged": 155,
+  "pair_response_n": 40,
+  "applicability_changing_pairs": 25
+}

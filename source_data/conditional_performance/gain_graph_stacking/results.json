@@ -1,0 +1,1856 @@
+{
+  "purpose": "Post-freeze descriptive held-out paired improvement by graph/stacking inputs; no model fits",
+  "sample": "721 supported final holdouts (500 Janus + 221 HetDB); 21 abstentions remain outside conditional error summaries",
+  "definition": "improvement = absolute Anderson error - absolute frozen ML gap error; positive means lower ML error",
+  "weighting": "Within each stratum, configurations averaged per physical pair, pairs equal within source, available sources equal in macro",
+  "thresholds": "Unweighted fixed-fitting-record medians, established without holdout outcomes; missing values excluded and counted",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261115,
+    "unit": "synchronized global composition groups",
+    "CI": "percentile 95%; both nonempty sources required in a macro replicate"
+  },
+  "overall": {
+    "scope": "source_macro",
+    "rows": 721,
+    "physical_pairs": 261,
+    "composition_groups": 226,
+    "by_source_counts": {
+      "Janus": {
+        "rows": 500,
+        "physical_pairs": 40,
+        "composition_groups": 27
+      },
+      "HetDB": {
+        "rows": 221,
+        "physical_pairs": 221,
+        "composition_groups": 199
+      }
+    },
+    "baseline_MAE_eV": 0.21105726722055948,
+    "ML_MAE_eV": 0.08024548794133776,
+    "improvement_eV": 0.1308117792792216,
+    "relative_MAE_reduction": 0.6197928221183705,
+    "improvement_CI95_eV": [
+      0.08959763604467794,
+      0.17521679016089606
+    ],
+    "defined_bootstrap_replicates": 2000
+  },
+  "continuous": {
+    "graph_degree_difference": {
+      "fit_core_median": 0.5,
+      "missing_supported_holdout": 0,
+      "scopes": {
+        "source_macro": {
+          "low": {
+            "scope": "source_macro",
+            "rows": 471,
+            "physical_pairs": 71,
+            "composition_groups": 49,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 436,
+                "physical_pairs": 36,
+                "composition_groups": 23
+              },
+              "HetDB": {
+                "rows": 35,
+                "physical_pairs": 35,
+                "composition_groups": 26
+              }
+            },
+            "baseline_MAE_eV": 0.2073477231733986,
+            "ML_MAE_eV": 0.07987755644267233,
+            "improvement_eV": 0.1274701667307263,
+            "relative_MAE_reduction": 0.6147652107282937,
+            "improvement_CI95_eV": [
+              0.08098603920789585,
+              0.17765289966572248
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "source_macro",
+            "rows": 250,
+            "physical_pairs": 190,
+            "composition_groups": 177,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 64,
+                "physical_pairs": 4,
+                "composition_groups": 4
+              },
+              "HetDB": {
+                "rows": 186,
+                "physical_pairs": 186,
+                "composition_groups": 173
+              }
+            },
+            "baseline_MAE_eV": 0.33845096587831425,
+            "ML_MAE_eV": 0.08495134039606898,
+            "improvement_eV": 0.25349962548224514,
+            "relative_MAE_reduction": 0.7489995628299897,
+            "improvement_CI95_eV": [
+              0.1431172579065277,
+              0.34512493933196514
+            ],
+            "defined_bootstrap_replicates": 1968
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.12602945875151883,
+            "CI95_eV": [
+              0.021883161830080135,
+              0.21948394375115404
+            ],
+            "defined_bootstrap_replicates": 1968
+          }
+        },
+        "Janus": {
+          "low": {
+            "scope": "Janus",
+            "rows": 436,
+            "physical_pairs": 36,
+            "composition_groups": 23,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 436,
+                "physical_pairs": 36,
+                "composition_groups": 23
+              }
+            },
+            "baseline_MAE_eV": 0.26857122859441174,
+            "ML_MAE_eV": 0.038509175516378114,
+            "improvement_eV": 0.2300620530780336,
+            "relative_MAE_reduction": 0.8566146652494429,
+            "improvement_CI95_eV": [
+              0.1461127593980269,
+              0.3229032452075037
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "Janus",
+            "rows": 64,
+            "physical_pairs": 4,
+            "composition_groups": 4,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 64,
+                "physical_pairs": 4,
+                "composition_groups": 4
+              }
+            },
+            "baseline_MAE_eV": 0.5561294215009616,
+            "ML_MAE_eV": 0.04903279911768029,
+            "improvement_eV": 0.5070966223832812,
+            "relative_MAE_reduction": 0.9118320354543668,
+            "improvement_CI95_eV": [
+              0.2788625151850284,
+              0.7015348131366211
+            ],
+            "defined_bootstrap_replicates": 1968
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.2770345693052476,
+            "CI95_eV": [
+              0.07543994257990265,
+              0.4607656639771494
+            ],
+            "defined_bootstrap_replicates": 1968
+          }
+        },
+        "HetDB": {
+          "low": {
+            "scope": "HetDB",
+            "rows": 35,
+            "physical_pairs": 35,
+            "composition_groups": 26,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 35,
+                "physical_pairs": 35,
+                "composition_groups": 26
+              }
+            },
+            "baseline_MAE_eV": 0.14612421775238552,
+            "ML_MAE_eV": 0.12124593736896655,
+            "improvement_eV": 0.024878280383419,
+            "relative_MAE_reduction": 0.17025432721615275,
+            "improvement_CI95_eV": [
+              -0.015043699894139975,
+              0.06314226413901797
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "HetDB",
+            "rows": 186,
+            "physical_pairs": 186,
+            "composition_groups": 173,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 186,
+                "physical_pairs": 186,
+                "composition_groups": 173
+              }
+            },
+            "baseline_MAE_eV": 0.12077251025566693,
+            "ML_MAE_eV": 0.12086988167445767,
+            "improvement_eV": -9.737141879096442e-05,
+            "relative_MAE_reduction": -0.0008062382622074837,
+            "improvement_CI95_eV": [
+              -0.016879883927551312,
+              0.01656157716150163
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": -0.024975651802209967,
+            "CI95_eV": [
+              -0.06732194979730215,
+              0.018303282050141534
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        }
+      }
+    },
+    "graph_mean_edge_distance_difference_A": {
+      "fit_core_median": 0.11692491854584741,
+      "missing_supported_holdout": 0,
+      "scopes": {
+        "source_macro": {
+          "low": {
+            "scope": "source_macro",
+            "rows": 291,
+            "physical_pairs": 55,
+            "composition_groups": 45,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 256,
+                "physical_pairs": 20,
+                "composition_groups": 13
+              },
+              "HetDB": {
+                "rows": 35,
+                "physical_pairs": 35,
+                "composition_groups": 32
+              }
+            },
+            "baseline_MAE_eV": 0.14955585448791375,
+            "ML_MAE_eV": 0.08121888314986189,
+            "improvement_eV": 0.06833697133805183,
+            "relative_MAE_reduction": 0.45693277319059705,
+            "improvement_CI95_eV": [
+              0.034784987950236566,
+              0.10999565367108886
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "source_macro",
+            "rows": 430,
+            "physical_pairs": 206,
+            "composition_groups": 181,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 244,
+                "physical_pairs": 20,
+                "composition_groups": 14
+              },
+              "HetDB": {
+                "rows": 186,
+                "physical_pairs": 186,
+                "composition_groups": 167
+              }
+            },
+            "baseline_MAE_eV": 0.2630755759816595,
+            "ML_MAE_eV": 0.0801224010172428,
+            "improvement_eV": 0.1829531749644166,
+            "relative_MAE_reduction": 0.6954396062109974,
+            "improvement_CI95_eV": [
+              0.11533408544217517,
+              0.2470295037559025
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.11461620362636477,
+            "CI95_eV": [
+              0.034608944712969485,
+              0.18420341315311858
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "Janus": {
+          "low": {
+            "scope": "Janus",
+            "rows": 256,
+            "physical_pairs": 20,
+            "composition_groups": 13,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 256,
+                "physical_pairs": 20,
+                "composition_groups": 13
+              }
+            },
+            "baseline_MAE_eV": 0.1976865712768283,
+            "ML_MAE_eV": 0.03941352907628741,
+            "improvement_eV": 0.15827304220054084,
+            "relative_MAE_reduction": 0.8006261688807625,
+            "improvement_CI95_eV": [
+              0.09827070457969748,
+              0.2373276108926086
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "Janus",
+            "rows": 244,
+            "physical_pairs": 20,
+            "composition_groups": 14,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 244,
+                "physical_pairs": 20,
+                "composition_groups": 14
+              }
+            },
+            "baseline_MAE_eV": 0.3969675244933052,
+            "ML_MAE_eV": 0.039709546676729254,
+            "improvement_eV": 0.357257977816576,
+            "relative_MAE_reduction": 0.8999677700904752,
+            "improvement_CI95_eV": [
+              0.22311200607093956,
+              0.48311982305306317
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.19898493561603514,
+            "CI95_eV": [
+              0.039072222566994275,
+              0.33519393278351167
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "HetDB": {
+          "low": {
+            "scope": "HetDB",
+            "rows": 35,
+            "physical_pairs": 35,
+            "composition_groups": 32,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 35,
+                "physical_pairs": 35,
+                "composition_groups": 32
+              }
+            },
+            "baseline_MAE_eV": 0.1014251376989992,
+            "ML_MAE_eV": 0.12302423722343638,
+            "improvement_eV": -0.02159909952443717,
+            "relative_MAE_reduction": -0.21295607789596618,
+            "improvement_CI95_eV": [
+              -0.042428697684597484,
+              -0.0024217084726938245
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "HetDB",
+            "rows": 186,
+            "physical_pairs": 186,
+            "composition_groups": 167,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 186,
+                "physical_pairs": 186,
+                "composition_groups": 167
+              }
+            },
+            "baseline_MAE_eV": 0.12918362747001377,
+            "ML_MAE_eV": 0.12053525535775636,
+            "improvement_eV": 0.008648372112257241,
+            "relative_MAE_reduction": 0.06694634824575359,
+            "improvement_CI95_eV": [
+              -0.009183909358657531,
+              0.02596070770767715
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.03024747163669441,
+            "CI95_eV": [
+              0.0043176256340981085,
+              0.057717887184011885
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        }
+      }
+    },
+    "graph_atomic_fraction_total_variation": {
+      "fit_core_median": 0.5,
+      "missing_supported_holdout": 0,
+      "scopes": {
+        "source_macro": {
+          "low": {
+            "scope": "source_macro",
+            "rows": 333,
+            "physical_pairs": 36,
+            "composition_groups": 25,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 320,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              },
+              "HetDB": {
+                "rows": 13,
+                "physical_pairs": 13,
+                "composition_groups": 10
+              }
+            },
+            "baseline_MAE_eV": 0.22844491389537747,
+            "ML_MAE_eV": 0.07420540524493698,
+            "improvement_eV": 0.15423950865044045,
+            "relative_MAE_reduction": 0.6751715589565658,
+            "improvement_CI95_eV": [
+              0.09973810199651728,
+              0.2152915842653513
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "source_macro",
+            "rows": 388,
+            "physical_pairs": 225,
+            "composition_groups": 201,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 180,
+                "physical_pairs": 17,
+                "composition_groups": 12
+              },
+              "HetDB": {
+                "rows": 208,
+                "physical_pairs": 208,
+                "composition_groups": 189
+              }
+            },
+            "baseline_MAE_eV": 0.22802505160029346,
+            "ML_MAE_eV": 0.08327602326987701,
+            "improvement_eV": 0.14474902833041636,
+            "relative_MAE_reduction": 0.634794411028784,
+            "improvement_CI95_eV": [
+              0.06703512227576924,
+              0.22588426394459127
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": -0.009490480320024086,
+            "CI95_eV": [
+              -0.11085510214353006,
+              0.0863114346872605
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "Janus": {
+          "low": {
+            "scope": "Janus",
+            "rows": 320,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 320,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.2693451256927047,
+            "ML_MAE_eV": 0.035449719053010524,
+            "improvement_eV": 0.2338954066396941,
+            "relative_MAE_reduction": 0.868385518535594,
+            "improvement_CI95_eV": [
+              0.15072459150155734,
+              0.34402397692015413
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "Janus",
+            "rows": 180,
+            "physical_pairs": 17,
+            "composition_groups": 12,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 180,
+                "physical_pairs": 17,
+                "composition_groups": 12
+              }
+            },
+            "baseline_MAE_eV": 0.33518494261590953,
+            "ML_MAE_eV": 0.04512458687300535,
+            "improvement_eV": 0.2900603557429043,
+            "relative_MAE_reduction": 0.8653740632832848,
+            "improvement_CI95_eV": [
+              0.137433700298836,
+              0.4493161893010261
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.05616494910321018,
+            "CI95_eV": [
+              -0.13576458077552064,
+              0.23444867469761063
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "HetDB": {
+          "low": {
+            "scope": "HetDB",
+            "rows": 13,
+            "physical_pairs": 13,
+            "composition_groups": 10,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 13,
+                "physical_pairs": 13,
+                "composition_groups": 10
+              }
+            },
+            "baseline_MAE_eV": 0.18754470209805024,
+            "ML_MAE_eV": 0.11296109143686343,
+            "improvement_eV": 0.07458361066118681,
+            "relative_MAE_reduction": 0.3976844444381785,
+            "improvement_CI95_eV": [
+              0.0021627572038871016,
+              0.13306225766764207
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "HetDB",
+            "rows": 208,
+            "physical_pairs": 208,
+            "composition_groups": 189,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 208,
+                "physical_pairs": 208,
+                "composition_groups": 189
+              }
+            },
+            "baseline_MAE_eV": 0.12086516058467736,
+            "ML_MAE_eV": 0.12142745966674867,
+            "improvement_eV": -0.000562299082071551,
+            "relative_MAE_reduction": -0.004652284242634236,
+            "improvement_CI95_eV": [
+              -0.016021760786053746,
+              0.015135418132999607
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": -0.07514590974325835,
+            "CI95_eV": [
+              -0.13411228906092829,
+              -0.003299083091138176
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        }
+      }
+    },
+    "max_absolute_prescribed_principal_strain_fraction": {
+      "fit_core_median": 0.02760194990803433,
+      "missing_supported_holdout": 221,
+      "scopes": {
+        "source_macro": {
+          "low": {
+            "scope": "source_macro",
+            "rows": 245,
+            "physical_pairs": 22,
+            "composition_groups": 14,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 245,
+                "physical_pairs": 22,
+                "composition_groups": 14
+              }
+            },
+            "baseline_MAE_eV": 0.1512825742616319,
+            "ML_MAE_eV": 0.039493430022434564,
+            "improvement_eV": 0.11178914423919734,
+            "relative_MAE_reduction": 0.7389426362210518,
+            "improvement_CI95_eV": [
+              0.07916677676100671,
+              0.15280971021756773
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "source_macro",
+            "rows": 255,
+            "physical_pairs": 24,
+            "composition_groups": 18,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 255,
+                "physical_pairs": 24,
+                "composition_groups": 18
+              }
+            },
+            "baseline_MAE_eV": 0.39876352092759765,
+            "ML_MAE_eV": 0.03890598150652278,
+            "improvement_eV": 0.3598575394210748,
+            "relative_MAE_reduction": 0.902433448736684,
+            "improvement_CI95_eV": [
+              0.2483093375384621,
+              0.4656997829742992
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.24806839518187745,
+            "CI95_eV": [
+              0.13143844935185256,
+              0.3623710142846838
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "Janus": {
+          "low": {
+            "scope": "Janus",
+            "rows": 245,
+            "physical_pairs": 22,
+            "composition_groups": 14,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 245,
+                "physical_pairs": 22,
+                "composition_groups": 14
+              }
+            },
+            "baseline_MAE_eV": 0.1512825742616319,
+            "ML_MAE_eV": 0.039493430022434564,
+            "improvement_eV": 0.11178914423919734,
+            "relative_MAE_reduction": 0.7389426362210518,
+            "improvement_CI95_eV": [
+              0.07916677676100671,
+              0.15280971021756773
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "Janus",
+            "rows": 255,
+            "physical_pairs": 24,
+            "composition_groups": 18,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 255,
+                "physical_pairs": 24,
+                "composition_groups": 18
+              }
+            },
+            "baseline_MAE_eV": 0.39876352092759765,
+            "ML_MAE_eV": 0.03890598150652278,
+            "improvement_eV": 0.3598575394210748,
+            "relative_MAE_reduction": 0.902433448736684,
+            "improvement_CI95_eV": [
+              0.2483093375384621,
+              0.4656997829742992
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.24806839518187745,
+            "CI95_eV": [
+              0.13143844935185256,
+              0.3623710142846838
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "HetDB": {
+          "low": null,
+          "high": null,
+          "difference": null
+        }
+      }
+    },
+    "initial_contact_distance_A": {
+      "fit_core_median": 3.191803848053687,
+      "missing_supported_holdout": 221,
+      "scopes": {
+        "source_macro": {
+          "low": {
+            "scope": "source_macro",
+            "rows": 266,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 266,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.29871565824532226,
+            "ML_MAE_eV": 0.040505298121183024,
+            "improvement_eV": 0.25821036012413917,
+            "relative_MAE_reduction": 0.8644018249357459,
+            "improvement_CI95_eV": [
+              0.1784031498553329,
+              0.3456685934408946
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "source_macro",
+            "rows": 234,
+            "physical_pairs": 35,
+            "composition_groups": 24,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 234,
+                "physical_pairs": 35,
+                "composition_groups": 24
+              }
+            },
+            "baseline_MAE_eV": 0.30295121437465455,
+            "ML_MAE_eV": 0.03986972435514887,
+            "improvement_eV": 0.2630814900195057,
+            "relative_MAE_reduction": 0.8683955618483092,
+            "improvement_CI95_eV": [
+              0.16704723370413968,
+              0.3632642588375236
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.004871129895366533,
+            "CI95_eV": [
+              -0.023427859003079688,
+              0.039338056417364986
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "Janus": {
+          "low": {
+            "scope": "Janus",
+            "rows": 266,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 266,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.29871565824532226,
+            "ML_MAE_eV": 0.040505298121183024,
+            "improvement_eV": 0.25821036012413917,
+            "relative_MAE_reduction": 0.8644018249357459,
+            "improvement_CI95_eV": [
+              0.1784031498553329,
+              0.3456685934408946
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "high": {
+            "scope": "Janus",
+            "rows": 234,
+            "physical_pairs": 35,
+            "composition_groups": 24,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 234,
+                "physical_pairs": 35,
+                "composition_groups": 24
+              }
+            },
+            "baseline_MAE_eV": 0.30295121437465455,
+            "ML_MAE_eV": 0.03986972435514887,
+            "improvement_eV": 0.2630814900195057,
+            "relative_MAE_reduction": 0.8683955618483092,
+            "improvement_CI95_eV": [
+              0.16704723370413968,
+              0.3632642588375236
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "difference": {
+            "high_minus_low_improvement_eV": 0.004871129895366533,
+            "CI95_eV": [
+              -0.023427859003079688,
+              0.039338056417364986
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "HetDB": {
+          "low": null,
+          "high": null,
+          "difference": null
+        }
+      }
+    }
+  },
+  "categorical": {
+    "number_of_layer_graphs_seen_in_fit": {
+      "fit_counts": {
+        "2": 11561
+      },
+      "strata": {
+        "0": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 2,
+            "physical_pairs": 2,
+            "composition_groups": 2,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 2,
+                "physical_pairs": 2,
+                "composition_groups": 2
+              }
+            },
+            "baseline_MAE_eV": 0.0880788905995338,
+            "ML_MAE_eV": 0.15163566149222912,
+            "improvement_eV": -0.06355677089269532,
+            "relative_MAE_reduction": -0.7215891396914543,
+            "improvement_CI95_eV": [
+              -0.10014365446916385,
+              -0.026969887316226793
+            ],
+            "defined_bootstrap_replicates": 1749
+          },
+          "Janus": null,
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 2,
+            "physical_pairs": 2,
+            "composition_groups": 2,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 2,
+                "physical_pairs": 2,
+                "composition_groups": 2
+              }
+            },
+            "baseline_MAE_eV": 0.0880788905995338,
+            "ML_MAE_eV": 0.15163566149222912,
+            "improvement_eV": -0.06355677089269532,
+            "relative_MAE_reduction": -0.7215891396914543,
+            "improvement_CI95_eV": [
+              -0.10014365446916385,
+              -0.026969887316226793
+            ],
+            "defined_bootstrap_replicates": 1749
+          }
+        },
+        "1": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 63,
+            "physical_pairs": 63,
+            "composition_groups": 62,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 63,
+                "physical_pairs": 63,
+                "composition_groups": 62
+              }
+            },
+            "baseline_MAE_eV": 0.13998810344161852,
+            "ML_MAE_eV": 0.14659713964806081,
+            "improvement_eV": -0.0066090362064423515,
+            "relative_MAE_reduction": -0.0472114132841197,
+            "improvement_CI95_eV": [
+              -0.03152369385127657,
+              0.01854146589426539
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": null,
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 63,
+            "physical_pairs": 63,
+            "composition_groups": 62,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 63,
+                "physical_pairs": 63,
+                "composition_groups": 62
+              }
+            },
+            "baseline_MAE_eV": 0.13998810344161852,
+            "ML_MAE_eV": 0.14659713964806081,
+            "improvement_eV": -0.0066090362064423515,
+            "relative_MAE_reduction": -0.0472114132841197,
+            "improvement_CI95_eV": [
+              -0.03152369385127657,
+              0.01854146589426539
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "2": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 656,
+            "physical_pairs": 196,
+            "composition_groups": 170,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 500,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              },
+              "HetDB": {
+                "rows": 156,
+                "physical_pairs": 156,
+                "composition_groups": 143
+              }
+            },
+            "baseline_MAE_eV": 0.2082232234004388,
+            "ML_MAE_eV": 0.07486575188232686,
+            "improvement_eV": 0.13335747151811192,
+            "relative_MAE_reduction": 0.6404543611432292,
+            "improvement_CI95_eV": [
+              0.09233678563203002,
+              0.17815643673344325
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 500,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 500,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.29732704788506675,
+            "ML_MAE_eV": 0.039561537876508325,
+            "improvement_eV": 0.2577655100085584,
+            "relative_MAE_reduction": 0.8669426876635823,
+            "improvement_CI95_eV": [
+              0.17698537596109246,
+              0.34670404275388034
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 156,
+            "physical_pairs": 156,
+            "composition_groups": 143,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 156,
+                "physical_pairs": 156,
+                "composition_groups": 143
+              }
+            },
+            "baseline_MAE_eV": 0.11911939891581085,
+            "ML_MAE_eV": 0.11016996588814539,
+            "improvement_eV": 0.008949433027665413,
+            "relative_MAE_reduction": 0.0751299377693346,
+            "improvement_CI95_eV": [
+              -0.009393130176432464,
+              0.027689000446755305
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        }
+      }
+    },
+    "canonical_flip_pair": {
+      "fit_counts": {
+        "1,0": 2324,
+        "0,0": 3589,
+        "1,1": 2224,
+        "0,1": 3424
+      },
+      "strata": {
+        "0,0": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 347,
+            "physical_pairs": 227,
+            "composition_groups": 192,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 160,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              },
+              "HetDB": {
+                "rows": 187,
+                "physical_pairs": 187,
+                "composition_groups": 165
+              }
+            },
+            "baseline_MAE_eV": 0.19187366518511328,
+            "ML_MAE_eV": 0.07776054191073793,
+            "improvement_eV": 0.11411312327437526,
+            "relative_MAE_reduction": 0.5947305127271256,
+            "improvement_CI95_eV": [
+              0.06952652874766424,
+              0.16123818921602168
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 160,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 160,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.25873302663194964,
+            "ML_MAE_eV": 0.04031757850405764,
+            "improvement_eV": 0.21841544812789193,
+            "relative_MAE_reduction": 0.8441730496145362,
+            "improvement_CI95_eV": [
+              0.1291891828074442,
+              0.3142693728727815
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 187,
+            "physical_pairs": 187,
+            "composition_groups": 165,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 187,
+                "physical_pairs": 187,
+                "composition_groups": 165
+              }
+            },
+            "baseline_MAE_eV": 0.1250143037382769,
+            "ML_MAE_eV": 0.11520350531741823,
+            "improvement_eV": 0.00981079842085857,
+            "relative_MAE_reduction": 0.07847740720452212,
+            "improvement_CI95_eV": [
+              -0.007114760327905487,
+              0.026614541327291692
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "0,1": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 156,
+            "physical_pairs": 39,
+            "composition_groups": 26,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 156,
+                "physical_pairs": 39,
+                "composition_groups": 26
+              }
+            },
+            "baseline_MAE_eV": 0.2930222175480086,
+            "ML_MAE_eV": 0.04063086404710396,
+            "improvement_eV": 0.2523913535009046,
+            "relative_MAE_reduction": 0.8613386234426162,
+            "improvement_CI95_eV": [
+              0.1723236086663884,
+              0.33919774856254065
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 156,
+            "physical_pairs": 39,
+            "composition_groups": 26,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 156,
+                "physical_pairs": 39,
+                "composition_groups": 26
+              }
+            },
+            "baseline_MAE_eV": 0.2930222175480086,
+            "ML_MAE_eV": 0.04063086404710396,
+            "improvement_eV": 0.2523913535009046,
+            "relative_MAE_reduction": 0.8613386234426162,
+            "improvement_CI95_eV": [
+              0.1723236086663884,
+              0.33919774856254065
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": null
+        },
+        "1,0": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 126,
+            "physical_pairs": 57,
+            "composition_groups": 49,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 92,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              },
+              "HetDB": {
+                "rows": 34,
+                "physical_pairs": 34,
+                "composition_groups": 34
+              }
+            },
+            "baseline_MAE_eV": 0.25243988535995504,
+            "ML_MAE_eV": 0.09671004031650059,
+            "improvement_eV": 0.1557298450434545,
+            "relative_MAE_reduction": 0.6168987314401553,
+            "improvement_CI95_eV": [
+              0.09085887454053679,
+              0.22801409227111424
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 92,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 92,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.3813397786660939,
+            "ML_MAE_eV": 0.04099801283871419,
+            "improvement_eV": 0.3403417658273798,
+            "relative_MAE_reduction": 0.8924895457218679,
+            "improvement_CI95_eV": [
+              0.2190123994504483,
+              0.4778954324264035
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 34,
+            "physical_pairs": 34,
+            "composition_groups": 34,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 34,
+                "physical_pairs": 34,
+                "composition_groups": 34
+              }
+            },
+            "baseline_MAE_eV": 0.1235399920538162,
+            "ML_MAE_eV": 0.152422067794287,
+            "improvement_eV": -0.02888207574047081,
+            "relative_MAE_reduction": -0.2337872559348172,
+            "improvement_CI95_eV": [
+              -0.06429379634208898,
+              0.008414723462838999
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "1,1": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 92,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 92,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.3845435733457874,
+            "ML_MAE_eV": 0.03434264682545716,
+            "improvement_eV": 0.35020092652033025,
+            "relative_MAE_reduction": 0.9106924437024052,
+            "improvement_CI95_eV": [
+              0.22635477244116206,
+              0.4834248440632647
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 92,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 92,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.3845435733457874,
+            "ML_MAE_eV": 0.03434264682545716,
+            "improvement_eV": 0.35020092652033025,
+            "relative_MAE_reduction": 0.9106924437024052,
+            "improvement_CI95_eV": [
+              0.22635477244116206,
+              0.4834248440632647
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": null
+        }
+      }
+    },
+    "number_of_face_asymmetric_layers": {
+      "fit_counts": {
+        "2": 9164,
+        "1": 2203,
+        "0": 194
+      },
+      "strata": {
+        "0": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 168,
+            "physical_pairs": 165,
+            "composition_groups": 143,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 4,
+                "physical_pairs": 1,
+                "composition_groups": 1
+              },
+              "HetDB": {
+                "rows": 164,
+                "physical_pairs": 164,
+                "composition_groups": 142
+              }
+            },
+            "baseline_MAE_eV": 0.09309318867921591,
+            "ML_MAE_eV": 0.06457157909960703,
+            "improvement_eV": 0.028521609579608843,
+            "relative_MAE_reduction": 0.3063769754185744,
+            "improvement_CI95_eV": [
+              0.01951790546877734,
+              0.03683309495546776
+            ],
+            "defined_bootstrap_replicates": 1252
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 4,
+            "physical_pairs": 1,
+            "composition_groups": 1,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 4,
+                "physical_pairs": 1,
+                "composition_groups": 1
+              }
+            },
+            "baseline_MAE_eV": 0.06268507000437865,
+            "ML_MAE_eV": 0.02217202970385554,
+            "improvement_eV": 0.04051304030052311,
+            "relative_MAE_reduction": 0.6462948880442059,
+            "improvement_CI95_eV": [
+              0.04051304030052311,
+              0.04051304030052311
+            ],
+            "defined_bootstrap_replicates": 1252
+          },
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 164,
+            "physical_pairs": 164,
+            "composition_groups": 142,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 164,
+                "physical_pairs": 164,
+                "composition_groups": 142
+              }
+            },
+            "baseline_MAE_eV": 0.12350130735405318,
+            "ML_MAE_eV": 0.10697112849535852,
+            "improvement_eV": 0.016530178858694584,
+            "relative_MAE_reduction": 0.13384618521734282,
+            "improvement_CI95_eV": [
+              -0.0012788435011751365,
+              0.03341515184794016
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "1": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 185,
+            "physical_pairs": 73,
+            "composition_groups": 68,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 128,
+                "physical_pairs": 16,
+                "composition_groups": 11
+              },
+              "HetDB": {
+                "rows": 57,
+                "physical_pairs": 57,
+                "composition_groups": 57
+              }
+            },
+            "baseline_MAE_eV": 0.18911540812876787,
+            "ML_MAE_eV": 0.10137615597715957,
+            "improvement_eV": 0.0877392521516083,
+            "relative_MAE_reduction": 0.46394555060192144,
+            "improvement_CI95_eV": [
+              0.033700698409165286,
+              0.15812928838938836
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 128,
+            "physical_pairs": 16,
+            "composition_groups": 11,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 128,
+                "physical_pairs": 16,
+                "composition_groups": 11
+              }
+            },
+            "baseline_MAE_eV": 0.24974274392731102,
+            "ML_MAE_eV": 0.04166212377670204,
+            "improvement_eV": 0.208080620150609,
+            "relative_MAE_reduction": 0.8331798428993475,
+            "improvement_CI95_eV": [
+              0.10208666200475887,
+              0.3421140515681843
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 57,
+            "physical_pairs": 57,
+            "composition_groups": 57,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 57,
+                "physical_pairs": 57,
+                "composition_groups": 57
+              }
+            },
+            "baseline_MAE_eV": 0.1284880723302247,
+            "ML_MAE_eV": 0.1610901881776171,
+            "improvement_eV": -0.0326021158473924,
+            "relative_MAE_reduction": -0.2537365162083087,
+            "improvement_CI95_eV": [
+              -0.061843490143135574,
+              -0.004029611387275613
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        },
+        "2": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 368,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 368,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.3406309975026658,
+            "ML_MAE_eV": 0.03885632630127152,
+            "improvement_eV": 0.30177467120139434,
+            "relative_MAE_reduction": 0.885928389999306,
+            "improvement_CI95_eV": [
+              0.1904971129273641,
+              0.42523097062398385
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 368,
+            "physical_pairs": 23,
+            "composition_groups": 15,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 368,
+                "physical_pairs": 23,
+                "composition_groups": 15
+              }
+            },
+            "baseline_MAE_eV": 0.3406309975026658,
+            "ML_MAE_eV": 0.03885632630127152,
+            "improvement_eV": 0.30177467120139434,
+            "relative_MAE_reduction": 0.885928389999306,
+            "improvement_CI95_eV": [
+              0.1904971129273641,
+              0.42523097062398385
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": null
+        }
+      }
+    },
+    "fractional_translation_nearest_third": {
+      "fit_counts": {
+        "2/3,1/3": 5765,
+        "other_translation": 1,
+        "1/3,2/3": 5764,
+        "not_recorded": 31
+      },
+      "strata": {
+        "1/3,2/3": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 250,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 250,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.30113649612779525,
+            "ML_MAE_eV": 0.04053787400838553,
+            "improvement_eV": 0.2605986221194098,
+            "relative_MAE_reduction": 0.8653837228975989,
+            "improvement_CI95_eV": [
+              0.17939366972378015,
+              0.3506721090844401
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 250,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 250,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.30113649612779525,
+            "ML_MAE_eV": 0.04053787400838553,
+            "improvement_eV": 0.2605986221194098,
+            "relative_MAE_reduction": 0.8653837228975989,
+            "improvement_CI95_eV": [
+              0.17939366972378015,
+              0.3506721090844401
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": null
+        },
+        "2/3,1/3": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 250,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 250,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.29351759964233815,
+            "ML_MAE_eV": 0.038585201744631134,
+            "improvement_eV": 0.25493239789770705,
+            "relative_MAE_reduction": 0.8685421187974808,
+            "improvement_CI95_eV": [
+              0.17507035061500997,
+              0.34153479227828487
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": {
+            "scope": "Janus",
+            "rows": 250,
+            "physical_pairs": 40,
+            "composition_groups": 27,
+            "by_source_counts": {
+              "Janus": {
+                "rows": 250,
+                "physical_pairs": 40,
+                "composition_groups": 27
+              }
+            },
+            "baseline_MAE_eV": 0.29351759964233815,
+            "ML_MAE_eV": 0.038585201744631134,
+            "improvement_eV": 0.25493239789770705,
+            "relative_MAE_reduction": 0.8685421187974808,
+            "improvement_CI95_eV": [
+              0.17507035061500997,
+              0.34153479227828487
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "HetDB": null
+        },
+        "not_recorded": {
+          "source_macro": {
+            "scope": "source_macro",
+            "rows": 221,
+            "physical_pairs": 221,
+            "composition_groups": 199,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 221,
+                "physical_pairs": 221,
+                "composition_groups": 199
+              }
+            },
+            "baseline_MAE_eV": 0.12478748655605221,
+            "ML_MAE_eV": 0.12092943800616719,
+            "improvement_eV": 0.003858048549884824,
+            "relative_MAE_reduction": 0.030916950540163822,
+            "improvement_CI95_eV": [
+              -0.011681833493084243,
+              0.019525204139155084
+            ],
+            "defined_bootstrap_replicates": 2000
+          },
+          "Janus": null,
+          "HetDB": {
+            "scope": "HetDB",
+            "rows": 221,
+            "physical_pairs": 221,
+            "composition_groups": 199,
+            "by_source_counts": {
+              "HetDB": {
+                "rows": 221,
+                "physical_pairs": 221,
+                "composition_groups": 199
+              }
+            },
+            "baseline_MAE_eV": 0.12478748655605221,
+            "ML_MAE_eV": 0.12092943800616719,
+            "improvement_eV": 0.003858048549884824,
+            "relative_MAE_reduction": 0.030916950540163822,
+            "improvement_CI95_eV": [
+              -0.011681833493084243,
+              0.019525204139155084
+            ],
+            "defined_bootstrap_replicates": 2000
+          }
+        }
+      }
+    }
+  },
+  "within_pair_stacking_comparisons": {
+    "canonical_flip_11_vs_00": {
+      "scope": "Janus",
+      "reference": "0,0",
+      "comparison": "1,1",
+      "same_physical_pairs": 23,
+      "physical_pair_ids": [
+        "pair:00c4e6163325b4a648f94f1c",
+        "pair:01fc2535c5622adc8ee6b21c",
+        "pair:0c563d26feac60afc0b3446d",
+        "pair:0fa5e90a80092518bca51f4f",
+        "pair:10ce9d1e0759753e246c18c8",
+        "pair:1713cb6a0c08c50fe06779c2",
+        "pair:1e4672a08c91aeb46d592b88",
+        "pair:2d3076da5619764f44c755fe",
+        "pair:3a90420b94add4edc42a3292",
+        "pair:3ad9968524ea569e6f9a1c96",
+        "pair:51266797e9e29b053b624a6f",
+        "pair:51faa5a4e79a7ea4dc6ca501",
+        "pair:5ceaecd3cc3f9524053d19d9",
+        "pair:5e0a248a01fb8b7998b5e531",
+        "pair:61ce870bf3c4391fefc449ec",
+        "pair:71c845ef24bc941b2d335b3d",
+        "pair:955441c2f9d1d7a18ef9ad3d",
+        "pair:9b78d44be26814fb249262d2",
+        "pair:a27f73eb8494dd9a6da2752a",
+        "pair:ad5a490923fd24406a1df090",
+        "pair:b3c00eb852a170f3b7e1ed7f",
+        "pair:d2a76732e519e91ee1a9eb86",
+        "pair:d3db4b9a09ffd7fc10388d23"
+      ],
+      "reference_pair_weighted_errors_eV": [
+        0.30158744885910416,
+        0.0374224861114306,
+        0.26416496274767354
+      ],
+      "comparison_pair_weighted_errors_eV": [
+        0.3845435733457874,
+        0.03434264682545716,
+        0.35020092652033025
+      ],
+      "comparison_minus_reference_improvement_eV": 0.08603596377265667,
+      "CI95_eV": [
+        0.031875961854091715,
+        0.14665207461545224
+      ],
+      "note": "error vectors are [Anderson MAE, ML MAE, positive improvement]"
+    },
+    "canonical_flip_01_vs_00": {
+      "scope": "Janus",
+      "reference": "0,0",
+      "comparison": "0,1",
+      "same_physical_pairs": 39,
+      "physical_pair_ids": [
+        "pair:00c4e6163325b4a648f94f1c",
+        "pair:01fc2535c5622adc8ee6b21c",
+        "pair:067206da808deda207d03e34",
+        "pair:0c563d26feac60afc0b3446d",
+        "pair:0fa5e90a80092518bca51f4f",
+        "pair:10ce9d1e0759753e246c18c8",
+        "pair:1713cb6a0c08c50fe06779c2",
+        "pair:1e4672a08c91aeb46d592b88",
+        "pair:2d3076da5619764f44c755fe",
+        "pair:313d146b048b79af27fe8617",
+        "pair:3a90420b94add4edc42a3292",
+        "pair:3ad9968524ea569e6f9a1c96",
+        "pair:462ca233cff272121db8cc48",
+        "pair:51266797e9e29b053b624a6f",
+        "pair:51faa5a4e79a7ea4dc6ca501",
+        "pair:5ceaecd3cc3f9524053d19d9",
+        "pair:5e0a248a01fb8b7998b5e531",
+        "pair:61ce870bf3c4391fefc449ec",
+        "pair:71c845ef24bc941b2d335b3d",
+        "pair:7626e90c26e1a4bd06f9125a",
+        "pair:7ef160cf7e29b87d65b42fee",
+        "pair:7f4b03c0313f74d57784d8fe",
+        "pair:8556c74d14d8f46fea85c146",
+        "pair:955441c2f9d1d7a18ef9ad3d",
+        "pair:9b78d44be26814fb249262d2",
+        "pair:a1bf1698756ec4d2f6d8d82b",
+        "pair:a27f73eb8494dd9a6da2752a",
+        "pair:a9eee2e033236f33307ee312",
+        "pair:ad5a490923fd24406a1df090",
+        "pair:af44257bd78202fd79b94ea1",
+        "pair:b19ec5914e2f006cd371d14e",
+        "pair:b3c00eb852a170f3b7e1ed7f",
+        "pair:b65dbdfafca46fbb7be2859f",
+        "pair:bc9c1c0fbbc26de9ceae6cff",
+        "pair:c5cb0ce56fec2a220f0051ae",
+        "pair:d2a76732e519e91ee1a9eb86",
+        "pair:d3db4b9a09ffd7fc10388d23",
+        "pair:ed7a0017f8232ffa262574d8",
+        "pair:f09a3599be71dd167c58a2c9"
+      ],
+      "reference_pair_weighted_errors_eV": [
+        0.26375989731470784,
+        0.04078284898611411,
+        0.22297704832859375
+      ],
+      "comparison_pair_weighted_errors_eV": [
+        0.2930222175480086,
+        0.04063086404710396,
+        0.2523913535009046
+      ],
+      "comparison_minus_reference_improvement_eV": 0.029414305172310896,
+      "CI95_eV": [
+        -0.02188293621422144,
+        0.08291176415374907
+      ],
+      "note": "error vectors are [Anderson MAE, ML MAE, positive improvement]"
+    },
+    "canonical_flip_10_vs_00": {
+      "scope": "Janus",
+      "reference": "0,0",
+      "comparison": "1,0",
+      "same_physical_pairs": 23,
+      "physical_pair_ids": [
+        "pair:00c4e6163325b4a648f94f1c",
+        "pair:01fc2535c5622adc8ee6b21c",
+        "pair:0c563d26feac60afc0b3446d",
+        "pair:0fa5e90a80092518bca51f4f",
+        "pair:10ce9d1e0759753e246c18c8",
+        "pair:1713cb6a0c08c50fe06779c2",
+        "pair:1e4672a08c91aeb46d592b88",
+        "pair:2d3076da5619764f44c755fe",
+        "pair:3a90420b94add4edc42a3292",
+        "pair:3ad9968524ea569e6f9a1c96",
+        "pair:51266797e9e29b053b624a6f",
+        "pair:51faa5a4e79a7ea4dc6ca501",
+        "pair:5ceaecd3cc3f9524053d19d9",
+        "pair:5e0a248a01fb8b7998b5e531",
+        "pair:61ce870bf3c4391fefc449ec",
+        "pair:71c845ef24bc941b2d335b3d",
+        "pair:955441c2f9d1d7a18ef9ad3d",
+        "pair:9b78d44be26814fb249262d2",
+        "pair:a27f73eb8494dd9a6da2752a",
+        "pair:ad5a490923fd24406a1df090",
+        "pair:b3c00eb852a170f3b7e1ed7f",
+        "pair:d2a76732e519e91ee1a9eb86",
+        "pair:d3db4b9a09ffd7fc10388d23"
+      ],
+      "reference_pair_weighted_errors_eV": [
+        0.30158744885910416,
+        0.0374224861114306,
+        0.26416496274767354
+      ],
+      "comparison_pair_weighted_errors_eV": [
+        0.3813397786660939,
+        0.04099801283871419,
+        0.3403417658273798
+      ],
+      "comparison_minus_reference_improvement_eV": 0.07617680307970617,
+      "CI95_eV": [
+        0.00023663825575602775,
+        0.14532677249086373
+      ],
+      "note": "error vectors are [Anderson MAE, ML MAE, positive improvement]"
+    },
+    "translation_21_vs_12": {
+      "scope": "Janus",
+      "reference": "1/3,2/3",
+      "comparison": "2/3,1/3",
+      "same_physical_pairs": 40,
+      "physical_pair_ids": [
+        "pair:00c4e6163325b4a648f94f1c",
+        "pair:01fc2535c5622adc8ee6b21c",
+        "pair:067206da808deda207d03e34",
+        "pair:0c563d26feac60afc0b3446d",
+        "pair:0fa5e90a80092518bca51f4f",
+        "pair:10ce9d1e0759753e246c18c8",
+        "pair:1713cb6a0c08c50fe06779c2",
+        "pair:1e4672a08c91aeb46d592b88",
+        "pair:2d3076da5619764f44c755fe",
+        "pair:313d146b048b79af27fe8617",
+        "pair:3a90420b94add4edc42a3292",
+        "pair:3ad9968524ea569e6f9a1c96",
+        "pair:462ca233cff272121db8cc48",
+        "pair:51266797e9e29b053b624a6f",
+        "pair:51faa5a4e79a7ea4dc6ca501",
+        "pair:5ceaecd3cc3f9524053d19d9",
+        "pair:5e0a248a01fb8b7998b5e531",
+        "pair:61ce870bf3c4391fefc449ec",
+        "pair:71c845ef24bc941b2d335b3d",
+        "pair:7626e90c26e1a4bd06f9125a",
+        "pair:7ef160cf7e29b87d65b42fee",
+        "pair:7f4b03c0313f74d57784d8fe",
+        "pair:8556c74d14d8f46fea85c146",
+        "pair:955441c2f9d1d7a18ef9ad3d",
+        "pair:9b78d44be26814fb249262d2",
+        "pair:a1bf1698756ec4d2f6d8d82b",
+        "pair:a27f73eb8494dd9a6da2752a",
+        "pair:a9eee2e033236f33307ee312",
+        "pair:ad5a490923fd24406a1df090",
+        "pair:af44257bd78202fd79b94ea1",
+        "pair:b19ec5914e2f006cd371d14e",
+        "pair:b3c00eb852a170f3b7e1ed7f",
+        "pair:b65dbdfafca46fbb7be2859f",
+        "pair:bc9c1c0fbbc26de9ceae6cff",
+        "pair:c5cb0ce56fec2a220f0051ae",
+        "pair:d2a76732e519e91ee1a9eb86",
+        "pair:d3db4b9a09ffd7fc10388d23",
+        "pair:ed0ab7b8657670161558c857",
+        "pair:ed7a0017f8232ffa262574d8",
+        "pair:f09a3599be71dd167c58a2c9"
+      ],
+      "reference_pair_weighted_errors_eV": [
+        0.30113649612779525,
+        0.04053787400838553,
+        0.2605986221194098
+      ],
+      "comparison_pair_weighted_errors_eV": [
+        0.29351759964233815,
+        0.038585201744631134,
+        0.25493239789770705
+      ],
+      "comparison_minus_reference_improvement_eV": -0.005666224221702758,
+      "CI95_eV": [
+        -0.010969084052400048,
+        -0.00012885253838473633
+      ],
+      "note": "error vectors are [Anderson MAE, ML MAE, positive improvement]"
+    }
+  },
+  "training_graphs": 68,
+  "total_graphs": 78,
+  "descriptor_audit": {
+    "graph_mean_edge_distance_difference_A": {
+      "definition": "absolute difference between arithmetic means of cached edge_distance_A arrays for lower and upper monolayer graphs",
+      "graph_edges": "All retained directed periodic intralayer neighbor edges under 5 Angstrom radius / complete-shell target-24 contract; not nearest-neighbor bond lengths",
+      "equivalent_C1_column": "abs_delta__neighbor_distance_mean_A",
+      "max_abs_cache_vs_raw_C1_difference_on_supported_test_A": 1.0697354113631263e-10,
+      "definition_source": "research_plan/step08_2026-10-15/input_features.py:103-122"
+    },
+    "max_absolute_prescribed_principal_strain_fraction": {
+      "columns": [
+        "lower__initial_strain_principal_min_fraction",
+        "lower__initial_strain_principal_max_fraction",
+        "upper__initial_strain_principal_min_fraction",
+        "upper__initial_strain_principal_max_fraction"
+      ],
+      "definition": "maximum absolute principal strain among both layers, in fractional units (100 times is percent)",
+      "input_origin": "Janus qian candidate geometry, predictive_input_eligible=true, model_stage_role=input_geometry; no hou/final DFT filling",
+      "definition_source": "research_plan/step08_2026-10-15/build_features.py:29-48; input_features.py:223-240",
+      "current_contract": "available_initial_stacking / initial_candidate; native_free"
+    },
+    "Janus_correlation_graph_distance_difference_vs_max_strain": {
+      "row_Pearson_r": 0.7272619122491656,
+      "physical_pair_mean_Pearson_r": 0.8583907731124419,
+      "interpretation": "Overlapping descriptors of mismatch; associations cannot be assigned independent causal contributions"
+    }
+  },
+  "true_twist_support": {
+    "twist_sin_fit_finite": 0,
+    "twist_cos_fit_finite": 0,
+    "interpretation": "No true-twist accuracy advantage can be estimated from this input definition"
+  },
+  "source_hashes": {
+    "research_plan\\retrain_no_tony_2026-11-02\\evaluation\\sealed_final_test\\evaluated_predictions.jsonl": "0660d4857eb22785c9636126dcc3fdefb06878a0f07aba43c05e4e494f87c88a",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\raw_features.npz": "b4d808d65f2609ed8de77b792e259e7c1726bc72bb70264db470745d5a208944",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\partitions.jsonl": "43bf0261db782790d8fe5bc2ff15d17c9063e835ec0c6f1e77a9dc4e2caeccd8",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\graph_manifest.json": "631ecebc569aec95f1d465c635506f4488135c3a6ee817c2a11d1d1c4db1718f",
+    "research_plan\\retrain_no_tony_2026-11-02\\inputs\\graph_pairs.json": "b06f2545726e92f9e19532abf15cf721b8895cfa0276111024bb8581ea8a26ad"
+  }
+}

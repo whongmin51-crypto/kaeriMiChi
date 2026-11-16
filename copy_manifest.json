@@ -1,0 +1,1346 @@
+[
+  {
+    "path": "data/evaluation/external_validation_diagnostic/evaluated_predictions.jsonl",
+    "bytes": 298628,
+    "sha256": "8b29075dace3ee64db5d2573b70d79e8528dd35f90afab4f77833cb30386484c",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/external_validation_diagnostic/evaluated_predictions.jsonl",
+    "source_sha256": "8b29075dace3ee64db5d2573b70d79e8528dd35f90afab4f77833cb30386484c",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/external_validation_diagnostic/four_model_comparison.json",
+    "bytes": 39824,
+    "sha256": "7e8d0b4f3e9dd75803817dc1d917711f99447ead9b16a3bd47441a8fc11c24b4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/external_validation_diagnostic/four_model_comparison.json",
+    "source_sha256": "7e8d0b4f3e9dd75803817dc1d917711f99447ead9b16a3bd47441a8fc11c24b4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/external_validation_diagnostic/main_metrics.json",
+    "bytes": 38181,
+    "sha256": "121f90b655d638d952ec508466aef37170bb66e9eb057bdf0796fb41d7a55c76",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/external_validation_diagnostic/main_metrics.json",
+    "source_sha256": "121f90b655d638d952ec508466aef37170bb66e9eb057bdf0796fb41d7a55c76",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/external_validation_diagnostic/risk_coverage.jsonl",
+    "bytes": 10936,
+    "sha256": "50eef968b3f5eeeffca8fe6ee2df7fb92b8eb01a75f7fdc1a20cc6c70c1cb909",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/external_validation_diagnostic/risk_coverage.jsonl",
+    "source_sha256": "50eef968b3f5eeeffca8fe6ee2df7fb92b8eb01a75f7fdc1a20cc6c70c1cb909",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/external_validation_diagnostic/stratified_metrics.json",
+    "bytes": 160255,
+    "sha256": "e8ee975c24ce4058572c29698e893bcc5c0b3dae88d0d5936da9c1d4ef96fd01",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/external_validation_diagnostic/stratified_metrics.json",
+    "source_sha256": "e8ee975c24ce4058572c29698e893bcc5c0b3dae88d0d5936da9c1d4ef96fd01",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/sealed_final_test/evaluated_predictions.jsonl",
+    "bytes": 4694937,
+    "sha256": "0660d4857eb22785c9636126dcc3fdefb06878a0f07aba43c05e4e494f87c88a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/evaluated_predictions.jsonl",
+    "source_sha256": "0660d4857eb22785c9636126dcc3fdefb06878a0f07aba43c05e4e494f87c88a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/sealed_final_test/four_model_comparison.json",
+    "bytes": 49040,
+    "sha256": "a6b7b6fded834425e147c16f90f115749a9fb602b6350bbc875dafc15ef6f5f9",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/four_model_comparison.json",
+    "source_sha256": "a6b7b6fded834425e147c16f90f115749a9fb602b6350bbc875dafc15ef6f5f9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/sealed_final_test/main_metrics.json",
+    "bytes": 68691,
+    "sha256": "7eee621ad05f4b2ddf58f41588a4290eb73ee5cc59a21c825f2c9575b570552c",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/main_metrics.json",
+    "source_sha256": "7eee621ad05f4b2ddf58f41588a4290eb73ee5cc59a21c825f2c9575b570552c",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/sealed_final_test/risk_coverage.jsonl",
+    "bytes": 129334,
+    "sha256": "f592b2373908b581cb4483c67223ffa73c0d5c0b2d4fd457c8859958d9f06e1c",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/risk_coverage.jsonl",
+    "source_sha256": "f592b2373908b581cb4483c67223ffa73c0d5c0b2d4fd457c8859958d9f06e1c",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/evaluation/sealed_final_test/stratified_metrics.json",
+    "bytes": 302638,
+    "sha256": "4945eebe20d08beb3922e9d6b86753296b3417bb5f2c2f03f13afbba418c7cce",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/evaluation/sealed_final_test/stratified_metrics.json",
+    "source_sha256": "4945eebe20d08beb3922e9d6b86753296b3417bb5f2c2f03f13afbba418c7cce",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/CGCNN_classifier_ensemble.jsonl",
+    "bytes": 118786,
+    "sha256": "0fbb96160392b91925b24260fa8d01dadfc357b89a5042f72a5316020fff26ab",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/CGCNN_classifier_ensemble.jsonl",
+    "source_sha256": "0fbb96160392b91925b24260fa8d01dadfc357b89a5042f72a5316020fff26ab",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 123041,
+    "sha256": "06573d8e9bb8b262a57705f9111ed46fcd922c71aaf3fdf8a15c6ea9657560ae",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "06573d8e9bb8b262a57705f9111ed46fcd922c71aaf3fdf8a15c6ea9657560ae",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/CGCNN_multi_task_ensemble.jsonl",
+    "bytes": 186923,
+    "sha256": "35a8d1557d241c5dc2df3450550e8110483bc98c6cb94fb7016502a55f521a81",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/CGCNN_multi_task_ensemble.jsonl",
+    "source_sha256": "35a8d1557d241c5dc2df3450550e8110483bc98c6cb94fb7016502a55f521a81",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/CGCNN_residual_regression_ensemble.jsonl",
+    "bytes": 123155,
+    "sha256": "d64e7024389d41df3e6cd5e766129f9403639f271bbbb79e9f203fef4d1f9bda",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/CGCNN_residual_regression_ensemble.jsonl",
+    "source_sha256": "d64e7024389d41df3e6cd5e766129f9403639f271bbbb79e9f203fef4d1f9bda",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/GANN_classifier_ensemble.jsonl",
+    "bytes": 118734,
+    "sha256": "189ac271ad0aca68438395c2a2d194a2149141fc9912f80e2d706583c54e4dcf",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/GANN_classifier_ensemble.jsonl",
+    "source_sha256": "189ac271ad0aca68438395c2a2d194a2149141fc9912f80e2d706583c54e4dcf",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/GANN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 122808,
+    "sha256": "456d0ee28f0b2fbeffc1047756f5bf16776676229e20a36af73d5fb0ac9e8623",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/GANN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "456d0ee28f0b2fbeffc1047756f5bf16776676229e20a36af73d5fb0ac9e8623",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/GANN_multi_task_ensemble.jsonl",
+    "bytes": 186924,
+    "sha256": "e06e55efd029da35d6e6315732c4e14b4724d2838fa33012b6127fbda14070cb",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/GANN_multi_task_ensemble.jsonl",
+    "source_sha256": "e06e55efd029da35d6e6315732c4e14b4724d2838fa33012b6127fbda14070cb",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/GANN_residual_regression_ensemble.jsonl",
+    "bytes": 123270,
+    "sha256": "47b211413e565d683e2b18e26585ca554916cfa16ec49b7aaafb44ebcc894a09",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/GANN_residual_regression_ensemble.jsonl",
+    "source_sha256": "47b211413e565d683e2b18e26585ca554916cfa16ec49b7aaafb44ebcc894a09",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/RF_classifier_ensemble.jsonl",
+    "bytes": 118748,
+    "sha256": "affbc8ab44baad7ec392f099d6d3245e3fc14156e5cf65c04a283706abd6ddec",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/RF_classifier_ensemble.jsonl",
+    "source_sha256": "affbc8ab44baad7ec392f099d6d3245e3fc14156e5cf65c04a283706abd6ddec",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/RF_direct_gap_regression_ensemble.jsonl",
+    "bytes": 123314,
+    "sha256": "4a276e87e28f93967a8dce04d9c3d60d7387f47ac5016376fdce139b84002b19",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/RF_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "4a276e87e28f93967a8dce04d9c3d60d7387f47ac5016376fdce139b84002b19",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/RF_residual_regression_ensemble.jsonl",
+    "bytes": 123063,
+    "sha256": "cf6ed9218ec488c09e3d968e51374735d6d6f85f1bf22c2a9b3402dff60cfd70",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/RF_residual_regression_ensemble.jsonl",
+    "source_sha256": "cf6ed9218ec488c09e3d968e51374735d6d6f85f1bf22c2a9b3402dff60cfd70",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/XGBoost_classifier_ensemble.jsonl",
+    "bytes": 118650,
+    "sha256": "e5f621737300e06db6bcd66787bc59b77e5927416c9a29d72f4223937ec9d7ae",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/XGBoost_classifier_ensemble.jsonl",
+    "source_sha256": "e5f621737300e06db6bcd66787bc59b77e5927416c9a29d72f4223937ec9d7ae",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "bytes": 122594,
+    "sha256": "f4b43c76d027ff74d3f9a3714fa87963bf9f31cd58877e34ce5a4e6662198468",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "f4b43c76d027ff74d3f9a3714fa87963bf9f31cd58877e34ce5a4e6662198468",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_decision/XGBoost_residual_regression_ensemble.jsonl",
+    "bytes": 123321,
+    "sha256": "afca77d95fd00db7ef5cbe4b9c7610c3f241451a5fa3e23f32f853098ebfe530",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_decision/XGBoost_residual_regression_ensemble.jsonl",
+    "source_sha256": "afca77d95fd00db7ef5cbe4b9c7610c3f241451a5fa3e23f32f853098ebfe530",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/CGCNN_classifier_ensemble.jsonl",
+    "bytes": 92420,
+    "sha256": "14819d915c0c401be1aff0dd291164ceea5cab5eb892bd8304395ec50d99a7ca",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/CGCNN_classifier_ensemble.jsonl",
+    "source_sha256": "14819d915c0c401be1aff0dd291164ceea5cab5eb892bd8304395ec50d99a7ca",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 95806,
+    "sha256": "1336c7e1c0c3c5f49caeb7c97c1b4dd62a064ecb71a844d67cbe031ed39f0525",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "1336c7e1c0c3c5f49caeb7c97c1b4dd62a064ecb71a844d67cbe031ed39f0525",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/CGCNN_multi_task_ensemble.jsonl",
+    "bytes": 145936,
+    "sha256": "2b46b0ad6701cf0901429aa536b44d2d3c0a85e07b913178a64d3beddb046a68",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/CGCNN_multi_task_ensemble.jsonl",
+    "source_sha256": "2b46b0ad6701cf0901429aa536b44d2d3c0a85e07b913178a64d3beddb046a68",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/CGCNN_residual_regression_ensemble.jsonl",
+    "bytes": 96165,
+    "sha256": "ae5de2c9e9bcc5bc77c82f8566e49c4ea0c05c5f5e70b4d86d8ff40668e6fafd",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/CGCNN_residual_regression_ensemble.jsonl",
+    "source_sha256": "ae5de2c9e9bcc5bc77c82f8566e49c4ea0c05c5f5e70b4d86d8ff40668e6fafd",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/GANN_classifier_ensemble.jsonl",
+    "bytes": 92388,
+    "sha256": "4063bb6e3aae686ca2957ad8f8ed9aa89907594dc39b9ba06935d5d6c248c171",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/GANN_classifier_ensemble.jsonl",
+    "source_sha256": "4063bb6e3aae686ca2957ad8f8ed9aa89907594dc39b9ba06935d5d6c248c171",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/GANN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 95841,
+    "sha256": "83fbcf2851d5c22acaec89521405bc425d6e27e189641e6733f3dac811fff283",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/GANN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "83fbcf2851d5c22acaec89521405bc425d6e27e189641e6733f3dac811fff283",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/GANN_multi_task_ensemble.jsonl",
+    "bytes": 145809,
+    "sha256": "297bd6bf59d3d9dcad9e365e28027c802e258285e93f556b6382696476950292",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/GANN_multi_task_ensemble.jsonl",
+    "source_sha256": "297bd6bf59d3d9dcad9e365e28027c802e258285e93f556b6382696476950292",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/GANN_residual_regression_ensemble.jsonl",
+    "bytes": 96252,
+    "sha256": "75c2384367e5a51f0b5d2a30120e8c378c14faa2aa51d20bb3f93a3b38828791",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/GANN_residual_regression_ensemble.jsonl",
+    "source_sha256": "75c2384367e5a51f0b5d2a30120e8c378c14faa2aa51d20bb3f93a3b38828791",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/RF_classifier_ensemble.jsonl",
+    "bytes": 92378,
+    "sha256": "a4a05e4f8a4ba019097ea8e4fe53b92bac581a34fd98dbc80f0db53a932c64aa",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/RF_classifier_ensemble.jsonl",
+    "source_sha256": "a4a05e4f8a4ba019097ea8e4fe53b92bac581a34fd98dbc80f0db53a932c64aa",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/RF_direct_gap_regression_ensemble.jsonl",
+    "bytes": 95890,
+    "sha256": "f9ca30740204ee228a266795565b9b21d158146f19d036fb3f8c8f4469360604",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/RF_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "f9ca30740204ee228a266795565b9b21d158146f19d036fb3f8c8f4469360604",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/RF_residual_regression_ensemble.jsonl",
+    "bytes": 96159,
+    "sha256": "5f966de4d6ab0b3e02dedd81fd5fdbdcb80db72dbe542a57c95208091513483f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/RF_residual_regression_ensemble.jsonl",
+    "source_sha256": "5f966de4d6ab0b3e02dedd81fd5fdbdcb80db72dbe542a57c95208091513483f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/XGBoost_classifier_ensemble.jsonl",
+    "bytes": 92354,
+    "sha256": "a40334a5a73321d04a2631b1b2e5ea1a69296816a8b6a594c5cc5a8094b4f6c5",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/XGBoost_classifier_ensemble.jsonl",
+    "source_sha256": "a40334a5a73321d04a2631b1b2e5ea1a69296816a8b6a594c5cc5a8094b4f6c5",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "bytes": 95685,
+    "sha256": "5f5fb2ef74287a24e6d568407cbdd0f4fe8c9e8bc5db4b7f674a21bef3490bf5",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "5f5fb2ef74287a24e6d568407cbdd0f4fe8c9e8bc5db4b7f674a21bef3490bf5",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_interval/XGBoost_residual_regression_ensemble.jsonl",
+    "bytes": 96196,
+    "sha256": "45e32d0efbce7dde37d6b9af85bf7a9e6171054be34d5ec671242524a81889c1",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_interval/XGBoost_residual_regression_ensemble.jsonl",
+    "source_sha256": "45e32d0efbce7dde37d6b9af85bf7a9e6171054be34d5ec671242524a81889c1",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/CGCNN_classifier_ensemble.jsonl",
+    "bytes": 129402,
+    "sha256": "4ff876d40c1d6a265c263287faf1c66044d886d84d02e7433e352d81edcf8e4f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/CGCNN_classifier_ensemble.jsonl",
+    "source_sha256": "4ff876d40c1d6a265c263287faf1c66044d886d84d02e7433e352d81edcf8e4f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 133991,
+    "sha256": "929fd5c26550e77e98780af59f96e68b8785983445fae032bea401219c2eaa80",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "929fd5c26550e77e98780af59f96e68b8785983445fae032bea401219c2eaa80",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/CGCNN_multi_task_ensemble.jsonl",
+    "bytes": 203839,
+    "sha256": "0501c8e0c5f5340f7508596a157bb0e33621ee59c880623f4255a4c58b772c97",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/CGCNN_multi_task_ensemble.jsonl",
+    "source_sha256": "0501c8e0c5f5340f7508596a157bb0e33621ee59c880623f4255a4c58b772c97",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/CGCNN_residual_regression_ensemble.jsonl",
+    "bytes": 134439,
+    "sha256": "31b688f651b2fd832aae9a9850322de046cfa4987842fcbd03f72efb89e9703a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/CGCNN_residual_regression_ensemble.jsonl",
+    "source_sha256": "31b688f651b2fd832aae9a9850322de046cfa4987842fcbd03f72efb89e9703a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/GANN_classifier_ensemble.jsonl",
+    "bytes": 129402,
+    "sha256": "7b9d535b3163b21d698dc65832db228f338e5d1129f98c93b6be908aa35abac4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/GANN_classifier_ensemble.jsonl",
+    "source_sha256": "7b9d535b3163b21d698dc65832db228f338e5d1129f98c93b6be908aa35abac4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/GANN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 133915,
+    "sha256": "cb2edcef208f45af04705d6119860a8dce2f18fa6724749c62d90d682a8b9815",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/GANN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "cb2edcef208f45af04705d6119860a8dce2f18fa6724749c62d90d682a8b9815",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/GANN_multi_task_ensemble.jsonl",
+    "bytes": 203768,
+    "sha256": "ad36818e3fa228230d877ba6a56e22174ebe56174aa9be25b7a924ae506629a4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/GANN_multi_task_ensemble.jsonl",
+    "source_sha256": "ad36818e3fa228230d877ba6a56e22174ebe56174aa9be25b7a924ae506629a4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/GANN_residual_regression_ensemble.jsonl",
+    "bytes": 134333,
+    "sha256": "2f816e0d681af243dc19161b89da57c6913faa0d432389beba31f3e2847f11ac",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/GANN_residual_regression_ensemble.jsonl",
+    "source_sha256": "2f816e0d681af243dc19161b89da57c6913faa0d432389beba31f3e2847f11ac",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/RF_classifier_ensemble.jsonl",
+    "bytes": 129392,
+    "sha256": "49ff6513b272c5e544ee92255b5e4a115abeb6685b023cdd30bc6b5c9fb3ac11",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/RF_classifier_ensemble.jsonl",
+    "source_sha256": "49ff6513b272c5e544ee92255b5e4a115abeb6685b023cdd30bc6b5c9fb3ac11",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/RF_direct_gap_regression_ensemble.jsonl",
+    "bytes": 134360,
+    "sha256": "cdd9525edfb3fbd7a96605d6fae29e5d42e20422db0359bd6c8469a4eb2d78ff",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/RF_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "cdd9525edfb3fbd7a96605d6fae29e5d42e20422db0359bd6c8469a4eb2d78ff",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/RF_residual_regression_ensemble.jsonl",
+    "bytes": 134741,
+    "sha256": "34568076d0ba94859f039b54d22f11dad3a7995121de99f1321321c3bcd63edb",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/RF_residual_regression_ensemble.jsonl",
+    "source_sha256": "34568076d0ba94859f039b54d22f11dad3a7995121de99f1321321c3bcd63edb",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/XGBoost_classifier_ensemble.jsonl",
+    "bytes": 129330,
+    "sha256": "e12f74a7b6965d2d0c9f53a566ddb12b097558dabd8bcb3e8553b899a3dcbfa4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/XGBoost_classifier_ensemble.jsonl",
+    "source_sha256": "e12f74a7b6965d2d0c9f53a566ddb12b097558dabd8bcb3e8553b899a3dcbfa4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "bytes": 133904,
+    "sha256": "435bf9f89fe67b2930c70c1ca0034123fa68e90376551f0d45fd9c12e786dbf3",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "435bf9f89fe67b2930c70c1ca0034123fa68e90376551f0d45fd9c12e786dbf3",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/cal_probability/XGBoost_residual_regression_ensemble.jsonl",
+    "bytes": 134805,
+    "sha256": "e99e732ce416be4e569c0ae6b7114471de29298a46041811c5c52461ef10f956",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/cal_probability/XGBoost_residual_regression_ensemble.jsonl",
+    "source_sha256": "e99e732ce416be4e569c0ae6b7114471de29298a46041811c5c52461ef10f956",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/CGCNN_classifier_ensemble.jsonl",
+    "bytes": 16313,
+    "sha256": "dd46057e01aa724c1f5b1a206c6bd9d7e540949bd7aea251aea164d098afa538",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/CGCNN_classifier_ensemble.jsonl",
+    "source_sha256": "dd46057e01aa724c1f5b1a206c6bd9d7e540949bd7aea251aea164d098afa538",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 16940,
+    "sha256": "a6e8ce61436bba9dbe7f39234b418c96fee94543165842f0dc362d26c15b7602",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "a6e8ce61436bba9dbe7f39234b418c96fee94543165842f0dc362d26c15b7602",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/CGCNN_multi_task_ensemble.jsonl",
+    "bytes": 25793,
+    "sha256": "d68ca910f85cba9f7507f7fd0bcd9411a9335774ab3a267941b82c7a79224ab7",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/CGCNN_multi_task_ensemble.jsonl",
+    "source_sha256": "d68ca910f85cba9f7507f7fd0bcd9411a9335774ab3a267941b82c7a79224ab7",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/CGCNN_residual_regression_ensemble.jsonl",
+    "bytes": 16919,
+    "sha256": "48fd04410d32f3ef83921db5790b882260b90f55e458ac8abcf241d97f649181",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/CGCNN_residual_regression_ensemble.jsonl",
+    "source_sha256": "48fd04410d32f3ef83921db5790b882260b90f55e458ac8abcf241d97f649181",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/GANN_classifier_ensemble.jsonl",
+    "bytes": 16363,
+    "sha256": "56213d025ed8fdf2162f3feffb86f3e7d5b30050c1cd23ab7c4ae90d29ed4ef1",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/GANN_classifier_ensemble.jsonl",
+    "source_sha256": "56213d025ed8fdf2162f3feffb86f3e7d5b30050c1cd23ab7c4ae90d29ed4ef1",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/GANN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 16961,
+    "sha256": "669131f27e269079427f2fa347d810ae4d9f9bf5d1c780447fcdf47d1f73ca95",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/GANN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "669131f27e269079427f2fa347d810ae4d9f9bf5d1c780447fcdf47d1f73ca95",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/GANN_multi_task_ensemble.jsonl",
+    "bytes": 25659,
+    "sha256": "dd9ac68bdc27fe47defffe8ee8da06788b84b957b4e0b31fc262cdd89b4fc2b2",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/GANN_multi_task_ensemble.jsonl",
+    "source_sha256": "dd9ac68bdc27fe47defffe8ee8da06788b84b957b4e0b31fc262cdd89b4fc2b2",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/GANN_residual_regression_ensemble.jsonl",
+    "bytes": 17016,
+    "sha256": "e9c979ad02649d785da366ca11a492569912edbc2d869e3960cd895b7cb98476",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/GANN_residual_regression_ensemble.jsonl",
+    "source_sha256": "e9c979ad02649d785da366ca11a492569912edbc2d869e3960cd895b7cb98476",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/RF_classifier_ensemble.jsonl",
+    "bytes": 16401,
+    "sha256": "3d83c6987272823895410b243ecf1bbfbc9d9c5b1794b08cc05b6937ebb3fd9f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/RF_classifier_ensemble.jsonl",
+    "source_sha256": "3d83c6987272823895410b243ecf1bbfbc9d9c5b1794b08cc05b6937ebb3fd9f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/RF_direct_gap_regression_ensemble.jsonl",
+    "bytes": 17009,
+    "sha256": "e38183abae40b669a46b697cde406c2b1678bbc757a2b76ca0380d7ac3ebdff4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/RF_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "e38183abae40b669a46b697cde406c2b1678bbc757a2b76ca0380d7ac3ebdff4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/RF_residual_regression_ensemble.jsonl",
+    "bytes": 16870,
+    "sha256": "30b128c67a2d1e1f02f7c8c569ef873d37a793c3872ba2ce05aa50b03cf0db5d",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/RF_residual_regression_ensemble.jsonl",
+    "source_sha256": "30b128c67a2d1e1f02f7c8c569ef873d37a793c3872ba2ce05aa50b03cf0db5d",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/XGBoost_classifier_ensemble.jsonl",
+    "bytes": 16379,
+    "sha256": "99b99c85e6304ba92b107514cc5758eb62a6296f71b8d5a0db6e722b8d0ab452",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/XGBoost_classifier_ensemble.jsonl",
+    "source_sha256": "99b99c85e6304ba92b107514cc5758eb62a6296f71b8d5a0db6e722b8d0ab452",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "bytes": 16997,
+    "sha256": "0a410dbcaaa6eafb1c2069984dad866a6f0275f2191cc97a6e98f7ee1c0bfd46",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "0a410dbcaaa6eafb1c2069984dad866a6f0275f2191cc97a6e98f7ee1c0bfd46",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/external_validation_diagnostic/XGBoost_residual_regression_ensemble.jsonl",
+    "bytes": 17050,
+    "sha256": "3d6a43fd4441b4f4b70439558ae7b064982e46ad4a23a58f38af81af58243d17",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/external_validation_diagnostic/XGBoost_residual_regression_ensemble.jsonl",
+    "source_sha256": "3d6a43fd4441b4f4b70439558ae7b064982e46ad4a23a58f38af81af58243d17",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/CGCNN_classifier_ensemble.jsonl",
+    "bytes": 201358,
+    "sha256": "7ebd2ddadaaf223bf9d8f2fb677c371a01308f4d87e4f8124c1cada84233af26",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_classifier_ensemble.jsonl",
+    "source_sha256": "7ebd2ddadaaf223bf9d8f2fb677c371a01308f4d87e4f8124c1cada84233af26",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 208936,
+    "sha256": "728ef2cd33a2c2288e14c926f5c4d840d4d0796c8a6e5830d98aa20b4f93e522",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "728ef2cd33a2c2288e14c926f5c4d840d4d0796c8a6e5830d98aa20b4f93e522",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/CGCNN_multi_task_ensemble.jsonl",
+    "bytes": 317880,
+    "sha256": "ed6614b4185d58baf6ac8dbc6da4bca1b3d18b003ce8c23763b979607953a544",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_multi_task_ensemble.jsonl",
+    "source_sha256": "ed6614b4185d58baf6ac8dbc6da4bca1b3d18b003ce8c23763b979607953a544",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/CGCNN_residual_regression_ensemble.jsonl",
+    "bytes": 209488,
+    "sha256": "98505a033c84ae7681fb5cbe5643d45a948ba60daf552e06b758982fbbcc174e",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/CGCNN_residual_regression_ensemble.jsonl",
+    "source_sha256": "98505a033c84ae7681fb5cbe5643d45a948ba60daf552e06b758982fbbcc174e",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/GANN_classifier_ensemble.jsonl",
+    "bytes": 201816,
+    "sha256": "9f153a370cf477dddbdfaaba1703714bbb50558e020da7590a10d7677e63719e",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_classifier_ensemble.jsonl",
+    "source_sha256": "9f153a370cf477dddbdfaaba1703714bbb50558e020da7590a10d7677e63719e",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/GANN_direct_gap_regression_ensemble.jsonl",
+    "bytes": 209008,
+    "sha256": "a4cbf85bcd987d50bca46f749c4eeff3e4747f301f933c77329a37eec5c98c69",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "a4cbf85bcd987d50bca46f749c4eeff3e4747f301f933c77329a37eec5c98c69",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/GANN_multi_task_ensemble.jsonl",
+    "bytes": 317535,
+    "sha256": "b0ff2685e8a928af57c19b9f9ebf87cc2405c71bf93e308a545cbc0ed3aec321",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_multi_task_ensemble.jsonl",
+    "source_sha256": "b0ff2685e8a928af57c19b9f9ebf87cc2405c71bf93e308a545cbc0ed3aec321",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/GANN_residual_regression_ensemble.jsonl",
+    "bytes": 209751,
+    "sha256": "1d60afe77c4cfbea5a5645471d70b269d98730c053ce4d8d6b589aab83af0964",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/GANN_residual_regression_ensemble.jsonl",
+    "source_sha256": "1d60afe77c4cfbea5a5645471d70b269d98730c053ce4d8d6b589aab83af0964",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/RF_classifier_ensemble.jsonl",
+    "bytes": 202002,
+    "sha256": "4d651282726d33a285adedc729e2d58e49f48f991d7cdf0338d30f7e4b4658aa",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/RF_classifier_ensemble.jsonl",
+    "source_sha256": "4d651282726d33a285adedc729e2d58e49f48f991d7cdf0338d30f7e4b4658aa",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/RF_direct_gap_regression_ensemble.jsonl",
+    "bytes": 209554,
+    "sha256": "29f3f21fa7b694978c0addfd2a4021d86cae7ff76fd5b43bc6c5fd998393036f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/RF_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "29f3f21fa7b694978c0addfd2a4021d86cae7ff76fd5b43bc6c5fd998393036f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/RF_residual_regression_ensemble.jsonl",
+    "bytes": 209593,
+    "sha256": "f19b87f7edb5c2e59aabcb81744dbdcbb950efdf078e9610e44afbb15cf61051",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/RF_residual_regression_ensemble.jsonl",
+    "source_sha256": "f19b87f7edb5c2e59aabcb81744dbdcbb950efdf078e9610e44afbb15cf61051",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/XGBoost_classifier_ensemble.jsonl",
+    "bytes": 201786,
+    "sha256": "ddb597e4b394d5a4f9f4a4870db62e8d9140d364a79870b49307ce9eac007e79",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/XGBoost_classifier_ensemble.jsonl",
+    "source_sha256": "ddb597e4b394d5a4f9f4a4870db62e8d9140d364a79870b49307ce9eac007e79",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "bytes": 208953,
+    "sha256": "db9e8ee59fcb09be2455bcd062f4abc5e275dec562cbdd7ddee855ed16c31704",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/XGBoost_direct_gap_regression_ensemble.jsonl",
+    "source_sha256": "db9e8ee59fcb09be2455bcd062f4abc5e275dec562cbdd7ddee855ed16c31704",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/inference/sealed_final_test/XGBoost_residual_regression_ensemble.jsonl",
+    "bytes": 209911,
+    "sha256": "5dcb81c77c3f4eb1e8207249f731a057e6f923efc2bd0f1c18ebd3031df71a07",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference/sealed_final_test/XGBoost_residual_regression_ensemble.jsonl",
+    "source_sha256": "5dcb81c77c3f4eb1e8207249f731a057e6f923efc2bd0f1c18ebd3031df71a07",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/decision.json",
+    "bytes": 21594,
+    "sha256": "8653fe99c6c8ca799188e2efcac797295c42ebf7b15d0f7006fc4808ff82d9fe",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/decision.json",
+    "source_sha256": "8653fe99c6c8ca799188e2efcac797295c42ebf7b15d0f7006fc4808ff82d9fe",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/decision_bootstrap.jsonl",
+    "bytes": 189117,
+    "sha256": "a6dddae9e0972198b622fb42b5a6679a240062d1f9b95f9c8fc2cf18ad5e47b3",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/decision_bootstrap.jsonl",
+    "source_sha256": "a6dddae9e0972198b622fb42b5a6679a240062d1f9b95f9c8fc2cf18ad5e47b3",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/decision_predictions.jsonl",
+    "bytes": 92105,
+    "sha256": "656452c6d14b0adb23b20d1d02513cfda2cf5c260fd8b3c0b76e2005e3da549d",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/decision_predictions.jsonl",
+    "source_sha256": "656452c6d14b0adb23b20d1d02513cfda2cf5c260fd8b3c0b76e2005e3da549d",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/interval.json",
+    "bytes": 3513,
+    "sha256": "cb8173be489b9b2a495e754a7a99cae7d650a773b48924233a383b2982531960",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/interval.json",
+    "source_sha256": "cb8173be489b9b2a495e754a7a99cae7d650a773b48924233a383b2982531960",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/interval_predictions.jsonl",
+    "bytes": 161141,
+    "sha256": "450a8b4dba194cf5e6c27b3e6c7d3400add5f37c540f5b7b56df041c01cc16eb",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/interval_predictions.jsonl",
+    "source_sha256": "450a8b4dba194cf5e6c27b3e6c7d3400add5f37c540f5b7b56df041c01cc16eb",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/probability.json",
+    "bytes": 14342,
+    "sha256": "1c33122a925e1d627d278eca90f9dc9d7183cf2c4b4e5e4dbd332e350de3e529",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/probability.json",
+    "source_sha256": "1c33122a925e1d627d278eca90f9dc9d7183cf2c4b4e5e4dbd332e350de3e529",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/probability_predictions.jsonl",
+    "bytes": 52736,
+    "sha256": "8d8917baa74c434ac20f000e1a780554062d467bc069e9cd3e540f2a32669fca",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/probability_predictions.jsonl",
+    "source_sha256": "8d8917baa74c434ac20f000e1a780554062d467bc069e9cd3e540f2a32669fca",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/calibration/risk_coverage.jsonl",
+    "bytes": 76109,
+    "sha256": "54a0ac751f3a3cded092e1cb017fc1c6d8d896e970e8af711bfa4775081c4dfc",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/calibration/risk_coverage.jsonl",
+    "source_sha256": "54a0ac751f3a3cded092e1cb017fc1c6d8d896e970e8af711bfa4775081c4dfc",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/application/case_results.jsonl",
+    "bytes": 2205,
+    "sha256": "08a40985d1a42661b034521d83b6952f83f9c5ce99bae06328a222022fca9a19",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/application/case_results.jsonl",
+    "source_sha256": "08a40985d1a42661b034521d83b6952f83f9c5ce99bae06328a222022fca9a19",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/application/input_validation.json",
+    "bytes": 3868,
+    "sha256": "29a4134bd5ae0dcb78d17a125ccc0f1b2b4388f258303018167ba5de9a354e0c",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/application/input_validation.json",
+    "source_sha256": "29a4134bd5ae0dcb78d17a125ccc0f1b2b4388f258303018167ba5de9a354e0c",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/application/metrics.json",
+    "bytes": 225,
+    "sha256": "0441830ee4010e6476d1b5394b17c351d876b0e629de444a9022030832d4798f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/application/metrics.json",
+    "source_sha256": "0441830ee4010e6476d1b5394b17c351d876b0e629de444a9022030832d4798f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/application/retrospective_predictions.jsonl",
+    "bytes": 12820,
+    "sha256": "6425a9b1f45aa8d6eb7b9f9f572ddf102cd321caee43a09ee021584dd730a502",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/application/retrospective_predictions.jsonl",
+    "source_sha256": "6425a9b1f45aa8d6eb7b9f9f572ddf102cd321caee43a09ee021584dd730a502",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/analysis/final_parameter_audit.json",
+    "bytes": 16876,
+    "sha256": "c5ee193c91ca96a2bdaaacbf154f823e985e0eb58e55c2cca7be8c60318baabd",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/analysis/final_parameter_audit.json",
+    "source_sha256": "c5ee193c91ca96a2bdaaacbf154f823e985e0eb58e55c2cca7be8c60318baabd",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/analysis/independent_audit.json",
+    "bytes": 417,
+    "sha256": "938986552c3b50cc8af84615087fe43bc773ab45cc99fccd02d14d6083026d67",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/analysis/independent_audit.json",
+    "source_sha256": "938986552c3b50cc8af84615087fe43bc773ab45cc99fccd02d14d6083026d67",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/analysis/matched_old_new.json",
+    "bytes": 3323,
+    "sha256": "0089c68f60612a263f73fdb9c565003c0ae0d46ef719e09bb29b4e11d1e2143f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/analysis/matched_old_new.json",
+    "source_sha256": "0089c68f60612a263f73fdb9c565003c0ae0d46ef719e09bb29b4e11d1e2143f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/analysis/pair_response.jsonl",
+    "bytes": 7174,
+    "sha256": "aa559f5b1358379a2d52085f4e4b2d27bd21d48d07dca48cddcd78615e6a2a5a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/analysis/pair_response.jsonl",
+    "source_sha256": "aa559f5b1358379a2d52085f4e4b2d27bd21d48d07dca48cddcd78615e6a2a5a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/primary_predictions/external_validation_diagnostic.jsonl",
+    "bytes": 25769,
+    "sha256": "4ff7dec493b1843267d0799e71a403db04cd6efa54fb2bcd27280cf251c4914d",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/primary_predictions/external_validation_diagnostic.jsonl",
+    "source_sha256": "4ff7dec493b1843267d0799e71a403db04cd6efa54fb2bcd27280cf251c4914d",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/primary_predictions/sealed_final_test.jsonl",
+    "bytes": 329324,
+    "sha256": "e6832711c2c7465ef8581ceab6a1475f4a44a5f54b198fc3671c2b113adb72e7",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/primary_predictions/sealed_final_test.jsonl",
+    "source_sha256": "e6832711c2c7465ef8581ceab6a1475f4a44a5f54b198fc3671c2b113adb72e7",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/protocol.json",
+    "bytes": 4827,
+    "sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/protocol.json",
+    "source_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/jobs.json",
+    "bytes": 75465,
+    "sha256": "8128630935be7871f773ffa59be22ec3855f966c7113c0fa191c65f9d50fef9a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/jobs.json",
+    "source_sha256": "8128630935be7871f773ffa59be22ec3855f966c7113c0fa191c65f9d50fef9a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/base_selection_freeze.json",
+    "bytes": 653,
+    "sha256": "decbd05e30c9e5f7d59e5924f625d97654bcee4295e64ef3626e29497648d0c9",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/base_selection_freeze.json",
+    "source_sha256": "decbd05e30c9e5f7d59e5924f625d97654bcee4295e64ef3626e29497648d0c9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/environment_windows.json",
+    "bytes": 396,
+    "sha256": "e6bc26131d63e3df725ab1debafed05150200ec641296544235b8d5b6cf233ec",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/environment_windows.json",
+    "source_sha256": "e6bc26131d63e3df725ab1debafed05150200ec641296544235b8d5b6cf233ec",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/inference_manifest.json",
+    "bytes": 10085,
+    "sha256": "08bbee7c57e223b8fc0826ea3595c25f6ec21fce82196287e5d5d66056b1b8a9",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inference_manifest.json",
+    "source_sha256": "08bbee7c57e223b8fc0826ea3595c25f6ec21fce82196287e5d5d66056b1b8a9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/prediction_seal.json",
+    "bytes": 81431,
+    "sha256": "798b3710aa03b26ed53d20809c081582dc224b52d4ace8c6b2c969c5ba409bda",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/prediction_seal.json",
+    "source_sha256": "798b3710aa03b26ed53d20809c081582dc224b52d4ace8c6b2c969c5ba409bda",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/fit_acceptance.json",
+    "bytes": 76793,
+    "sha256": "9b8a2a3a357d26ca8c694a86a40d248a5a68360d8b258f195c3e999955c02060",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/fit_acceptance.json",
+    "source_sha256": "9b8a2a3a357d26ca8c694a86a40d248a5a68360d8b258f195c3e999955c02060",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/provenance/upstream_hashes.json",
+    "bytes": 24707,
+    "sha256": "f5a36c87b3a442d4b65517202bca7c53275adc44ff1bf99ff67ad366dd885296",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/upstream_hashes.json",
+    "source_sha256": "f5a36c87b3a442d4b65517202bca7c53275adc44ff1bf99ff67ad366dd885296",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "data/role_ids.json",
+    "bytes": 265166,
+    "sha256": "95f093ac0eb38c495749df43fde40f8f543ca2403cf8e0b2be6e6f666f83c8ea",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/inputs/role_ids.json",
+    "source_sha256": "95f093ac0eb38c495749df43fde40f8f543ca2403cf8e0b2be6e6f666f83c8ea",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "code/metrics.py",
+    "bytes": 12986,
+    "sha256": "bf3f7c0520c190f6de688781dd3f9be27c82d117b6e07f5e27b07634e37686b9",
+    "source_path": "research_plan/step09_2026-10-15/metrics.py",
+    "source_sha256": "bf3f7c0520c190f6de688781dd3f9be27c82d117b6e07f5e27b07634e37686b9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "code/statistics12.py",
+    "bytes": 8609,
+    "sha256": "ef05aa97a25822707673a61e2be1f300a79fa2e8a766a5f951c1c60393140e99",
+    "source_path": "research_plan/step12_frozen_source_tests_2026-10-25/statistics12.py",
+    "source_sha256": "ef05aa97a25822707673a61e2be1f300a79fa2e8a766a5f951c1c60393140e99",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "code/evaluate_arrays.py",
+    "bytes": 4920,
+    "sha256": "037599fae8ea3c35cbc280a10b0514e466652193498f3e42e5c56bf53b99cbed",
+    "source_path": "research_plan/step12_frozen_source_tests_2026-10-25/evaluate12.py",
+    "source_sha256": "c9037e5b9267415b9c633750b34709668921ed295ec1fc51829e24f854f3c1c2",
+    "copy_kind": "function subset; no mathematical edits"
+  },
+  {
+    "path": "source_data/figures/controlled_response.alignment.json",
+    "bytes": 2980,
+    "sha256": "13dbc2f59009f5001ce5f75aec91032e3a146cab829f8452a78eb2e570e0ddc4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/controlled_response.alignment.json",
+    "source_sha256": "13dbc2f59009f5001ce5f75aec91032e3a146cab829f8452a78eb2e570e0ddc4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/controlled_response.pdf",
+    "bytes": 51639,
+    "sha256": "b6aa24bb2af35fba598acfa3d292136e27b597c4caf6742f10180e29bc6bac93",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/controlled_response.pdf",
+    "source_sha256": "b6aa24bb2af35fba598acfa3d292136e27b597c4caf6742f10180e29bc6bac93",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/controlled_response.style.json",
+    "bytes": 589,
+    "sha256": "47056beecb96f26f2c5128c57f709d75ad6c01b3fa43bc3204503228705dfea4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/controlled_response.style.json",
+    "source_sha256": "47056beecb96f26f2c5128c57f709d75ad6c01b3fa43bc3204503228705dfea4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/controlled_response.svg",
+    "bytes": 58003,
+    "sha256": "f79704d56e3dda9d5324cbcd036017a279783cd4320abfde2489281f2e851a97",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/controlled_response.svg",
+    "source_sha256": "f79704d56e3dda9d5324cbcd036017a279783cd4320abfde2489281f2e851a97",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.alignment.json",
+    "bytes": 1412,
+    "sha256": "04c3f660c7a1ba07b1e21ab35284d9afdc56e99e7817179184a5e1e2ffb5d7b2",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.alignment.json",
+    "source_sha256": "04c3f660c7a1ba07b1e21ab35284d9afdc56e99e7817179184a5e1e2ffb5d7b2",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.cohort.csv",
+    "bytes": 27719,
+    "sha256": "81201c82ee0232c84b4d9fcf3e8c7717030edb2b70f7330f7b161212d03d1880",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.cohort.csv",
+    "source_sha256": "81201c82ee0232c84b4d9fcf3e8c7717030edb2b70f7330f7b161212d03d1880",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.collision.json",
+    "bytes": 1207,
+    "sha256": "c7303722d4cc7bb1ab91be89f639977de2537ddeea9154fab1096d1fb5295e87",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.collision.json",
+    "source_sha256": "c7303722d4cc7bb1ab91be89f639977de2537ddeea9154fab1096d1fb5295e87",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.csv",
+    "bytes": 2372,
+    "sha256": "2437bf558db705a3052d4b2efad289fde1545060a1e6b373532aed0b418dc9e0",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.csv",
+    "source_sha256": "2437bf558db705a3052d4b2efad289fde1545060a1e6b373532aed0b418dc9e0",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.paired_differences.csv",
+    "bytes": 2717,
+    "sha256": "5630dbfebf277973fff1796a3888b4caa53446ef692f84f83d9987d186d4f5a7",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.paired_differences.csv",
+    "source_sha256": "5630dbfebf277973fff1796a3888b4caa53446ef692f84f83d9987d186d4f5a7",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/model_comparison.pdf",
+    "bytes": 210519,
+    "sha256": "df63dd5d9553d4c775a201ca8a4afd9df7d03008b11f413c1e164315f7154bd2",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.pdf",
+    "source_sha256": "df63dd5d9553d4c775a201ca8a4afd9df7d03008b11f413c1e164315f7154bd2",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.samples.csv",
+    "bytes": 894492,
+    "sha256": "b2c60cd14e9d6f9d14c700286b56f2cb739cfa52f1486901203ca5601c51d2e5",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.samples.csv",
+    "source_sha256": "b2c60cd14e9d6f9d14c700286b56f2cb739cfa52f1486901203ca5601c51d2e5",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.statistics.json",
+    "bytes": 14183,
+    "sha256": "6d8ea3177503e2af91cebf83945a7f84bfcbae2b4a936ebd68be33721d7fefba",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.statistics.json",
+    "source_sha256": "6d8ea3177503e2af91cebf83945a7f84bfcbae2b4a936ebd68be33721d7fefba",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/model_comparison.svg",
+    "bytes": 537782,
+    "sha256": "42f7f8e3ea3cfd8774355f40c0aea7de7e38f8f43984262f89f96890afb564c5",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.svg",
+    "source_sha256": "42f7f8e3ea3cfd8774355f40c0aea7de7e38f8f43984262f89f96890afb564c5",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/model_comparison.violin_summary.csv",
+    "bytes": 1154,
+    "sha256": "d1e80843bf89717c522d7187852782757f620f54a27c44510e3d0d6e90081ec1",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/model_comparison.violin_summary.csv",
+    "source_sha256": "d1e80843bf89717c522d7187852782757f620f54a27c44510e3d0d6e90081ec1",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/our_task.pdf",
+    "bytes": 72853,
+    "sha256": "ed50e9098e1aca3daf07e909d8a6643bc70a49e207c2113d421e98dba4828859",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/our_task.pdf",
+    "source_sha256": "ed50e9098e1aca3daf07e909d8a6643bc70a49e207c2113d421e98dba4828859",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/our_task.svg",
+    "bytes": 60253,
+    "sha256": "0bd3399d408960bafa785e4c3c96d9a8b90ce5f0ce4a598f64487122bd9b8729",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/our_task.svg",
+    "source_sha256": "0bd3399d408960bafa785e4c3c96d9a8b90ce5f0ce4a598f64487122bd9b8729",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/pair_response.alignment.json",
+    "bytes": 993,
+    "sha256": "392417d914e2739664b147f25cc8fdd59e586409d258fdb0e3bb15e1fbffd935",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.alignment.json",
+    "source_sha256": "392417d914e2739664b147f25cc8fdd59e586409d258fdb0e3bb15e1fbffd935",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/pair_response.collision.json",
+    "bytes": 559,
+    "sha256": "00a8c8c25410d1d3810392eaf9cbdf16f807bf522cbd31195f02115023144155",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.collision.json",
+    "source_sha256": "00a8c8c25410d1d3810392eaf9cbdf16f807bf522cbd31195f02115023144155",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/pair_response.font.json",
+    "bytes": 265,
+    "sha256": "3f0a2437205e3f4ab89b886fce53bfd260dd5a194d7ba9af2afcad9401afb9f4",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.font.json",
+    "source_sha256": "3f0a2437205e3f4ab89b886fce53bfd260dd5a194d7ba9af2afcad9401afb9f4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/pair_response.pdf",
+    "bytes": 34382,
+    "sha256": "9939122c4a308c1d86f7bbdec5e5b7e7d05ad3e6e2bdc57e110fbbf486ae1078",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.pdf",
+    "source_sha256": "9939122c4a308c1d86f7bbdec5e5b7e7d05ad3e6e2bdc57e110fbbf486ae1078",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/pair_response.style.json",
+    "bytes": 400,
+    "sha256": "366bcac9df28d6cc111ed7a21ecb1fc5761bf776bb52dcd7b6ee433f196ac2d7",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.style.json",
+    "source_sha256": "366bcac9df28d6cc111ed7a21ecb1fc5761bf776bb52dcd7b6ee433f196ac2d7",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/pair_response.svg",
+    "bytes": 40702,
+    "sha256": "068f725b8f83b1dc5656912f1d1c54e4783387262838c4da9c9046ecd0e77ea3",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/pair_response.svg",
+    "source_sha256": "068f725b8f83b1dc5656912f1d1c54e4783387262838c4da9c9046ecd0e77ea3",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/risk_coverage.alignment.json",
+    "bytes": 992,
+    "sha256": "fea3768a52c5f16805d893fd4489ddcb84e6ebaaa78c526ad39a9214b84cc9a1",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/risk_coverage.alignment.json",
+    "source_sha256": "fea3768a52c5f16805d893fd4489ddcb84e6ebaaa78c526ad39a9214b84cc9a1",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/risk_coverage.collision.json",
+    "bytes": 559,
+    "sha256": "171c258177093bdd7a96d9c0e3ac7a493a451e939879fffa360426ab1b93fc80",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/risk_coverage.collision.json",
+    "source_sha256": "171c258177093bdd7a96d9c0e3ac7a493a451e939879fffa360426ab1b93fc80",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/risk_coverage.font.json",
+    "bytes": 265,
+    "sha256": "e1a0d5e7155e52af8108c6f71493d477736a0f421ee34e44bdb8070e77c94475",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/risk_coverage.font.json",
+    "source_sha256": "e1a0d5e7155e52af8108c6f71493d477736a0f421ee34e44bdb8070e77c94475",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/risk_coverage.pdf",
+    "bytes": 27312,
+    "sha256": "b61dc5081a524ca6d4fe37e00ebc85fc18f3e3f9af662f1b68df2c5da488d97f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/risk_coverage.pdf",
+    "source_sha256": "b61dc5081a524ca6d4fe37e00ebc85fc18f3e3f9af662f1b68df2c5da488d97f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/risk_coverage.svg",
+    "bytes": 14894,
+    "sha256": "c6fca0cbe7e34d0c7da06a88b68e618fd040dc2b4a570cbf882ada7ecadc2faa",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/risk_coverage.svg",
+    "source_sha256": "c6fca0cbe7e34d0c7da06a88b68e618fd040dc2b4a570cbf882ada7ecadc2faa",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors.alignment.json",
+    "bytes": 2168,
+    "sha256": "89dff1b4b7d286a0f6e1b6e596f7178829b5a27485d48055f9ab14c14cfa8f6f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.alignment.json",
+    "source_sha256": "89dff1b4b7d286a0f6e1b6e596f7178829b5a27485d48055f9ab14c14cfa8f6f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors.collision.json",
+    "bytes": 559,
+    "sha256": "32c5471350d14d444d05c5fd2b0bfbf9f31880211a8d36e20ba756797a7c0eb9",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.collision.json",
+    "source_sha256": "32c5471350d14d444d05c5fd2b0bfbf9f31880211a8d36e20ba756797a7c0eb9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors.font.json",
+    "bytes": 265,
+    "sha256": "6b83f351cc404e69e8e38c12e25699584bf9fa0a977e50fb2e5615bf1b4a270f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.font.json",
+    "source_sha256": "6b83f351cc404e69e8e38c12e25699584bf9fa0a977e50fb2e5615bf1b4a270f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors.jsonl",
+    "bytes": 1720,
+    "sha256": "62e878ac8e448010cb852776c0a9def235c16f10cc829df5925782640cc4c61a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.jsonl",
+    "source_sha256": "62e878ac8e448010cb852776c0a9def235c16f10cc829df5925782640cc4c61a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/source_errors.pdf",
+    "bytes": 44125,
+    "sha256": "53bc8841b0688002677d3e63ead7b90071897020276658374288c8f1a1e2a147",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.pdf",
+    "source_sha256": "53bc8841b0688002677d3e63ead7b90071897020276658374288c8f1a1e2a147",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors.style.json",
+    "bytes": 704,
+    "sha256": "cedf7d17f5dd47cb18708aff284b795e52822cd64dc4324ee76e4de22313131d",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.style.json",
+    "source_sha256": "cedf7d17f5dd47cb18708aff284b795e52822cd64dc4324ee76e4de22313131d",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/source_errors.svg",
+    "bytes": 27133,
+    "sha256": "b34536ade9c0925233e70a81b3e50084b6a154e15e13543798389f069fd5fd02",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/source_errors.svg",
+    "source_sha256": "b34536ade9c0925233e70a81b3e50084b6a154e15e13543798389f069fd5fd02",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/training_curves.alignment.json",
+    "bytes": 992,
+    "sha256": "fea3768a52c5f16805d893fd4489ddcb84e6ebaaa78c526ad39a9214b84cc9a1",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/training_curves.alignment.json",
+    "source_sha256": "fea3768a52c5f16805d893fd4489ddcb84e6ebaaa78c526ad39a9214b84cc9a1",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/training_curves.collision.json",
+    "bytes": 561,
+    "sha256": "e5eb983d7fac3c41e7629f7cd2ea2afbb5e98d282c72817a0bec421342e15f02",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/training_curves.collision.json",
+    "source_sha256": "e5eb983d7fac3c41e7629f7cd2ea2afbb5e98d282c72817a0bec421342e15f02",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/training_curves.font.json",
+    "bytes": 267,
+    "sha256": "2d2b360aad7195d5519d644753a36521d38a24deee490b0e5745e135eee534b6",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/training_curves.font.json",
+    "source_sha256": "2d2b360aad7195d5519d644753a36521d38a24deee490b0e5745e135eee534b6",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/training_curves.pdf",
+    "bytes": 26764,
+    "sha256": "1e2a9884c294513db45760866331e8957afb24a2c7d3dbca260f50431dbfdc7b",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/training_curves.pdf",
+    "source_sha256": "1e2a9884c294513db45760866331e8957afb24a2c7d3dbca260f50431dbfdc7b",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "reference_figures/training_curves.svg",
+    "bytes": 17739,
+    "sha256": "a068a80e5d3bccd03cf47a0eb85ce34685e32e687b4c821203d065231fdc6c6c",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/figures/training_curves.svg",
+    "source_sha256": "a068a80e5d3bccd03cf47a0eb85ce34685e32e687b4c821203d065231fdc6c6c",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/source_errors_source.csv",
+    "bytes": 1565,
+    "sha256": "29cc64fc6b8377ef014104a54a2308d27a4096fb9c2d93d70eb232a91a4a2e57",
+    "source_path": "research_plan/source_errors_redesign_2026-11-13/source_errors_source.csv",
+    "source_sha256": "29cc64fc6b8377ef014104a54a2308d27a4096fb9c2d93d70eb232a91a4a2e57",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/controlled_response_source.csv",
+    "bytes": 5811,
+    "sha256": "f32cdbf2a44f1e0b054e243c90c6f62aa54047c5ce59940927cc56a79bfa8350",
+    "source_path": "research_plan/controlled_response_redesign_2026-11-12/controlled_response_source.csv",
+    "source_sha256": "f32cdbf2a44f1e0b054e243c90c6f62aa54047c5ce59940927cc56a79bfa8350",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/figures/pair_response.jsonl",
+    "bytes": 7174,
+    "sha256": "aa559f5b1358379a2d52085f4e4b2d27bd21d48d07dca48cddcd78615e6a2a5a",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/analysis/pair_response.jsonl",
+    "source_sha256": "aa559f5b1358379a2d52085f4e4b2d27bd21d48d07dca48cddcd78615e6a2a5a",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_properties/property_gain_samples.csv",
+    "bytes": 192540,
+    "sha256": "dd14077360d36e27d24c41c3016c8f166c60502812397132a5594b5d1b598dae",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_properties/property_gain_samples.csv",
+    "source_sha256": "dd14077360d36e27d24c41c3016c8f166c60502812397132a5594b5d1b598dae",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_properties/property_gain_strata.csv",
+    "bytes": 9410,
+    "sha256": "251b738c4fe9e4126f7866f464d8711605318ed265aa4ec26e75acaea2ca8ba3",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_properties/property_gain_strata.csv",
+    "source_sha256": "251b738c4fe9e4126f7866f464d8711605318ed265aa4ec26e75acaea2ca8ba3",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_properties/property_gain_strata.json",
+    "bytes": 52713,
+    "sha256": "ce27ba63ec02a792de7511d84caca8a8844e36bb735f2d98562bc65172501bfe",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_properties/property_gain_strata.json",
+    "source_sha256": "ce27ba63ec02a792de7511d84caca8a8844e36bb735f2d98562bc65172501bfe",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_properties/within_pair_property_gain.json",
+    "bytes": 2394,
+    "sha256": "957e1336d94c1df43435ffa253460fcc77ddc9e82d6e856db7474cc5aace6c31",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_properties/within_pair_property_gain.json",
+    "source_sha256": "957e1336d94c1df43435ffa253460fcc77ddc9e82d6e856db7474cc5aace6c31",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_graph_stacking/results.json",
+    "bytes": 64049,
+    "sha256": "198e0c747f8a74ac977e3d5f923e2591f7c1f26756b763ea85311a70ee29f4d4",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_graph_stacking/results.json",
+    "source_sha256": "198e0c747f8a74ac977e3d5f923e2591f7c1f26756b763ea85311a70ee29f4d4",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/conditional_performance/gain_graph_stacking/sample_assignments.jsonl",
+    "bytes": 474890,
+    "sha256": "c22f2f2e95e521cfcff65b61206bf9039559a8d8978c0e4515c7bf289ab380e9",
+    "source_path": "research_plan/manuscript_revision_2026-11-15/gain_graph_stacking/sample_assignments.jsonl",
+    "source_sha256": "c22f2f2e95e521cfcff65b61206bf9039559a8d8978c0e4515c7bf289ab380e9",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "provenance_code/current/plot_controlled_response.py",
+    "bytes": 6554,
+    "sha256": "9d732b21450374c44ba9773f40013a027bebfd1f619f6bcb02f32dcdcd9b67d8",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/plot_controlled_response.py",
+    "source_sha256": "9d732b21450374c44ba9773f40013a027bebfd1f619f6bcb02f32dcdcd9b67d8",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "provenance_code/current/plot_pair_response.py",
+    "bytes": 3707,
+    "sha256": "505513148dddbbdc8dd2ee771e25b6ab6804e0d6d43aa48b8615d14b72c07972",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/plot_pair_response.py",
+    "source_sha256": "505513148dddbbdc8dd2ee771e25b6ab6804e0d6d43aa48b8615d14b72c07972",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "provenance_code/current/plot_results.py",
+    "bytes": 2327,
+    "sha256": "02c185a7cda81b46f61daa2736b83f9eab9fc81b0d35ef9e600c1f3b3f764abd",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/plot_results.py",
+    "source_sha256": "02c185a7cda81b46f61daa2736b83f9eab9fc81b0d35ef9e600c1f3b3f764abd",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "provenance_code/current/plot_source_errors.py",
+    "bytes": 5441,
+    "sha256": "275fb6e118eca4a542eaf89fd4b4ddae112ee09e01eed824b7a30c52fd3ab47f",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/plot_source_errors.py",
+    "source_sha256": "275fb6e118eca4a542eaf89fd4b4ddae112ee09e01eed824b7a30c52fd3ab47f",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "provenance_code/current/plot_model_comparison.py",
+    "bytes": 10193,
+    "sha256": "888137b132267ba540a628b138070dafbfa55d0277d0449730bb9ca88c535380",
+    "source_path": "research_plan/model_comparison_revision_2026-11-09/plot_model_comparison.py",
+    "source_sha256": "888137b132267ba540a628b138070dafbfa55d0277d0449730bb9ca88c535380",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/training_curves/seed20261015.jsonl",
+    "bytes": 15023,
+    "sha256": "017493a6825ac552ede729a7956ab8c04c086d9e07ba36428c16622cae4a8820",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261015/curve.jsonl",
+    "source_sha256": "017493a6825ac552ede729a7956ab8c04c086d9e07ba36428c16622cae4a8820",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/training_curves/seed20261016.jsonl",
+    "bytes": 15010,
+    "sha256": "7898efe62c5757a01233058da1fac0f99ab73c26728d7c6564ce09bfc019cf66",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261016/curve.jsonl",
+    "source_sha256": "7898efe62c5757a01233058da1fac0f99ab73c26728d7c6564ce09bfc019cf66",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/training_curves/seed20261017.jsonl",
+    "bytes": 15039,
+    "sha256": "d1212dba90c3c5b948d75d6ebf02f9326ddfea34acfcc42968f3274bb362716d",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261017/curve.jsonl",
+    "source_sha256": "d1212dba90c3c5b948d75d6ebf02f9326ddfea34acfcc42968f3274bb362716d",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/training_curves/seed20261018.jsonl",
+    "bytes": 15045,
+    "sha256": "cc4fedfad9ef902748f60f6dac2463d00cffb32f2511ef4381726e48fed79287",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261018/curve.jsonl",
+    "source_sha256": "cc4fedfad9ef902748f60f6dac2463d00cffb32f2511ef4381726e48fed79287",
+    "copy_kind": "unchanged"
+  },
+  {
+    "path": "source_data/training_curves/seed20261019.jsonl",
+    "bytes": 15034,
+    "sha256": "81a12c0d5ae1f3207d4340d48f0f2ea6002421fe9070825fe404cdc55c9973c8",
+    "source_path": "research_plan/retrain_no_tony_2026-11-02/models/GANN_residual_regression/seed20261019/curve.jsonl",
+    "source_sha256": "81a12c0d5ae1f3207d4340d48f0f2ea6002421fe9070825fe404cdc55c9973c8",
+    "copy_kind": "unchanged"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "candidate": "XGBoost_classifier",
+  "family": "XGBoost",
+  "task": "classifier",
+  "seed": 20261015,
+  "backend": "trees",
+  "params": {
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "min_child_weight": 3,
+    "subsample": 0.7,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.1,
+    "gamma": 0.1,
+    "n_estimators_max": 2000,
+    "early_stopping_rounds": 50,
+    "objective": "binary:logistic"
+  },
+  "iterations": 18,
+  "original_checkpoint": "step09_2026-10-15/jobs/final/XGBoost/classifier/trial03/seed20261015/model.json",
+  "original_sha256": "d075869b027ce90ba8f8e33d557d13d2f562e931cbaf3158451017fe976f0c94",
+  "original_spec": "step09_2026-10-15/jobs/final/XGBoost/classifier/trial03/seed20261015/job.json",
+  "original_spec_sha256": "607f3bcb0ed9deca729aff35e04a9985c3d56f1b0c8c7166cc227dd9daa19f5f"
+}

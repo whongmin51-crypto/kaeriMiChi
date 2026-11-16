@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "backend": "graph",
+  "models_replayed": 40,
+  "prediction_rows_per_model": 2057,
+  "scope": "all five calibration/holdout roles, fixed raw heads; no fitting, tuning or recalibration",
+  "ensembles": [
+    {
+      "candidate": "CGCNN_classifier",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "head_values_checked": 6171,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "GANN_classifier",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "head_values_checked": 6171,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "head_values_checked": 2057,
+      "max_absolute_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "checkpoints": [
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "57823c2e1bdac60b4510e69f9fd041533b53e05b041c85731794f04bb261d2c7",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "0ea4634668d3ff257b4023f713818ccc09ea1b14024edaeb4a154cbd4c487676",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "58b97a3945922a1654447a23817c008a60120cc963abdff2e32597529b45ce18",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "5186013470ff9eab4991c1d7546e5e438d4a3125e9b0ef9cb86bc2c3ddac2cfa",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_residual_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "80c77053e47f221b401780ed3c75ac1a73de107bcc4b9f5b6889e2977b91e09a",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261015,
+      "checkpoint_sha256": "c1bb327e881b818c6dc93f8111dc50e5c6bcf96d3cdf8e1be545204dc5c30195",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261016,
+      "checkpoint_sha256": "e119ecd0d4ce7a60e8f9cba48678bcea24283232ff93ffaeca4528915e7f6777",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261017,
+      "checkpoint_sha256": "6047091bca1879748a4907b01e388c1a480df72c690bb30ba6a4bd7c2cc86190",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261018,
+      "checkpoint_sha256": "240a8a4ecb09cc92a1318300bbd4f976ea96106a74d3131202345185cfe1b594",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_multi_task",
+      "seed": 20261019,
+      "checkpoint_sha256": "be50c6defcc310bb0a2f3eee20cf8793697d05ecffabfcbb19d89c4d1f7b3862",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261015,
+      "checkpoint_sha256": "98661836422ae6cfb8376b4ee5de0e8265de112f81b7fc1f310bdea7889fd0d2",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261016,
+      "checkpoint_sha256": "be4091ba43a857c5e6eb08c019442b0bf50d70f78c2f6e0d57d8f80a848a7d04",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261017,
+      "checkpoint_sha256": "5c29fdf945f9b3100dc61438e73eef40993d3c4be1111912c81703f18d73dc86",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261018,
+      "checkpoint_sha256": "2f0ed38cf72f5fd740a8650fe8bf94e929edfe2afb378f9613b2abafcb239270",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_multi_task",
+      "seed": 20261019,
+      "checkpoint_sha256": "a1191d3f5df076cb7267b6aaeaf4fdea335e852ffe56985a2ade37cc59ed68cb",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261015,
+      "checkpoint_sha256": "e9b3857dae3e1a317394c24438a4ffd08f5063bc300485d33113cb1e6e696f39",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261016,
+      "checkpoint_sha256": "8295acc87446f6966181d789216a38fe3871ab48a2e3a86943070f0c55c00c4d",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261017,
+      "checkpoint_sha256": "e8356416d0513e2fd888a4ff3e2b5db78110b1a715fd0da82adbc95c2c19da67",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261018,
+      "checkpoint_sha256": "2d9f73a322c89404652859f800eb5ff53a4506181577d1711adf1a98e6021ef7",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_classifier",
+      "seed": 20261019,
+      "checkpoint_sha256": "0bf8956c83d1e9347a61d150eeaf0cf973572042de07a06b7cb7285b866da379",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "c81b17fd95fdf84e05c8b9b87eb407d7e2d208da0a81a37299884695343b8d62",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "ef7817e42292cc6073e8e7b624ad2e14b2d36369133fbd69e29f2f41675c272c",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "4919eaff2a91a0cbe12ad78741a6b3bb57c51d36c0eb79661be7def6cb679199",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "51ceeb4eef8439092bb9a96a9b461eaec75ba859e1291da95dde02782b7d1e4a",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_direct_gap_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "e8a65a8e371a8f1a6ab08fddddc4af2c66bfc29fa41db2fc808a802dcdc8a4bc",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "3aad218455af9489cdfe661c100f32388373f9710292bd5dbf90686d6a11cc2b",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "195b881bc38c0984ef31982be4b504524613616400df3c1ff8543cd00bd1be49",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "379bf2913a393ad1e7c840cadc428bddac4aa11c58394a614799aef58d5adc2e",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "2507a3580c20858224a3704850936541074ba230ffed66f3a02e209e702f42aa",
+      "rows": 2057
+    },
+    {
+      "candidate": "CGCNN_residual_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "c98659151640648ac9e4bd3de8678406ed6ab78fce2266804016d04bacbb5585",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261015,
+      "checkpoint_sha256": "7b543cbea9499b98adcc24ff4b7f99f26eefa9fe282a742ec710d9f9363d9623",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261016,
+      "checkpoint_sha256": "b3e69e27e8f56ee0465436d5718c1e856bd4bf8d8e0b803ba7927b2d1ef1dd2c",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261017,
+      "checkpoint_sha256": "2654678862584f9acfe9da4dc204421612219f26d9323f0929e3e1d71da924e7",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261018,
+      "checkpoint_sha256": "6116c85c35a3752278a665ebbee6e7f3402479adab62de3a1f48b1ab9b212293",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_classifier",
+      "seed": 20261019,
+      "checkpoint_sha256": "91feaa29f1c6f8e15fb304ec2962e571b30cb5c64cd2a775da85c272e6b37a14",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261015,
+      "checkpoint_sha256": "534318d1497836b3d48999f267aa557337b6aa6aa43ec0280e970de1ff51bced",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261016,
+      "checkpoint_sha256": "6d21bd6293c2951d508b1dea39da3a3bb5f5670dae3bf6b8b44521e5117416dd",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261017,
+      "checkpoint_sha256": "69e89f36fd1efb853f82ffa0d1002a0f23b6bb4858dee15f5e7cac04cf57d4b4",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261018,
+      "checkpoint_sha256": "c2c27067f88df24e51b6be682b9218215559f1918e32427d633a8a98e1573f0b",
+      "rows": 2057
+    },
+    {
+      "candidate": "GANN_direct_gap_regression",
+      "seed": 20261019,
+      "checkpoint_sha256": "33085fcd68734519e0aec5b3d6e80dc0a02b98f1b3003e064e78e0c25f9cbd2a",
+      "rows": 2057
+    }
+  ],
+  "elapsed_seconds": 15.930773259000034,
+  "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+  "packages": {
+    "numpy": "2.5.4",
+    "torch": "2.8.0+cpu"
+  },
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-07
+}

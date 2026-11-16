@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "evaluation_type": "retrospective_on_existing_DFT",
+  "n": 6,
+  "MAE_eV": 0.11060316679024627,
+  "Anderson_MAE_eV": 0.11196038466834952,
+  "interval_covered": 4,
+  "new_DFT_calculations": 0
+}

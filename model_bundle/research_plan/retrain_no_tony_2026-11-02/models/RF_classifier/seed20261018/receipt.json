@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-02T15:36:48.598960+00:00",
+  "candidate": "RF_classifier",
+  "seed": 20261018,
+  "actual_new_fit": true,
+  "warm_start_from_original_weights": false,
+  "same_hyperparameters": true,
+  "same_seed": true,
+  "same_fixed_iterations": true,
+  "fit_rows": 11561,
+  "fit_id_sha256": "7856b8033e908e261104ddaa99358054dd34319f305817563a7e70bac02a062a",
+  "source_counts": {
+    "Janus": 11530,
+    "HetDB": 31
+  },
+  "checkpoint": "model.joblib",
+  "checkpoint_sha256": "8a9cdee2414f224fb7a4ff113be22b214e8f2b336ab369717f2e3f2f4456da19",
+  "predictions_sha256": "b65b98778c2fe186c2f3764e73eeec88c915a689ba34c88d44d2930bba0bb95f",
+  "fit_seconds": 68.1572446001228,
+  "runtime_seconds": 69.3545961000491,
+  "prediction_rows": 2057,
+  "protocol_sha256": "cbe6e19f613a4967b10071d98f7f8f6687b98230050acabf99883b4e8ffc986a",
+  "original_checkpoint_preserved": true,
+  "test_and_calibration_labels_used_for_fit": false
+}
