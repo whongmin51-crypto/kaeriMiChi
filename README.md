@@ -1,6 +1,6 @@
 # Janus/HetDB bilayer band-gap code, data and trained models
 
-This local staging directory supports **Contact-aware residual learning of bilayer band gaps from native monolayer properties and crystal graphs**, the current fixed-configuration Janus/HetDB manuscript. This copy is deposited in the private GitHub repository [whongmin51-crypto/kaeriMiChi](https://github.com/whongmin51-crypto/kaeriMiChi). It has no assigned DOI and is not a public release. The repository's existing root LICENSE is retained; third-party materials retain their original terms and provenance. Paper LaTeX source and manuscript compilation files are excluded.
+This repository supports **Probabilistic Applicability Screening and Residual Band-Gap Prediction for 2D Heterostructures from Monolayer Inputs**, the current fixed-configuration Janus/HetDB manuscript. It is publicly hosted at [whongmin51-crypto/kaeriMiChi](https://github.com/whongmin51-crypto/kaeriMiChi) (no separate DOI is assigned). Original code and derived documentation in this repository are covered by the root MIT `LICENSE`; third-party materials retain their original terms and provenance. Paper LaTeX source and manuscript compilation files are excluded.
 
 The current analysis uses 11,561 fit records, disjoint calibration pools of 477/437/341 records, 742 final holdouts and 60 separately reserved source-diagnostic records. Related configurations remain grouped. The fixed configurations and their development provenance are retained in `data/provenance/protocol.json`; this package does not redefine the historical model-selection experiment.
 
@@ -21,7 +21,7 @@ This command uses retained fixed predictions and evaluated targets. It does not 
 
 ### 2. All 70 checkpoint models on their archived inputs
 
-The complete local staging directory includes `model_bundle/` (about 821 MiB uncompressed). The small result-only ZIP excludes that directory. Preserve its relative `research_plan/` structure when obtaining or depositing it.
+This repository includes `model_bundle/` (about 821 MiB uncompressed). The small result-only ZIP excludes that directory. Preserve its relative `research_plan/` structure when obtaining or depositing it.
 
 ```text
 python replay_checkpoints.py --backend trees
@@ -54,10 +54,10 @@ The supplied requests begin with derived raw-feature values and graph NPZ arrays
 - `optional_model_manifest.json`: checkpoint inventory with original source paths, sizes and hashes.
 - `recomputed/` and `replayed/`: actual local verification outputs, with no new fitting or scientific decisions.
 
-See `DATA_DICTIONARY.md`, `DEPENDENCIES.md`, `RIGHTS_AND_RELEASE_PENDING.md` and `repository_validation.json` for the data semantics, executed scope and remaining release decisions. Original scientific records and completion gates were not edited. This staging directory is additional delivery evidence, not a replacement scientific completion gate.
+See `DATA_DICTIONARY.md`, `DEPENDENCIES.md`, `RIGHTS_AND_RELEASE_PENDING.md` and `repository_validation.json` for the data semantics, executed scope and licensing/provenance notes. Original scientific records and completion gates were not edited. This repository provides reproducibility code, data and model artifacts, not a replacement scientific completion gate.
 
-## Private repository deposit
+## Repository deposit and provenance
 
-The original staging directory and scientific records remain unchanged. `github_deposit_manifest.json` records this repository copy, its source hashes and intentional exclusions. `repository_validation.json` and the original manifests are retained evidence of the earlier local verification; their original hosting fields and local cache entries describe that historical snapshot. Python caches are excluded from Git.
+The original staging directory and scientific records remain unchanged. `github_deposit_manifest.json` records the initial repository deposit, its source hashes and intentional exclusions. `repository_validation.json` and the original manifests are retained evidence of the earlier local verification; their original hosting fields and local cache entries describe that historical snapshot. Python caches are excluded from Git.
 
 Six additional original research source files are retained under `model_bundle/research_plan/`: current input preparation and calibration/evaluation, the original calibration utilities, and feature construction. These files preserve the research implementation and may depend on the original project layout and historical parameter specifications. They do not establish portable full retraining or arbitrary raw-structure processing. The supported executable reproduction commands and their limits are listed above.
